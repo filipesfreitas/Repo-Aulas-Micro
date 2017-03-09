@@ -1,0 +1,21 @@
+1- O que são sistemas embarcados?
+	Sistema com limitação de propósito, onde hardware e software se unem para cumprir um único objetivo.
+
+2- O que são sistemas microprocessados?
+	Sistemas controlados por microprocesssadores.
+
+3- Apresente aplicações de sistemas embarcados:
+  * Para a indústria automotiva;
+  Microprocesadores são usados em máquinas que realizam a produção de carros, controlam o sistemade combustão de um atomóvel e etc. 
+  
+  * Para eletrodomésticos;
+  	Vem sendo utilizados para iplementar IOT, IA e machine learning comunicando-se com outros eletrodomésticos, aprendendo as preferências dos usuários e adptando isso ao seu modo de operação.
+  * Para automação industrial.
+ 
+4- Cite arquiteturas possíveis e as diferenças entre elas.
+
+	*Arquitetura de Von Neumann. Caracteriza-se por um barramento externo compartilhado entre dados e endereços.Desempenho é limitado pelo gargalo do barramento.
+	*Arquitetura de Harvard. Existem dois barramentos externos independentes (e normalmente também memórias independentes) para dados e endereços. porém, o sistema como um todo tem preço mais elevado.
+
+5- Por quê usamos o MSP430 na disciplina, ao invés de outro microcontrolador?
+	*Por quê possui baixo consumo de energia, setado por bits em registrador de estados, versátil para projetos e etc.
