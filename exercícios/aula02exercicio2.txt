@@ -1,0 +1,44 @@
+data: 15/03/2017
+
+q1.Quais as diferenças entre os barramentos de dados e de endereços?
+	Barramentos de endereço servem para acessar as posições da memória, enquanto barramento de dados servem para transmitir informações.	
+q2.Quais as diferenças entree as memórias ram e rom?
+	Memória RAM serve para armazenar dados voláteis que não precisam ser mantidos mesmo quando o sistema e desligado enquanto que a memoria ROM armazena instruções para o microcontrolador ou microprocessador.
+
+q3. COnsidere o código abaixo, de 12 linhas?
+
+1.#include <stdio.h>
+2.int main(void)
+3.{
+4.  int i;
+5.  printf("Insira um número inteiro:");
+6.  scanf("%d",&i);
+7.  if(i%2)
+8.   printf("%d eh impar.\n");
+9.  else
+10.  printf("%d eh par.\n");
+11. return 0;
+12.}
+
+
+a)A variável i e armazenada na memoria RAM ou ROM?  
+   É armazenada na memória RAM pois é um dado inserido pelo usuário.
+
+b)Armazenado na memória ROM, pois as intruções de acesso e realização das possíveis operções são armazenadas na memória ROM.
+
+q4.
+A arquitetura de Von Neumann possui um único barramento para acesso da memória RAM E DA MEMÓRIA ROM tornando o acesso aos dados mais lento que a arquitetura de Harvard ,pois , como a arquitetura de Harvard possui um barramento para cada memória podendo acessá-las individualmente pode acessar as instruções e os dados da memória RAM quase que ao mesmo tempo.
+
+q5.
+a)	
+0x201-0xCD
+0x202-0xAB
+0x203-0x51
+0x204-0x80	
+b)
+0x201-0x80
+0x202-0x51
+0x203-0xAB
+0x204-0xCD
+
+q6.Pegar os quatro menos significativos dos dois numeros e somá-los, caso haja carry, incrementar em uma unidade os quatro bits mais significativos de um dos dois números e então somá-los, o resultado das duas somas é armazenado na memória de modo a compor o número resultante.
