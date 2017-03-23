@@ -28,31 +28,119 @@ ALuno: Filipe de Souza Freitas
 
 2. Considerando a placa Launchpad do MSP430, escreva o código em C para piscar os dois LEDs ininterruptamente.
 
-	#include <msp430g2553.h>
-		#define LED1 BTI0
-		#define LED2 BTI6
+#include <msp430g2553.h>
+ #define LED1 BTI0
+ #define LED2 BTI6
 int main(){
-		WDTCTL = WDTPW | WDTHOLD;
-		while(1){
-		PIDIR = LED1+LED2;
-		PIOUT = LED1;
-		PIOUT = LED2;
-		}
-	}	
+ 
+ unsigned int i = 0;
+ WDTCTL = WDTPW | WDTHOLD;
+ P1DIR = LED1+LED2;
+
+while(1){
+  for(i=0;1<20000;i++);	
+  P1OUT = LED1 + LED2;
+  for(i=0;1<20000;i++);
+  P1OUT = 0x00;
+ }
+}	
 
 3. Considerando a placa Launchpad do MSP430, escreva o código em C para piscar duas vezes os dois LEDs sempre que o usuário pressionar o botão.
 
+#include <msp430g2553.h>
+ #define LED1 BIT0
+ #define BTN  BIT2
+ #define LED2 BIT6
 
+int main(){
+
+ unsigned int i = 0;
+ unsigned int z = 0;
+ WDTCTL = WDTPW | WDTHOLD;
+ P1DIR = LED1+LED2;
+ 
+ while(1){
+ 
+ if (P1IN & BTN == 0){
+  while(z<2){
+ 
+  P1OUT = LED1 + LED2;
+  for(i=0;1<20000;i++);
+  P1OUT = 0x00;
+  for(i=0;1<20000;i++); 
+  z++;
+  }
+ }
+}
+}
 
 4. Considerando a placa Launchpad do MSP430, faça uma função em C que pisca os dois LEDs uma vez.
 
+#include <msp430g2553.h>
 
+ #define LED1 BIT0
+ #define LED2 BIT6
+
+void pisca(){
+ for(i = 0;1<20000;i++);
+ P1DIR = LED1 + LED2;
+ P1OUT = LED1 + LED2;
+ for(i = 0;1<20000;i++);
+ P1OUT &= 0x00;
+}
 
 5. Reescreva o código da questão 2 usando a função da questão 4.
 
+#include <msp430g2553.h>
+ #define LED1 BTI0
+ #define LED2 BTI6
 
+void pisca(){
+ for(i = 0;1<20000;i++);
+ P1DIR = LED1 + LED2;
+ P1OUT = LED1 + LED2;
+ for(i = 0;1<20000;i++);
+ P1OUT &= 0x00;
+}
 
+int main(){
+ 
+ unsigned int i = 0;
+ WDTCTL = WDTPW | WDTHOLD;
+
+while(1){
+  pisca();
+ }
+}
 6. Reescreva o código da questão 3 usando a função da questão 4.
 
+#include <msp430g2553.h>
+ #define LED1 BIT0
+ #define BTN  BIT2
+ #define LED2 BIT6
 
+void pisca(){
+ for(i = 0;1<20000;i++);
+ P1DIR = LED1 + LED2;
+ P1OUT = LED1 + LED2;
+ for(i = 0;1<20000;i++);
+ P1OUT &= 0x00;
+}
 
+int main(){
+
+ unsigned int i = 0;
+ unsigned int z = 0;
+ WDTCTL = WDTPW | WDTHOLD;
+ P1DIR = LED1+LED2;
+ 
+ while(1){
+ 
+  if (P1IN & BTN == 0){
+   while(z<2){
+    pisca(); 
+    z++;
+   }
+  }
+ }
+}
