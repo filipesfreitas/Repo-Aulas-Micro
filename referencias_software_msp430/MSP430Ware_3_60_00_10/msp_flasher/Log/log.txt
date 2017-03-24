@@ -1,0 +1,16 @@
+Fri Mar 24 15:00:31 2017:	* -----/|-------------------------------------------------------------------- *
+Fri Mar 24 15:00:31 2017:	*     / |__                                                                   *
+Fri Mar 24 15:00:31 2017:	*    /_   /   MSP Flasher v1.3.10                                             *
+Fri Mar 24 15:00:31 2017:	*      | /                                                                    *
+Fri Mar 24 15:00:31 2017:	* -----|/-------------------------------------------------------------------- *
+Fri Mar 24 15:00:31 2017:	*
+Fri Mar 24 15:00:31 2017:	* Evaluating triggers...done
+Fri Mar 24 15:00:31 2017:	* Checking for available FET debuggers: 
+Fri Mar 24 15:00:31 2017:	* Couldn't find any connected USB FETs!
+Fri Mar 24 15:00:31 2017:	* Powering down...done
+Fri Mar 24 15:00:31 2017:	* Disconnecting from device...done
+Fri Mar 24 15:00:31 2017:	* 
+Fri Mar 24 15:00:31 2017:	* ----------------------------------------------------------------------------
+Fri Mar 24 15:00:31 2017:	* Driver      : closed (MSP DebugStack not initialized)
+Fri Mar 24 15:00:31 2017:	* ----------------------------------------------------------------------------
+Fri Mar 24 15:00:31 2017:	*/

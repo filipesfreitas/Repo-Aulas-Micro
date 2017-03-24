@@ -1,0 +1,38 @@
+[
+   {
+      "name" : "na",
+      "packages" : [],
+      "default" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "specified" : "na",
+         "location" : "na"
+      },
+      "files" : [
+         "+../ActivePowerMeasure.c -> ActivePowerMeasure.c",
+         "+../ActivePowerMeasure.h -> ActivePowerMeasure.h",
+         "+../CTS -> CTS",
+         "+../ClockApp.c -> ClockApp.c",
+         "+../ClockApp.h -> ClockApp.h",
+         "+../FR59xx_EXP.c -> FR59xx_EXP.c",
+         "+../FR59xx_EXP.h -> FR59xx_EXP.h",
+         "+../FRAMSpeedApp.c -> FRAMSpeedApp.c",
+         "+../FRAMSpeedApp.h -> FRAMSpeedApp.h",
+         "+../Game.c -> Game.c",
+         "+../Game.h -> Game.h",
+         "+../GrLib -> GrLib",
+         "+../LcdDriver -> LcdDriver",
+         "+../Preloaded_Images -> Preloaded_Images",
+         "+../ULPMeter.c -> ULPMeter.c",
+         "+../ULPMeter.h -> ULPMeter.h",
+         "+../UpdateDisplay.c -> UpdateDisplay.c",
+         "+../UpdateDisplay.h -> UpdateDisplay.h",
+         "+../driverlib -> driverlib",
+         "+lnk_msp430fr5969.cmd -> lnk_msp430fr5969.cmd",
+         "+../msp430fr59xx_CHR.asm -> msp430fr59xx_CHR.asm",
+         "+../msp430fr59xx_CHR.h -> msp430fr59xx_CHR.h",
+         "+../myTimer.c -> myTimer.c",
+         "+../myTimer.h -> myTimer.h"
+      ]
+   }
+]

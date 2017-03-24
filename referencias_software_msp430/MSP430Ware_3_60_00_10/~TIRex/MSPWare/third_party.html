@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+  <title>MSPWare</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/jumbotron.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+  <!-- Handlebars for templating -->
+  <script src="assets/js/handlebars-v1.1.2.js"></script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+  <body>
+    <div id="navbar"></div>
+    <div class="container">
+      <h2>Attention: Third Party Notice</h2>
+      <p>You are leaving MSPWare to enter a third-party website over which we have no control. TI is not responsible for the contents of any linked site or any changes or updates to such sites. TI is providing these links to you only as a convenience. The inclusion of any link does not imply endorsement by TI of any linked site.</p>
+      <p>TI's Publication of information regarding third-party products or services does not constitute an endorsement regarding the suitability of such products or services or a warranty, representation or endorsement of such products or services, either alone or in combination with any TI product or service.</p>
+      <div id="thirdPartyButton"></div>
+     <div class="container" id="footer"></div>
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/templates.js"></script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script type="text/javascript">
+    CreateNavbar(Templates.navbar);
+    CreateFooter(Templates.footer);
+    CreateThirdPartyButton(Templates.thirdPartyButton);
+  </script>
+  </body>
+</html>

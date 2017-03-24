@@ -1,0 +1,21 @@
+[
+   {
+      "default" : "na",
+      "compiler" : {
+         "location" : "na",
+         "specified" : "na",
+         "effective" : "na"
+      },
+      "files" : [
+         "+../../Source/RO_PINOSC_TA0_WDTp_Wheel_Buttons/main.c -> Application/main.c",
+         "+../../Source/RO_PINOSC_TA0_WDTp_Wheel_Buttons/structure.c -> Application/structure.c",
+         "+../../Source/RO_PINOSC_TA0_WDTp_Wheel_Buttons/structure.h -> Application/structure.h",
+         "+../../../Library/CTS_HAL.c -> Library/CTS_HAL.c",
+         "+../../../Library/CTS_HAL.h -> Library/CTS_HAL.h",
+         "+../../../Library/CTS_Layer.c -> Library/CTS_Layer.c",
+         "+../../../Library/CTS_Layer.h -> Library/CTS_Layer.h"
+      ],
+      "name" : "na",
+      "packages" : []
+   }
+]

@@ -1,0 +1,13 @@
+<projectSpec>
+  <project compilerBuildOptions="-I${PROJECT_ROOT}\Library -I${PROJECT_ROOT}\Application --gcc" device="MSP430G2452" name="RO_PINOSC_TA0_WDTp_Proximity_Sensor">
+
+    <file action="copy" path="../../Source/RO_PINOSC_TA0_WDTp_Proximity_Sensor/main.c" targetDirectory="Application" />
+    <file action="copy" path="../../Source/RO_PINOSC_TA0_WDTp_Proximity_Sensor/structure.c" targetDirectory="Application" />
+    <file action="copy" path="../../Source/RO_PINOSC_TA0_WDTp_Proximity_Sensor/structure.h" targetDirectory="Application" />
+
+    <file action="copy" path="../../../Library/CTS_HAL.c" targetDirectory="Library" />
+    <file action="copy" path="../../../Library/CTS_HAL.h" targetDirectory="Library" />
+    <file action="copy" path="../../../Library/CTS_Layer.c" targetDirectory="Library" />
+    <file action="copy" path="../../../Library/CTS_Layer.h" targetDirectory="Library" />
+  </project>
+</projectSpec>

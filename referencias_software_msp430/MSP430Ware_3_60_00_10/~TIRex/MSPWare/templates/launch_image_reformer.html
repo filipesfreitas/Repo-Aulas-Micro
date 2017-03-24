@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Launch External Application</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<script type="text/javascript" src="../assets/js/jquery-1.10.2.js"></script>
+
+<h1>
+    <img src="images/run_program.gif" /> Launch External Application
+</h1>
+
+<h2>
+    Click on the link to launch the external application
+</h2>
+
+<p>
+    Launch <a id="launcher" href="#"><b>Image Reformer</b></a>.
+</p>
+<script src="../assets/js/bowser.min.js" ></script>
+<script type="text/javascript">
+
+    /**
+     * Replaces substring multiple times in a string
+     * @param  {string} find    substring to look for
+     * @param  {string} replace string to use for replacement
+     * @param  {string} str     string to search
+     * @return {string}         new string
+     */
+    function replaceAll(find, replace, str) {
+        return str.replace(new RegExp(find, 'g'), replace);
+    }
+
+    $(document).ready(function() {
+        var path = window.location.pathname;
+
+        if(navigator.appVersion.indexOf("Win") != -1) {
+            path = path.replace("/", "");
+            filename = "/launch_image_reformer.exe";
+        } else {
+            filename = "/launch_image_reformer.py";
+        }
+
+        script = path.replace("launch_image_reformer.html", "scripts" + filename);
+
+        path = "liveaction:RunProgramAction(" + script + ")";
+        console.log(path);
+        $("#launcher").attr("href", path);
+    });
+
+</script>
+</body>
+</html>

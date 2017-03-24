@@ -1,0 +1,19 @@
+[
+   {
+      "name" : "na",
+      "packages" : [],
+      "default" : "na",
+      "files" : [
+         "+../../../src/fonts -> GrLib/fonts",
+         "+../../../src/grlib -> GrLib/grlib",
+         "+../LcdDriver -> LcdDriver",
+         "+../main.c -> main.c",
+         "+../system_pre_init.c -> system_pre_init.c"
+      ],
+      "compiler" : {
+         "specified" : "na",
+         "location" : "na",
+         "effective" : "na"
+      }
+   }
+]

@@ -1,0 +1,21 @@
+[
+   {
+      "default" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "specified" : "na",
+         "location" : "na"
+      },
+      "files" : [
+         "+../MSP430_SWI2C_Master.c -> MSP430_SWI2C_Master.c",
+         "+../MSP430_SWI2C_Master.h -> MSP430_SWI2C_Master.h",
+         "+../driverlib -> driverlib",
+         "+../iqmathlib -> iqmathlib",
+         "+../main.c -> main.c",
+         "+../opt3001.c -> opt3001.c",
+         "+../opt3001.h -> opt3001.h"
+      ],
+      "name" : "na",
+      "packages" : []
+   }
+]

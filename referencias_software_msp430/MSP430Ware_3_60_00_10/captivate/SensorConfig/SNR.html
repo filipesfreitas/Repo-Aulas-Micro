@@ -1,0 +1,30 @@
+<html>
+    <body>
+		<B>Signal to Noise Ratio (SNR) Measurement TAB</B>
+		<BR />
+        <img src="visualizer_images/SNR_equation.png">
+        <BR />
+        <P>When connected to the target, the Measure SNR button will initiate a series of
+        measurements on the highlighted element and perform the calculations described 
+        above and update the table accordingly.  Additional options are available to 
+        adjust the sample size, apply filtering, and log the entire dataset.
+        <BR />
+        <BR />
+        <B>Options </B>
+        <ul>
+        <li><B>Filtering Enabled</B>
+        <P>Selecting this option applies the Count Filter settings found in the Tuning Tab.  
+        This filter can impact the SNR results.  Please refer to the Filter Count Beta and 
+        Enable options found in the Tuning Tab.  The default, unselected, state disables
+        the Count Filter.</li>
+        <li><B>Sample Size</B>
+        <P>The sample size is the number of samples taken during the touch portion of the 
+        test and the release portion of the test.</li>
+        <li><B>Export CSV</B>
+        <P>Export the entire sample set for the next measurement to the SNR.csv file.</li>       
+        <li><B>Overwrite CSV</B>
+        <P>Overwrite the existing SNR.csv file.  If this option is not selected, then each
+        measurement is appended to the existing SNR.csv file.</li>        
+        </ul>
+    </body>
+</html>

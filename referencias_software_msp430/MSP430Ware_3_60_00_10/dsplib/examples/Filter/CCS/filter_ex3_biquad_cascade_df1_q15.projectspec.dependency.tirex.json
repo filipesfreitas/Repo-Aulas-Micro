@@ -1,0 +1,17 @@
+[
+   {
+      "default" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "specified" : "na",
+         "location" : "na"
+      },
+      "files" : [
+         "+../../../include -> dsplib/include",
+         "+../../../source -> dsplib/source",
+         "+../filter_ex3_biquad_cascade_df1_q15.c -> filter_ex3_biquad_cascade_df1_q15.c"
+      ],
+      "name" : "na",
+      "packages" : []
+   }
+]

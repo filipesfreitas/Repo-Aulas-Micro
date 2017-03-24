@@ -1,0 +1,31 @@
+[
+   {
+      "files" : [
+         "+../../../../iec60730/include/IEC60730_adc_test.h -> IEC60730/include/IEC60730_adc_test.h",
+         "+../../../../iec60730/include/IEC60730_clock_fail_test.h -> IEC60730/include/IEC60730_clock_fail_test.h",
+         "+../../../../iec60730/include/IEC60730_cpu_test.h -> IEC60730/include/IEC60730_cpu_test.h",
+         "+../../../../iec60730/include/IEC60730_crc_test.h -> IEC60730/include/IEC60730_crc_test.h",
+         "+../../../../iec60730/include/IEC60730_gpio_test.h -> IEC60730/include/IEC60730_gpio_test.h",
+         "+../../../../iec60730/include/IEC60730_march_test.h -> IEC60730/include/IEC60730_march_test.h",
+         "+../../../../iec60730/include/IEC60730_pc_test.h -> IEC60730/include/IEC60730_pc_test.h",
+         "+../../../../iec60730/include/IEC60730_system_config.h -> IEC60730/include/IEC60730_system_config.h",
+         "+../../../../iec60730/include/IEC60730_user_config.h -> IEC60730/include/IEC60730_user_config.h",
+         "+../../../../iec60730/source/IEC60730_adc_test.c -> IEC60730/source/IEC60730_adc_test.c",
+         "+../../../../iec60730/source/IEC60730_clock_fail_test.c -> IEC60730/source/IEC60730_clock_fail_test.c",
+         "+../../../../iec60730/source/IEC60730_cpu_test.c -> IEC60730/source/IEC60730_cpu_test.c",
+         "+../../../../iec60730/source/IEC60730_crc_test.c -> IEC60730/source/IEC60730_crc_test.c",
+         "+../../../../iec60730/source/IEC60730_gpio_test.c -> IEC60730/source/IEC60730_gpio_test.c",
+         "+../../../../iec60730/source/IEC60730_march_test.c -> IEC60730/source/IEC60730_march_test.c",
+         "+../../../../iec60730/source/IEC60730_pc_test.c -> IEC60730/source/IEC60730_pc_test.c",
+         "+../main.c -> main.c"
+      ],
+      "compiler" : {
+         "specified" : "na",
+         "location" : "na",
+         "effective" : "na"
+      },
+      "default" : "na",
+      "packages" : [],
+      "name" : "na"
+   }
+]

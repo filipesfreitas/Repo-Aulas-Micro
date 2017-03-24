@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map>
+
+<!-- This file creates a mapping id that can be used by the help broker to map topics to actual html locations -->
+
+<map version="1.0">
+
+<!--Online Help Intro -->
+<mapID target="top" url="index.html" />
+<mapID target="Controller" url="DesignCenter.html" />
+<mapID target="ControllerCustomizer" url="DesignCenter.html" />
+<mapID target="ButtonGroupSensor" url="DesignCenter.html" />
+<mapID target="ButtonGroupSensorCustomizer" url="DesignCenter.html" />
+<mapID target="ProxSensor" url="DesignCenter.html" />
+<mapID target="ProxSensorCustomizer" url="DesignCenter.html" />
+<mapID target="SliderSensor" url="DesignCenter.html" />
+<mapID target="SliderSensorCustomizer" url="DesignCenter.html" />
+<mapID target="WheelSensor" url="DesignCenter.html" />
+<mapID target="WheelSensorCustomizer" url="DesignCenter.html" />
+</map>

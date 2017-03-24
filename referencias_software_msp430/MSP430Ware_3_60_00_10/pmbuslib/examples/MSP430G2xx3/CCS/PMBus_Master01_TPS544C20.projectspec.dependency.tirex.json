@@ -1,0 +1,25 @@
+[
+   {
+      "files" : [
+         "+../Src/PMBus_Master01_TPS544C20/Master_HAL.c -> Master_HAL.c",
+         "+../Src/PMBus_Master01_TPS544C20/Master_HAL.h -> Master_HAL.h",
+         "+../Src/PMBus_Master01_TPS544C20/main.c -> main.c",
+         "+../../../src/pmbuslib/pmbus.c -> pmbuslib/pmbus.c",
+         "+../../../src/pmbuslib/pmbus.h -> pmbuslib/pmbus.h",
+         "+../../../smbuslib/src/smbuslib/MSP430G2xx3/smbus_phy.c -> smbuslib/MSP430G2xx3/smbus_phy.c",
+         "+../../../smbuslib/src/smbuslib/MSP430G2xx3/smbus_phy.h -> smbuslib/MSP430G2xx3/smbus_phy.h",
+         "+../../../smbuslib/src/smbuslib/smbus.c -> smbuslib/smbus.c",
+         "+../../../smbuslib/src/smbuslib/smbus.h -> smbuslib/smbus.h",
+         "+../../../smbuslib/src/smbuslib/smbus_nwk.c -> smbuslib/smbus_nwk.c",
+         "+../../../smbuslib/src/smbuslib/smbus_nwk.h -> smbuslib/smbus_nwk.h"
+      ],
+      "compiler" : {
+         "effective" : "na",
+         "specified" : "na",
+         "location" : "na"
+      },
+      "default" : "na",
+      "name" : "na",
+      "packages" : []
+   }
+]

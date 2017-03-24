@@ -1,0 +1,17 @@
+[
+   {
+      "compiler" : {
+         "location" : "na",
+         "specified" : "na",
+         "effective" : "na"
+      },
+      "files" : [
+         "+../../../include -> dsplib/include",
+         "+../../../source -> dsplib/source",
+         "+../matrix_ex2_trans_q15.c -> matrix_ex2_trans_q15.c"
+      ],
+      "default" : "na",
+      "name" : "na",
+      "packages" : []
+   }
+]

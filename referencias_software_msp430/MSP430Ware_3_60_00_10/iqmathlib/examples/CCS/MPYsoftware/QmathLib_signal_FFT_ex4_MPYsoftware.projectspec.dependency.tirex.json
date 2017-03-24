@@ -1,0 +1,17 @@
+[
+   {
+      "packages" : [],
+      "name" : "na",
+      "default" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "specified" : "na",
+         "location" : "na"
+      },
+      "files" : [
+         "-../../../libraries/CCS/MPYsoftware/QmathLib.a",
+         "-../../../include/QmathLib.h",
+         "+../../msp430/QmathLib_signal_FFT_ex4.c -> QmathLib_signal_FFT_ex4.c"
+      ]
+   }
+]

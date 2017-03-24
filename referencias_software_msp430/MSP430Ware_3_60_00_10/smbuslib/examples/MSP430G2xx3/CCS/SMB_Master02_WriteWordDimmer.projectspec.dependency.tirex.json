@@ -1,0 +1,23 @@
+[
+   {
+      "name" : "na",
+      "packages" : [],
+      "default" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "files" : [
+         "+../Src/SMB_Master02_WriteWord_Dimmer/Master_HAL.c -> Master_HAL.c",
+         "+../Src/SMB_Master02_WriteWord_Dimmer/Master_HAL.h -> Master_HAL.h",
+         "+../Src/SMB_Master02_WriteWord_Dimmer/main.c -> main.c",
+         "+../../../src/smbuslib/MSP430G2xx3/smbus_phy.c -> smbuslib/MSP430G2xx3/smbus_phy.c",
+         "+../../../src/smbuslib/MSP430G2xx3/smbus_phy.h -> smbuslib/MSP430G2xx3/smbus_phy.h",
+         "+../../../src/smbuslib/smbus.c -> smbuslib/smbus.c",
+         "+../../../src/smbuslib/smbus.h -> smbuslib/smbus.h",
+         "+../../../src/smbuslib/smbus_nwk.c -> smbuslib/smbus_nwk.c",
+         "+../../../src/smbuslib/smbus_nwk.h -> smbuslib/smbus_nwk.h"
+      ]
+   }
+]

@@ -1,0 +1,52 @@
+[
+   {
+      "name" : "na",
+      "packages" : [],
+      "files" : [
+         "+../captivate/ADVANCED/CAPT_Buttons.h -> captivate/ADVANCED/CAPT_Buttons.h",
+         "+../captivate/ADVANCED/CAPT_EMC.h -> captivate/ADVANCED/CAPT_EMC.h",
+         "+../captivate/ADVANCED/CAPT_Manager.c -> captivate/ADVANCED/CAPT_Manager.c",
+         "+../captivate/ADVANCED/CAPT_Manager.h -> captivate/ADVANCED/CAPT_Manager.h",
+         "+../captivate/ADVANCED/CAPT_Slider.h -> captivate/ADVANCED/CAPT_Slider.h",
+         "+../captivate/BASE/CAPT_HAL.h -> captivate/BASE/CAPT_HAL.h",
+         "+../captivate/BASE/CAPT_ISR.c -> captivate/BASE/CAPT_ISR.c",
+         "+../captivate/BASE/CAPT_Touch.h -> captivate/BASE/CAPT_Touch.h",
+         "+../captivate/BASE/CAPT_Type.h -> captivate/BASE/CAPT_Type.h",
+         "+../captivate/BASE/captivate.lib -> captivate/BASE/captivate.lib",
+         "+../captivate/BASE/captivate.r43 -> captivate/BASE/captivate.r43",
+         "+../captivate/BASE/lnk_captivate.cmd -> captivate/BASE/lnk_captivate.cmd",
+         "+../captivate/BASE/rom_captivate.h -> captivate/BASE/rom_captivate.h",
+         "+../captivate/BASE/rom_map_captivate.h -> captivate/BASE/rom_map_captivate.h",
+         "+../captivate/COMM/CAPT_ByteQueue.h -> captivate/COMM/CAPT_ByteQueue.h",
+         "+../captivate/COMM/CAPT_CommConfig.h -> captivate/COMM/CAPT_CommConfig.h",
+         "+../captivate/COMM/CAPT_Interface.c -> captivate/COMM/CAPT_Interface.c",
+         "+../captivate/COMM/CAPT_Interface.h -> captivate/COMM/CAPT_Interface.h",
+         "+../captivate/COMM/CAPT_PingPongBuffer.h -> captivate/COMM/CAPT_PingPongBuffer.h",
+         "+../captivate/COMM/CAPT_Protocol.h -> captivate/COMM/CAPT_Protocol.h",
+         "+../captivate/COMM/Serial_Drivers/FunctionTimer.c -> captivate/COMM/Serial_Drivers/FunctionTimer.c",
+         "+../captivate/COMM/Serial_Drivers/FunctionTimer.h -> captivate/COMM/Serial_Drivers/FunctionTimer.h",
+         "+../captivate/COMM/Serial_Drivers/FunctionTimer_Definitions.h -> captivate/COMM/Serial_Drivers/FunctionTimer_Definitions.h",
+         "+../captivate/COMM/Serial_Drivers/I2CSlave.c -> captivate/COMM/Serial_Drivers/I2CSlave.c",
+         "+../captivate/COMM/Serial_Drivers/I2CSlave.h -> captivate/COMM/Serial_Drivers/I2CSlave.h",
+         "+../captivate/COMM/Serial_Drivers/I2CSlave_Definitions.h -> captivate/COMM/Serial_Drivers/I2CSlave_Definitions.h",
+         "+../captivate/COMM/Serial_Drivers/UART.c -> captivate/COMM/Serial_Drivers/UART.c",
+         "+../captivate/COMM/Serial_Drivers/UART.h -> captivate/COMM/Serial_Drivers/UART.h",
+         "+../captivate/COMM/Serial_Drivers/UART_Definitions.h -> captivate/COMM/Serial_Drivers/UART_Definitions.h",
+         "+../captivate/captivate.h -> captivate/captivate.h",
+         "+../captivate_app/CAPT_App.c -> captivate_app/CAPT_App.c",
+         "+../captivate_app/CAPT_App.h -> captivate_app/CAPT_App.h",
+         "+../captivate_app/CAPT_BSP.c -> captivate_app/CAPT_BSP.c",
+         "+../captivate_app/CAPT_BSP.h -> captivate_app/CAPT_BSP.h",
+         "+../captivate_config/CAPT_UserConfig.c -> captivate_config/CAPT_UserConfig.c",
+         "+../captivate_config/CAPT_UserConfig.h -> captivate_config/CAPT_UserConfig.h",
+         "+../driverlib/MSP430FR2xx_4xx -> driverlib/MSP430FR2xx_4xx",
+         "+../main.c -> main.c"
+      ],
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "default" : "na"
+   }
+]

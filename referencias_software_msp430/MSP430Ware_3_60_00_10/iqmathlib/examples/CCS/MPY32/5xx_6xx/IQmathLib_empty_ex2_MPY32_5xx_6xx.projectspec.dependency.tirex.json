@@ -1,0 +1,17 @@
+[
+   {
+      "packages" : [],
+      "name" : "na",
+      "default" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "files" : [
+         "-../../../../libraries/CCS/MPY32/5xx_6xx/IQmathLib.a",
+         "-../../../../include/IQmathLib.h",
+         "+../../../msp430/IQmathLib_empty_ex2.c -> IQmathLib_empty_ex2.c"
+      ]
+   }
+]

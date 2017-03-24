@@ -1,0 +1,17 @@
+[
+   {
+      "packages" : [],
+      "name" : "na",
+      "files" : [
+         "+../application -> application",
+         "+../driverlib -> driverlib",
+         "+../main.c -> main.c"
+      ],
+      "compiler" : {
+         "location" : "na",
+         "specified" : "na",
+         "effective" : "na"
+      },
+      "default" : "na"
+   }
+]

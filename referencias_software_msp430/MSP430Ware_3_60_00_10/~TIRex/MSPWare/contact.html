@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+  <title>MSPWare</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/jumbotron.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+  <!-- Handlebars for templating -->
+  <script src="assets/js/handlebars-v1.1.2.js"></script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <div id="navbar"></div>
+
+
+  <div class="container">
+    <h2>Contact Us</h2>
+    <h4>We want to hear from you!</h4>
+    <p>Thanks for using MSP430Ware! This is still a work in progress and we are hard at work trying to make MSP430 the easiest microcontrollers to develop with. We would love to hear your feedback so please send them our way! This tool is made specifically for you, so keep the feedback coming! Please read the release notes to see what has changed in the latest release.</p>
+    <h4>How do I provide feedback/questions/suggestions?</h4>
+    <p>Send an email to <a href="mailto:msp430ware@list.ti.com?Subject=MSPWare%20Feedback">msp430ware@list.ti.com</a>. If you want to report a bug or suggestions, please provide your comments, any screenshots if applicable and a detailed description</p>
+    <p>We look forward to hearing from you!</p><p>- MSP Team</p>
+  </div>
+
+  <div class="container" id="footer"></div>
+
+  <script src="assets/js/jquery-1.10.2.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/templates.js"></script>
+  <script src="assets/js/navbar.js"></script>
+  <script src="assets/js/functions.js"></script>
+  <script type="text/javascript">
+    CreateNavbar(Templates.navbar);
+    CreateFooter(Templates.footer);
+  </script>
+</body>
+</html>

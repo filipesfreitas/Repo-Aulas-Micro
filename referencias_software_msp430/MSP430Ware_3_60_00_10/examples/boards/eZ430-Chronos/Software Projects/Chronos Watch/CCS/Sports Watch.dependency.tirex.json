@@ -1,0 +1,13 @@
+[
+   {
+      "name" : "na",
+      "packages" : [],
+      "default" : "na",
+      "compiler" : {
+         "specified" : "na",
+         "location" : "na",
+         "effective" : "na"
+      },
+      "files" : []
+   }
+]

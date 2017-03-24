@@ -1,0 +1,26 @@
+[
+  {
+    "id": "msp430ware",
+    "core": [
+      {
+        "require": "mandatory",
+        "files": [
+          "driverlib/eclipse",
+          "fram_utilities/eclipse"
+        ],
+        "message": "A one-time download of a core set of files",
+        "name": "msp430ware_core",
+        "version": "3.60.00.10"
+      }
+    ],
+    "installFolder": {
+      "mac": "msp/MSP430Ware_3_60_00_10",
+      "linux": "msp/MSP430Ware_3_60_00_10",
+      "win": "msp/MSP430Ware_3_60_00_10"
+    },
+    "version": "3.60.00.10",
+    "name": "MSP430Ware",
+    "description": "Quicken your development time with MSPWare, a tool for navigating the available resources that support MSP430 and MSP432 devices. Using this GUI or clicking through the folder tree to the left, we offer code examples, software libraries, datasheets and other resources - all at the tip of your fingers.",
+    "image": "~TIRex/MSPWare/assets/photos/msp430ware.png"
+  }
+]

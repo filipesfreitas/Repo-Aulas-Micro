@@ -1,0 +1,20 @@
+[
+   {
+      "files" : [
+         "+../src/DSPLib -> DSPLib",
+         "+../src/application -> application",
+         "+../src/application/FFT_430.s43 -> application/FFT_430.s43",
+         "+../src/driverlib -> driverlib",
+         "+../src/grlib -> grlib",
+         "+../src/main.c -> main.c"
+      ],
+      "compiler" : {
+         "effective" : "na",
+         "specified" : "na",
+         "location" : "na"
+      },
+      "default" : "na",
+      "name" : "na",
+      "packages" : []
+   }
+]

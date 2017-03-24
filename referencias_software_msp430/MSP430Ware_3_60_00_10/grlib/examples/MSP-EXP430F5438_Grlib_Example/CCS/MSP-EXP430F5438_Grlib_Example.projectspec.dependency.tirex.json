@@ -1,0 +1,27 @@
+[
+   {
+      "packages" : [],
+      "name" : "na",
+      "default" : "na",
+      "files" : [
+         "+../../../src/fonts -> GrLib/fonts",
+         "+../../../src/grlib -> GrLib/grlib",
+         "+../LcdDriver/HAL_MSP_EXP430F5438_HITACHI138x110_HD66753.c -> LcdDriver/HAL_MSP_EXP430F5438_HITACHI138x110_HD66753.c",
+         "+../LcdDriver/HAL_MSP_EXP430F5438_HITACHI138x110_HD66753.h -> LcdDriver/HAL_MSP_EXP430F5438_HITACHI138x110_HD66753.h",
+         "+../LcdDriver/Hitachi138x110_HD66753.c -> LcdDriver/Hitachi138x110_HD66753.c",
+         "+../LcdDriver/Hitachi138x110_HD66753.h -> LcdDriver/Hitachi138x110_HD66753.h",
+         "+../../../driverlib/MSP430F5xx_6xx -> driverlib/MSP430F5xx_6xx",
+         "+../../../driverlib/MSP430F5xx_6xx/deprecated -> driverlib/MSP430F5xx_6xx/deprecated",
+         "+../../../driverlib/MSP430F5xx_6xx/deprecated/CCS -> driverlib/MSP430F5xx_6xx/deprecated/CCS",
+         "+../../../driverlib/MSP430F5xx_6xx/inc -> driverlib/MSP430F5xx_6xx/inc",
+         "+../images -> images",
+         "+../main.c -> main.c",
+         "+../system_pre_init.c -> system_pre_init.c"
+      ],
+      "compiler" : {
+         "location" : "na",
+         "specified" : "na",
+         "effective" : "na"
+      }
+   }
+]

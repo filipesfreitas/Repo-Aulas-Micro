@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Launch External Application</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<script type="text/javascript" src="../assets/js/jquery-1.10.2.js"></script>
+
+<h1>
+    <img src="images/run_program.gif" /> Install Stollmann NFCStack + EVA
+</h1>
+
+<h2>
+    Click on the link to launch the external application
+</h2>
+
+<p>
+    Launch <a id="launcher" href="#"><b>Application</b></a>.
+</p>
+<script src="../assets/js/bowser.min.js" ></script>
+<script type="text/javascript">
+
+    /**
+     * Replaces substring multiple times in a string
+     * @param  {string} find    substring to look for
+     * @param  {string} replace string to use for replacement
+     * @param  {string} str     string to search
+     * @return {string}         new string
+     */
+    function replaceAll(find, replace, str) {
+        return str.replace(new RegExp(find, 'g'), replace);
+    }
+
+    /**
+     * Opens up an explorer window
+     * @return {false} returns false so that browser does not try to follow link
+     */
+    $("#launcher").click(function() {
+
+        var path = window.location.pathname;
+        path = path.replace("nfclink.html", "..\\..\\..\\nfclink\\utils");
+        path = path.replace("/", "");
+
+        if(!bowser.msie) {
+            path = replaceAll("/", "\\", path);
+        }
+
+        console.log(path)
+
+        window.location = "liveaction:RunProgramAction(explorer " + path + ")";
+        return false;
+    });
+
+</script>
+</body>
+</html>

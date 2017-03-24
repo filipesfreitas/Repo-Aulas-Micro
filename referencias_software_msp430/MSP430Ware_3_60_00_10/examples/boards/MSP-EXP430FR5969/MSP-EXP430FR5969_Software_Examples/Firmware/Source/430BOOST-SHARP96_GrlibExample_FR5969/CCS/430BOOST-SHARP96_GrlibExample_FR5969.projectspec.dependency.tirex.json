@@ -1,0 +1,20 @@
+[
+   {
+      "default" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "files" : [
+         "+../GrLib -> GrLib",
+         "+../LcdDriver -> LcdDriver",
+         "+../driverlib -> driverlib",
+         "+../images -> images",
+         "+../main.c -> main.c",
+         "+../system_pre_init.c -> system_pre_init.c"
+      ],
+      "packages" : [],
+      "name" : "na"
+   }
+]

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+  <title>MSP430Ware</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/jumbotron.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+  <!-- Handlebars for templating -->
+  <script src="assets/js/handlebars-v1.1.2.js"></script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+  <body>
+
+    <div id="navbar"></div>
+    <div class="container">
+      <div class="hero-unit">
+        <h1>Welcome to MSP430Ware!</h1>
+        <p>Quicken your development time with MSP430Ware, a tool for navigating the available resources that support MSP430 devices. Using this GUI or clicking through the folder tree to the left, we offer code examples, software libraries, datasheets and other resources - all at the tip of your fingers.</p>
+        <p>To begin, navigate using the tabs above or the folder tree to the left.</p>
+      </div>
+      <div class="row">
+        <div class="span4">
+          <h2>Updated DSPLib!</h2>
+          <p>DSPLib has been updated to add new filter and utility APIs with
+          new examples!</p>
+          <p><a class="btn btn-primary" href="libraries.html?id=dsplib">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>Updated MSP-EXP430FR5994 Projects!</h2>
+          <p>New demo projects have been created for the MSP-EXP430FR5994!</p>
+          <p><a class="btn btn-primary" href="tools.html?id=msp-exp430fr5994">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>Bugfixes in TI Resource Explorer!</h2>
+          <p>Updates through TI Resource Explorer to make finding content
+          easier!</p>
+       </div>
+      </div>
+     <div class="container" id="footer"></div>
+    </div> <!-- /container -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/templates.js"></script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script type="text/javascript">
+    CreateNavbar(Templates.navbar);
+    CreateFooter(Templates.footer);
+  </script>
+  </body>
+</html>

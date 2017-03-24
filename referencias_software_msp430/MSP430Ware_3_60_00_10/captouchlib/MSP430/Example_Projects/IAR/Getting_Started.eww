@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\RO_CSIO_TA0_RTC_One_Button.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\RO_CSIO_TA0_RTC_One_Button_Campact.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\RO_CSIO_TA0_RTC_Proximity_Sensor.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\RO_CSIO_TA0_RTC_Wheel_Buttons.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\RO_CSIO_TA2_WDTA_One_Button.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\RO_CSIO_TA2_WDTA_One_Button_Compact.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\RO_CSIO_TA2_WDTA_Proximity_Sensor.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\RO_CSIO_TA2_WDTA_Wheel_Buttons.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\RO_PINOSC_TA0_WDTp_One_Button.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\RO_PINOSC_TA0_WDTp_One_Button_Compact.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\RO_PINOSC_TA0_WDTp_Proximity_Sensor.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\RO_PINOSC_TA0_WDTp_Wheel_Buttons.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

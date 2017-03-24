@@ -1,0 +1,862 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: yOiNbEWn9yrRDOzKH8s7WjTVfrfde
+ 2GuntmfYbxxEYk=
+SHA-256-Digest-Manifest: 0fU2dXj/17BJfqHXzfX0pzOKaoAV3cHFhk38BU0xY0c=
+Created-By: 1.7.0_75 (Oracle Corporation)
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_sys.c
+SHA-256-Digest: fdHh7bsTKDx2vkllOIUxji3JNipAo5cYq359Z8f0tWI=
+
+Name: resources/empty/devices/msp430fr5731/ctpl_msp430fr5731.c
+SHA-256-Digest: rPs+EmYI3fr0S/F00EohN32/NRJ6/cBN3+vxsdt9hXA=
+
+Name: resources/empty/devices/msp430fr4133/ctpl_lnk_msp430fr4133.cmd
+SHA-256-Digest: fTXHThiJ9fnnl7zfcGCFJb6EJ165DgGVipD21pPoWnI=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_ecomp.c
+SHA-256-Digest: uRAZbF/wiCVGcMYibWVjPUOj/BMpB1ZW/5IEUaQ5QQM=
+
+Name: resources/empty/devices/msp430fr5949/ctpl_msp430fr5949.c
+SHA-256-Digest: O3Cs17gNTDrl4jOzyRt50EVLSdgPG9GVY0g3kxF65S0=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_timer_7.c
+SHA-256-Digest: +D5C07/QA+LMFybKePuvc6Y5WlFARBtcnlPACd0Qm7E=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_adc10_b.h
+SHA-256-Digest: PUtJEqoPcpBE11xKzyY3Uxtn6vb/1Y384nSLrEV/6Gk=
+
+Name: resources/empty/devices/msp430fr59471/ctpl_msp430fr59471.c
+SHA-256-Digest: vqQdBPw9zl4+HDJMSICjlpaARBmUrzVQIjKNxPfO+1E=
+
+Name: resources/empty/devices/msp430fr6972/ctpl_msp430fr6972.c
+SHA-256-Digest: g2q3Z5At4El/+KRiu6pDWv1IBU7hkgcaiH4Im6W4+Xk=
+
+Name: resources/empty/devices/msp430fr6870/ctpl_msp430fr6870.c
+SHA-256-Digest: MmVgMc7nQFMVbxQPFMrTO+k6U9w3wzjY5KK0FzQ3f1w=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_adc10_b.c
+SHA-256-Digest: 54y0/4jdZuvVO18Q5/pgqF00A/Gbsy/o0VkxPgOmWEc=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_ecomp.h
+SHA-256-Digest: xdh2mLc/T46GgM8aAsWsUja5XxsQ1Z7P69Sp9LGfuVc=
+
+Name: resources/empty/devices/msp430fr4133/ctpl_msp430fr4133.c
+SHA-256-Digest: wBHzA8M1KuurTuDJUGAbPhInwgmS4SsVwwKbUYhw3/A=
+
+Name: resources/empty/devices/msp430fr6977/ctpl_lnk_msp430fr6977.cmd
+SHA-256-Digest: YHBqD5p2lGnchPOwI7BcCX/MxMYBXtigFzYyIi9L9aE=
+
+Name: resources/empty/devices/msp430fr5947/ctpl_msp430fr5947.c
+SHA-256-Digest: hBkhoDVmH5PboPZn0gPlgHVSxeuItRRQB8j3axFqBhI=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_timer_7.h
+SHA-256-Digest: IS/cS/wNeGzNiOxnYGeBaAhlfo3X9wPuoRzwtz1ZOaA=
+
+Name: resources/empty/devices/msp430fr58891/ctpl_msp430fr58891.c
+SHA-256-Digest: HMA5mo8JgMLlowd0idCCBdBg/oBsylt1SfoKFEGEKgs=
+
+Name: resources/empty/devices/msp430fr68721/ctpl_msp430fr68721.c
+SHA-256-Digest: 4bwyWb9U5cNCFfmPPeVnN5xE5lYdv+DzZ5jRL3M6v6U=
+
+Name: resources/empty/devices/msp430fr4132/ctpl_lnk_msp430fr4132.cmd
+SHA-256-Digest: n977rpKI6fKGvTd9LvkCL+baHPEoUYfpQaEJcCfVz8c=
+
+Name: resources/empty/devices/msp430fr5728/ctpl_lnk_msp430fr5728.cmd
+SHA-256-Digest: gPjpMtrKSZvlknJebI+aUJoch96fO/3g2zufNyICetg=
+
+Name: resources/empty/devices/msp430fr5986/ctpl_msp430fr5986.c
+SHA-256-Digest: w0JgmDCa3CXnPawsBa4zVdwqQPG5RHr9B29/BKlCNXQ=
+
+Name: resources/empty/devices/msp430fr5734/ctpl_msp430fr5734.c
+SHA-256-Digest: zwAwF/t6Poz2YsBe4hGXO4r3jYWjWo5QBOpbCuRuu+o=
+
+Name: resources/empty/devices/msp430fr5870/ctpl_lnk_msp430fr5870.cmd
+SHA-256-Digest: 4Ueh3xQT8UWeX2aId4m6Qr3yUfBH8O6BhDt2jtR12Y0=
+
+Name: resources/empty/devices/msp430fr2311/ctpl_msp430fr2311.c
+SHA-256-Digest: ajLniehaOP4vtN45aen/245dRDJssSXg1KHAEGeJDj8=
+
+Name: resources/empty/devices/msp430fr58721/ctpl_lnk_msp430fr58721.cmd
+SHA-256-Digest: qgKqJBO9GlYMJR/PHv0HF6+Hjm6/icxV2nCN/UNd4/E=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_timer_5.h
+SHA-256-Digest: 5KbSNMJEZzGD1oCPchkE4ZmAlDYEBXgsEp2Scb6qQnc=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_captio.h
+SHA-256-Digest: kdh9dB+n0xWOJ9LWLNquISbd0U1UFzu9QRTIhOTbCNQ=
+
+Name: resources/empty/devices/msp430fr2032/ctpl_msp430fr2032.c
+SHA-256-Digest: J/In2PNRFUNuHkAUHl3piNfubw4AAAk5nFLPm4e4dUo=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_timer_5.c
+SHA-256-Digest: H0xwemX6+9Zxq1CDgpXRA35IMcIek1HtpLJo41ubf7Q=
+
+Name: resources/empty/devices/msp430fr6922/ctpl_lnk_msp430fr6922.cmd
+SHA-256-Digest: V+9QuuhYU+aaR7rPolmaYIhc0HH6GS4eBKWACUYqoOU=
+
+Name: resources/empty/devices/msp430fr5726/ctpl_msp430fr5726.c
+SHA-256-Digest: N2X2zvw3f3nYM3JueABuhWvc80j8/HUfJZpdpMNMVc4=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_captio.c
+SHA-256-Digest: deivlYqAojuN2pBsvX6mL1EZpRgRLOLTqPBXqsPVPEk=
+
+Name: resources/empty/devices/msp430fr5888/ctpl_msp430fr5888.c
+SHA-256-Digest: Nf3hD4U/vmz49D4/ty6e73rH5MCvSZ/JakTklxOLyPA=
+
+Name: resources/empty/devices/msp430fr5968/ctpl_lnk_msp430fr5968.cmd
+SHA-256-Digest: 17ZgRUEcPgNw7KtRwjjpHnzkOBMKv+WIOfVOIzQHZaA=
+
+Name: resources/empty/devices/msp430fr6920/ctpl_lnk_msp430fr6920.cmd
+SHA-256-Digest: +0dmtcvWW3/WDTM1uhprveY3zbgy8o5e1vv2kFIUCpU=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_port.c
+SHA-256-Digest: zaeUBNuV4ONXm4uNAUQFXi638XGwzHoF3ivFhUQGO/U=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_fram.h
+SHA-256-Digest: rZK+dZukAUNxKZ/bqj3GqOfKlUvXyY4gh5AnFj1a2QE=
+
+Name: resources/empty/devices/msp430fr58671/ctpl_msp430fr58671.c
+SHA-256-Digest: K+jFuw9b3+3l0Urv/McmTVsU3z+NryuSZIvSwMYyAvM=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_timer_2.h
+SHA-256-Digest: 36Ge+33SUcKpRDMj33MjgoRPjBx1OrWfmgN9Y5XGEpA=
+
+Name: resources/empty/devices/msp430fr6989/ctpl_lnk_msp430fr6989.cmd
+SHA-256-Digest: WbZDBNv3YUDDtWgrfa+S/PA1Dsd+478J5Wbp9oP3Km8=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_fram.c
+SHA-256-Digest: iS3clZwaJCwLAAYEqKlVCG6FPed24FnaYQxsM1o7DHc=
+
+Name: resources/empty/devices/msp430fr2433/ctpl_lnk_msp430fr2433.cmd
+SHA-256-Digest: rEXUlcR5SgTDu4NJuz5zjImoTRLDlBy7RgfGNE1IfPg=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_timer_3.h
+SHA-256-Digest: RA8+oI4OzMTlutO76/CM2uHfMydVgx99G+2ZQ8KkMwI=
+
+Name: resources/empty/devices/msp430fr2632/ctpl_msp430fr2632.c
+SHA-256-Digest: 0WG2yTecoZawqQybasdx3YSVlh5ENa3ZfsZPbfUspPU=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_timer_2.c
+SHA-256-Digest: MvmZJhUX+of9/6F86jK77XiHKdp8c2oZYZXvivFX1Js=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_timer_3.c
+SHA-256-Digest: W4xm7x1fxplN6m+6WLJkkUfTXzGI5vAyCpPiiZENmQ4=
+
+Name: resources/empty/devices/msp430fr68891/ctpl_msp430fr68891.c
+SHA-256-Digest: bs7VfBsi5i6mUq2OkhhA04bnNOKuH63PdnAuGSd7QZU=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_rtc_b.h
+SHA-256-Digest: /ffpTYauoHeZM1389yc0X9f8q1pAcDeXBQxnvirzfVo=
+
+Name: resources/empty/devices/msp430fr5948/ctpl_lnk_msp430fr5948.cmd
+SHA-256-Digest: imZ6T3OGrYuTp6AEUsWXRcIM2aQ3F7ispq+hSCbhANU=
+
+Name: resources/empty/devices/msp430fr6920/ctpl_msp430fr6920.c
+SHA-256-Digest: 8AzI41L/0aO5kW05ATIGMpy7YHBZts+EIqtvZnwElIk=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_eusci_a.h
+SHA-256-Digest: pdN29XwaUjn+z1Pqm2Azljv5gb5d6hKFB+OZOGEGe0w=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_rtc_b.c
+SHA-256-Digest: T7rwqv6c89nVvFLTick79pPIuFfaRxubnsShphz04PA=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_port.h
+SHA-256-Digest: jcsK5m6w7zhx3UQO4BFKF7Nc92K5Bam75rXr3guRL0w=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_port_int.c
+SHA-256-Digest: ppy0wblcBkNMDZo2FIjtPx68TDWaX5jNFMrL3tO0qvA=
+
+Name: resources/empty/devices/msp430fr5728/ctpl_msp430fr5728.c
+SHA-256-Digest: vhnOd42ytLvscYyuwNOyP4dCwA/f3HK6AO3gnAOTUDM=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_eusci_a.c
+SHA-256-Digest: hlG+nlpE1Ui54OKj50aGFVkZvWhWQfU2BqWT8iVr5nI=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_dmax_6.c
+SHA-256-Digest: cRVnx3Ffzvssb+tz51FTe+uTEpfsiZVsuwP4PIcHdjg=
+
+Name: resources/empty/devices/msp430fr5724/ctpl_lnk_msp430fr5724.cmd
+SHA-256-Digest: 3mfujqq8ikOWTEC+F6uL4sW0gS5kgcl4iap8KRy3QoM=
+
+Name: resources/empty/devices/msp430fr5968/ctpl_msp430fr5968.c
+SHA-256-Digest: nfwacTvEWR5JZZ1sPtFLhqbgNWSqKS9KBkzJn5WN2yk=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_port_int.h
+SHA-256-Digest: TiydtpDAfMPOnpzgRe37qV7NZUCv5dKcRYEGTtwGOLo=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_dmax_6.h
+SHA-256-Digest: CZj6dRSf8kOZdDl/fkZnwH9a7JiiQSVHB8ZrHMhJK1s=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_adc12_b.h
+SHA-256-Digest: RyUqTcKOojaFSBs2T5cKrZIMDT9GVqdWkPYqo2iZuG0=
+
+Name: resources/empty/fram-utilities/ctpl/ctpl_low_level.h
+SHA-256-Digest: 0VhEL0Ra9q7lGpPz/DZuY3ag4zCw2KdYalxEFlLBT/A=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_adc12_b.c
+SHA-256-Digest: T0mJfDvKoKuqxx/Tn1bCn9/vYW6XQbq1x5JJ0ytr6Bc=
+
+Name: resources/empty/devices/msp430fr5987/ctpl_msp430fr5987.c
+SHA-256-Digest: Op+8gRGCHLarPIfkTf7OYtFsXSiIOHvigvazmG3NdsU=
+
+Name: resources/empty/devices/msp430fr5724/ctpl_msp430fr5724.c
+SHA-256-Digest: ap+GGS1x73Jyzj7rx/6xJX99OVjHbXcmf1JhZJWB/io=
+
+Name: resources/empty/devices/msp430fr5872/ctpl_lnk_msp430fr5872.cmd
+SHA-256-Digest: ycU7gzdjXJyPSiOjFKBIIYwnNQZDEY4vJb5mjsUv5fQ=
+
+Name: resources/empty/devices/msp430fr59891/ctpl_msp430fr59891.c
+SHA-256-Digest: tVX48nt/vXTGo0myWM8pE10kzqKi5gftg/NnaVZMNdg=
+
+Name: resources/empty/devices/msp430fr5849/ctpl_msp430fr5849.c
+SHA-256-Digest: fq0C1G9B3ednLatYA3/ASnHZ4ohVKq/89XocuHyfV7E=
+
+Name: resources/empty/devices/msp430fr5958/ctpl_msp430fr5958.c
+SHA-256-Digest: PS9lfHjpuq1pIYsZlwhsV3UOxsnAtFwiHbXpSURslJY=
+
+Name: resources/empty/devices/msp430fr6928/ctpl_msp430fr6928.c
+SHA-256-Digest: yeUvXk9o8PjjkZqenBerbweUrMnfVtw5tOd0ogps6HE=
+
+Name: resources/empty/devices/msp430fr4131/ctpl_lnk_msp430fr4131.cmd
+SHA-256-Digest: uTPxZRzVfFYrqb7ekHY4sKh7A5NZ7gAgRt8JbIhc5v4=
+
+Name: resources/empty/devices/msp430fr2532/ctpl_msp430fr2532.c
+SHA-256-Digest: B/WV4iKQ9JhgCp3n+Q1jNT3q8ENqv4oec8ZdqIwLdA8=
+
+Name: resources/empty/devices/msp430fr6928/ctpl_lnk_msp430fr6928.cmd
+SHA-256-Digest: rPoH1Q2h+G22rUBRIpmMvW2I0tPuYK0AoX6TODw1KSY=
+
+Name: resources/empty/devices/msp430fr59721/ctpl_msp430fr59721.c
+SHA-256-Digest: 9DoFyLDdprQ2hxSQ7Cxahcq6m0TL5epm/Xx9l3LTWeA=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_lcd_c.c
+SHA-256-Digest: 21GIHpQu/zKp5pZM5OqAOoy625WOJIkuEEcqjH/K6K8=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_lcd_c.h
+SHA-256-Digest: 99yA3c8y4AbvE8gc8kefLEicjvPCWFN8tXBiPWu3S5U=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_sys.h
+SHA-256-Digest: PBEfvcVRe65wfgbCJjO7j8+AGjGwiyfG/oW65ZL0dr4=
+
+Name: resources/empty/devices/msp430fr4131/ctpl_msp430fr4131.c
+SHA-256-Digest: Q07PdCoeyS3fN4KAZjXYXYhMGudZKNhlNZ5B+uTRgzY=
+
+Name: resources/empty/devices/msp430fr2310/ctpl_msp430fr2310.c
+SHA-256-Digest: teIb1EMMILk30Tlga9jmcM2Hm6E0zOO2Yw7CjtdZ2wQ=
+
+Name: resources/empty/devices/msp430fr5947/ctpl_lnk_msp430fr5947.cmd
+SHA-256-Digest: xZ1nAg+1dmoIlAOJzoW6HHozlBRTK9kFMOBT3t4UCFw=
+
+Name: resources/empty/devices/msp430fr6987/ctpl_lnk_msp430fr6987.cmd
+SHA-256-Digest: TcD8PsHOh6pZxME5n/ZbmBbqNoc1+lWIg4a5NolMgPE=
+
+Name: resources/empty/devices/msp430fr5970/ctpl_msp430fr5970.c
+SHA-256-Digest: dM1xSRtHE8+BlBS0b+X/kA1JFHgzmJZzzByNhrFNll8=
+
+Name: resources/empty/devices/msp430fr6872/ctpl_msp430fr6872.c
+SHA-256-Digest: 19rkMu90dopFVUHN0rSlMY/vSKJBTNHy+kTid9MOctE=
+
+Name: resources/empty/devices/msp430fr68221/ctpl_msp430fr68221.c
+SHA-256-Digest: w3WSiaMdSW0it5AUtZelMD8o1UR9l08+yBaJ2uzPhCI=
+
+Name: resources/empty/devices/msp430fr5872/ctpl_msp430fr5872.c
+SHA-256-Digest: N3Niv1kA8X7qIGxl8GYDRbCS7du6gDJgCIC1+BFXqNg=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_pmm.h
+SHA-256-Digest: qVN5a3dAzJsMl8XtfoE6o8PnMOw9g686ErMcFCvSEvI=
+
+Name: resources/empty/devices/msp430fr5957/ctpl_msp430fr5957.c
+SHA-256-Digest: RXFiWijgYIBv7dkMpsK4kyZfsAKE/BvbEkrIK38P+VY=
+
+Name: resources/empty/devices/msp430fr69891/ctpl_lnk_msp430fr69891.cmd
+SHA-256-Digest: atTi55pOFuSuES1Vjpe9gTqOY50n42UpjThJNJrLKm4=
+
+Name: resources/empty/devices/msp430fr5726/ctpl_lnk_msp430fr5726.cmd
+SHA-256-Digest: Z6cFl7w/va96JdUBQJtxgOcBUKYCIf94gMf41iYi98I=
+
+Name: resources/empty/devices/msp430fr5733/ctpl_lnk_msp430fr5733.cmd
+SHA-256-Digest: iZLFxMDOaR4tjxLxywMePV/eCtHWpvhO+V3Aw5CyNwk=
+
+Name: resources/empty/devices/msp430fr5857/ctpl_msp430fr5857.c
+SHA-256-Digest: 37kpDB3vztyykw5KcNKS5eS40JlPzMWFBTj/7BulFB0=
+
+Name: resources/empty/devices/msp430fr5889/ctpl_msp430fr5889.c
+SHA-256-Digest: OzqijybKp5s0yJV+a949kONbm76LhyxQBJV93NtdSQU=
+
+Name: resources/empty/devices/msp430fr6879/ctpl_lnk_msp430fr6879.cmd
+SHA-256-Digest: 7ojFZfmUNJQVMBojlS1LHPzbAW32B2IWOrTG5icDP1E=
+
+Name: resources/empty/devices/msp430fr5957/ctpl_lnk_msp430fr5957.cmd
+SHA-256-Digest: 9df24brpgwEItGp0CYfvor5UWTX9gxZ8KRZP4+YG9W4=
+
+Name: resources/empty/devices/msp430fr5735/ctpl_lnk_msp430fr5735.cmd
+SHA-256-Digest: oaGqp/2fgC9JU3P6RrXmU2tbbXfgXlE44gbwPK7Pz2Q=
+
+Name: resources/empty/devices/msp430fr5988/ctpl_msp430fr5988.c
+SHA-256-Digest: 1OTMFCnIMUxqs/vFAr6UbbhnfqCi+tBTfAMivvz7C8Y=
+
+Name: resources/empty/devices/msp430fr5738/ctpl_msp430fr5738.c
+SHA-256-Digest: XXghxzROdQgnHDlLngy4GSnzo480izBbfVUYVZVWLRk=
+
+Name: resources/empty/devices/msp430fr6927/ctpl_lnk_msp430fr6927.cmd
+SHA-256-Digest: ijpIT6lSOSmyQXzAQWInvP/oreyY4aOL0ln0H6NZqtE=
+
+Name: resources/empty/devices/msp430fr5722/ctpl_msp430fr5722.c
+SHA-256-Digest: q19v7zTlzNRLL/rJcw2uxZvtqPfJUv8TKou5mu1tO5o=
+
+Name: resources/empty/devices/msp430fr5889/ctpl_lnk_msp430fr5889.cmd
+SHA-256-Digest: OJFGKXFBOHmOQcEf6FyR4256Pq7MhW1nWEERBEc9dUE=
+
+Name: resources/empty/devices/msp430fr69791/ctpl_lnk_msp430fr69791.cmd
+SHA-256-Digest: dnEt7R01YXDxJzWqzQi0reshqIzHziAGCiDhtnz5Za8=
+
+Name: resources/empty/devices/msp430fr58721/ctpl_msp430fr58721.c
+SHA-256-Digest: WQwmTGX72gKIQzTXm/mvtMe8xM5P6K8mkABCiI1k6BE=
+
+Name: plugin.properties
+SHA-256-Digest: 5Bai6H/OBB9Dm659tValcA93VHMFaFjs15iVvDWQnRw=
+
+Name: resources/empty/devices/msp430fr6979/ctpl_lnk_msp430fr6979.cmd
+SHA-256-Digest: srdl669Er5hBdoxEgElSTqr2m5FrpOSJRFt41Yo1ZE8=
+
+Name: resources/empty/devices/msp430fr5721/ctpl_msp430fr5721.c
+SHA-256-Digest: vLYIfVNj3x/fGA4I7tffg1YX0iQBHU6juZuZnjf+A8s=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_mpy32.c
+SHA-256-Digest: IhDaVeD/4uf3lR/TAqNwtrwekIktIJJ2CWBS89sGems=
+
+Name: resources/empty/devices/msp430fr5969/ctpl_lnk_msp430fr5969.cmd
+SHA-256-Digest: +R+FxU0t9WnlAGBgDJEQmGgK9tt/U8F5B0UMBU+KicQ=
+
+Name: resources/empty/devices/msp430fr6822/ctpl_lnk_msp430fr6822.cmd
+SHA-256-Digest: g8vaXiOY0Qbmtqwj3iEUR8brKCnJK0f43FBvkSxVo+c=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_mpy32.h
+SHA-256-Digest: Vleq9VgdvCjIE6dxVTmQyJrbdc1QaELBFYnG5KKiosA=
+
+Name: resources/empty/devices/msp430fr5986/ctpl_lnk_msp430fr5986.cmd
+SHA-256-Digest: 2WZB4SwN+7z9oLaMr9gW7wVOay9lkKKwQaE+iwBaq6w=
+
+Name: resources/empty/devices/msp430fr59721/ctpl_lnk_msp430fr59721.cmd
+SHA-256-Digest: hvFkKAAeSTCJ7Fp2qT7SCLzWRaF0zSHzBrL0M+h3Gl8=
+
+Name: resources/empty/devices/msp430fr5739/ctpl_lnk_msp430fr5739.cmd
+SHA-256-Digest: KmV7JENL88VYirdQUk0I+XQrqcbJwqXNtWjMPznWUj8=
+
+Name: resources/empty/devices/msp430fr5727/ctpl_lnk_msp430fr5727.cmd
+SHA-256-Digest: UeR25JMMIEUT4OkLu1NbEsuM1PmjBqiwccRQKXPcVX8=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_rtc_c.h
+SHA-256-Digest: c9uAm46wNDZJQt01ptbrfimyMb+gwpFQB8C8OP7jYEQ=
+
+Name: resources/empty/devices/msp430fr5732/ctpl_msp430fr5732.c
+SHA-256-Digest: sCmwTrb0LRgiG6u1QYoSxjseLohC30aqDyT3IdjVCsA=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_rtc_c.c
+SHA-256-Digest: A0Xp9BA5Xv6ucS+w8GnqsQ4HpBkYQikMTfwUCbvQM1M=
+
+Name: resources/empty/devices/msp430fr5848/ctpl_msp430fr5848.c
+SHA-256-Digest: RPToI2ps62i+h7W9zAUUEp1pR/LyRjcJ//wrDzjAYOM=
+
+Name: resources/empty/devices/msp430fr2033/ctpl_lnk_msp430fr2033.cmd
+SHA-256-Digest: eAFmjNYG0kxNJBgYYgOeIrLjJVMGw0A5EpbN40icrzg=
+
+Name: resources/empty/devices/msp430fr5732/ctpl_lnk_msp430fr5732.cmd
+SHA-256-Digest: kmT5P/1B2lz18fY+iKeuOC/hkv7rpBwTrI7fbPqpS4E=
+
+Name: resources/empty/devices/msp430fr5869/ctpl_lnk_msp430fr5869.cmd
+SHA-256-Digest: jUJKnARdqKK7KD5JL/UuUK/TyvbN6GwpGZTLB981SEg=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_dmax_3.c
+SHA-256-Digest: x42rI5cdzhL9pxhyGBya811xEAjCJ91682QqAuMvUSg=
+
+Name: resources/empty/main.c
+SHA-256-Digest: gv2ehU7t1Nf5ADgsnY3B/jE/VRDaEYxr+vHCR+PClhI=
+
+Name: resources/empty/devices/msp430fr6870/ctpl_lnk_msp430fr6870.cmd
+SHA-256-Digest: LT5mtu0IWuZwL6vrPXO8tlGKqQ00GkUc5dydfLGErIY=
+
+Name: resources/empty/devices/msp430fr5994/ctpl_lnk_msp430fr5994.cmd
+SHA-256-Digest: NjVekSa+OEYOnF/mpwqDa5zkE8Dbyr/XjHxAuxIWj2U=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_adc.h
+SHA-256-Digest: TJsTathDHzjo1KBjLHSEyfiDPqYbxDystBMxP0hX/vI=
+
+Name: resources/empty/devices/msp430fr69271/ctpl_lnk_msp430fr69271.cmd
+SHA-256-Digest: 7oAXSojzTrJdK7EgDjmk77z3jCgeuPd0CRKkIcwbcbY=
+
+Name: resources/empty/devices/msp430fr5725/ctpl_msp430fr5725.c
+SHA-256-Digest: 4knDOLzytm+VzihExQhzSaTwGOv5GwqVR9x7eyE4Pfs=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_pmm.c
+SHA-256-Digest: F/OdUMo5zZJTJUWHLEz1Z8D6xTiXDkgNg/ozDYPLjZg=
+
+Name: resources/empty/devices/msp430fr69221/ctpl_msp430fr69221.c
+SHA-256-Digest: 9PnxqnZ+hsSTQ++zEX5uW4YQh7IDzC9VI1UjH/zuWlE=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_adc.c
+SHA-256-Digest: JBnlhqZmN9p1sEfN6diTkyw64t6vc0zREaDPj2kbHMM=
+
+Name: resources/empty/devices/msp430fr5888/ctpl_lnk_msp430fr5888.cmd
+SHA-256-Digest: TBF5SK4x17+jaPz1fQEvPkygaNIO4lKsVJ7lsAdOBJ0=
+
+Name: resources/empty/devices/msp430fr5867/ctpl_lnk_msp430fr5867.cmd
+SHA-256-Digest: AP6hnDcg/a+My2hO/ZW3loabJKQmKPRVNKuftF/n0kk=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_dmax_3.h
+SHA-256-Digest: hrjkOLKCHMrHarCi84Pxdkck8FlcwZS2uK2ZwyjpoZE=
+
+Name: resources/empty/fram-utilities/ctpl/ctpl_low_level.asm
+SHA-256-Digest: JScvhB7wzJX++rfyfY1Iny83pSt6XF2FiuB8PRpfcqE=
+
+Name: resources/empty/devices/msp430fr5722/ctpl_lnk_msp430fr5722.cmd
+SHA-256-Digest: YEdgJl28MyXvQICMwIUJwN/0du3vD8ULkgrAatYuG9U=
+
+Name: resources/empty/devices/msp430fr5987/ctpl_lnk_msp430fr5987.cmd
+SHA-256-Digest: ELOpW+lC5ZEJp4HqQwDL7czU351UvGhVaCTUFxAIKfQ=
+
+Name: resources/empty/devices/msp430fr58471/ctpl_lnk_msp430fr58471.cmd
+SHA-256-Digest: YOIGKymCp/D63o+cpLAFBvJ6T4cyXgkotUQx4Zn5ajs=
+
+Name: resources/empty/devices/msp430fr5849/ctpl_lnk_msp430fr5849.cmd
+SHA-256-Digest: M0X55jMJ3D9tj1zCE7f6f5CYv361nG1Wq0OLVdMWX7k=
+
+Name: resources/empty/devices/msp430fr58891/ctpl_lnk_msp430fr58891.cmd
+SHA-256-Digest: tbULrZZ1uSHFqVkRC1abSV7xw6rcUo83wnuabsA62Hg=
+
+Name: resources/empty/devices/msp430fr5737/ctpl_lnk_msp430fr5737.cmd
+SHA-256-Digest: X9y1bz2RfCrS7B5h2bZ0+y4uOysW3lgtKZqubDiBJy0=
+
+Name: resources/empty/devices/msp430fr2032/ctpl_lnk_msp430fr2032.cmd
+SHA-256-Digest: LE8kwWM1E+inYbc3lwsXlFRE8Dncj99Gpdarv0KGoS8=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_lcd_e.c
+SHA-256-Digest: Dp48q5pxmVrbs2kM+ISK/JBSGZ747pjkAkSAEeQtoVo=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_lcd_e.h
+SHA-256-Digest: FEHaQy9YkAh54D3gVuUFhuQZYgcY8A46pmUYetbJVBA=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_rc.c
+SHA-256-Digest: UZ22hS1zFfyRO0P2APrK8ywaD084ExBzW37etRmRxRs=
+
+Name: resources/empty/devices/msp430fr5731/ctpl_lnk_msp430fr5731.cmd
+SHA-256-Digest: It8c/3ytJpuk3Vrru637v8JXTOyvLzxG1wcff4J+AUw=
+
+Name: resources/empty/devices/msp430fr6889/ctpl_msp430fr6889.c
+SHA-256-Digest: Bv3nvRwkyWypUGjuVoxdXf1+eXBjC9jgp2mtZLbQ2bU=
+
+Name: resources/empty/devices/msp430fr5870/ctpl_msp430fr5870.c
+SHA-256-Digest: T4jTgtyg+g5hxj2c8JtcrSojaQArqSWyEKrzKikt/IA=
+
+Name: resources/empty/devices/msp430fr5723/ctpl_msp430fr5723.c
+SHA-256-Digest: f2dOfvtBCpaiGOBWIzPSi85d32A/JrJCz2V/ISs+Gg8=
+
+Name: resources/empty/devices/msp430fr5967/ctpl_msp430fr5967.c
+SHA-256-Digest: rmM6y3KkZKNbqjcxRJVjOFPWKLDfn0OYBzzTuqB0Ibk=
+
+Name: resources/empty/devices/msp430fr5725/ctpl_lnk_msp430fr5725.cmd
+SHA-256-Digest: JpsVTJeHXOBo7xyjZkYr6mFqrXuudlPiMqMixTj8nKc=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_rc.h
+SHA-256-Digest: yEpSBEg2B3jf5rBgUOterfjXaS9Mh62ZNdZeKIYWKSY=
+
+Name: resources/empty/devices/msp430fr5948/ctpl_msp430fr5948.c
+SHA-256-Digest: y6DCqI2/1OpKfJ3TtUHuzaFHVw6bLinQbAQnVB6DqQw=
+
+Name: resources/empty/devices/msp430fr5958/ctpl_lnk_msp430fr5958.cmd
+SHA-256-Digest: IJQ/cshcnn4Npb1jg8UepalveglHz3Xnhm8bbcNmD0E=
+
+Name: resources/empty/devices/msp430fr6979/ctpl_msp430fr6979.c
+SHA-256-Digest: hvDFdkwcmNbz2z6xxmr6nkqeKqrxKyorhdpQvxRoznk=
+
+Name: resources/empty/devices/msp430fr5959/ctpl_msp430fr5959.c
+SHA-256-Digest: G478HsxGrSq1AccCpY7NfOAuO3Z8JM9C8ElUIHxkizE=
+
+Name: resources/empty/devices/msp430fr5737/ctpl_msp430fr5737.c
+SHA-256-Digest: L0szjsVNGwJWaOz3yoChe3B1wpe6i7HzQI+gsziVyHw=
+
+Name: resources/empty/devices/msp430fr2533/ctpl_lnk_msp430fr2533.cmd
+SHA-256-Digest: g3YmBHZ+G95yeKfVoo+Ae8YJLTTm1kfHCB3HACWF/Wo=
+
+Name: resources/empty/devices/msp430fr6877/ctpl_msp430fr6877.c
+SHA-256-Digest: KOS0+kY56KZcL6W1o1v1aVh2CmDOeoc5/hyvUGtzhKY=
+
+Name: resources/empty/devices/msp430fr6922/ctpl_msp430fr6922.c
+SHA-256-Digest: 9Cw9J/ky12KJuZweQq+FdN/fJ3D4Rhe7+vM5A9DUvPs=
+
+Name: resources/empty/devices/msp430fr6820/ctpl_lnk_msp430fr6820.cmd
+SHA-256-Digest: jXdgfyXSq/VzychuGoqNtrKGJzrwEwjuXdc+YrLEW60=
+
+Name: resources/empty/devices/msp430fr6888/ctpl_msp430fr6888.c
+SHA-256-Digest: szRINBwU6cAV6jkE3DeLs7oZpiJfYFrBCjgm+XKgnwc=
+
+Name: resources/empty/fram-utilities/ctpl/ctpl_copy.h
+SHA-256-Digest: YUAE+gcpE4iuHe/ftNYFGMJdUzK2gyC+toYbILxWvaw=
+
+Name: resources/empty/devices/msp430fr6988/ctpl_msp430fr6988.c
+SHA-256-Digest: g4Uy6zQ1NeIffhFgoVk+JpLtmxmhPzRS3BOMOm1vvko=
+
+Name: resources/empty/devices/msp430fr5729/ctpl_msp430fr5729.c
+SHA-256-Digest: a6dpof0gpB10C00AuxBe7u1QNN9M5PkMoXslac533+8=
+
+Name: resources/empty/devices/msp430fr5729/ctpl_lnk_msp430fr5729.cmd
+SHA-256-Digest: zfJ3k5KKcUF+34odCBnntS3Upqr8ZoLuOuZrtpI3mP8=
+
+Name: resources/empty/devices/msp430fr2632/ctpl_lnk_msp430fr2632.cmd
+SHA-256-Digest: NthFc/u1VtXzr1Kp+6yd2Azr3FjXUFglEaC05RpOHmo=
+
+Name: resources/empty/devices/msp430fr2310/ctpl_lnk_msp430fr2310.cmd
+SHA-256-Digest: kMm27UbEsIkbw8csh56GG6NAl+iuGFeYIwYdomBGMTM=
+
+Name: resources/empty/devices/msp430fr5868/ctpl_lnk_msp430fr5868.cmd
+SHA-256-Digest: mmTeXgqVSyJvKxFL7VIFuw354AwGxFryq2lmzTfSOvY=
+
+Name: eclipse_toc.xml
+SHA-256-Digest: /Q418FUtbXR3QiJQLQrSqyLWSZBw4CILK/WqTmOjQug=
+
+Name: resources/empty/devices/msp430fr69271/ctpl_msp430fr69271.c
+SHA-256-Digest: QytEeV7yxjk6iDJZi/vwI0lpTCPooppviLU0sR768sA=
+
+Name: resources/empty/devices/msp430fr58471/ctpl_msp430fr58471.c
+SHA-256-Digest: nNlqjnNzw9mT40oYBGPNiz5PbfVjdG2wpumfJIU2Xnk=
+
+Name: resources/empty/fram-utilities/ctpl/ctpl_benchmark.h
+SHA-256-Digest: UIwuV8BfEPnsUPg4rmmPYIDhfaSDPSqkFgS0keevTN8=
+
+Name: resources/empty/devices/msp430fr6887/ctpl_msp430fr6887.c
+SHA-256-Digest: lNfpdSI5U7gvVd0ImoYQl/7CKyJS2103s8juooVhTeo=
+
+Name: resources/empty/devices/msp430fr5967/ctpl_lnk_msp430fr5967.cmd
+SHA-256-Digest: eKlCQpm+9sgxREWHHp0/UDV1of2iHvbZte3WM+z6B8w=
+
+Name: resources/empty/fram-utilities/ctpl/ctpl_low_level_macros.m43
+SHA-256-Digest: oMDs0OHK+zbVIp5qpl8U6gl5+cihBG+yoZHfGPcJifE=
+
+Name: resources/empty/devices/msp430fr5736/ctpl_lnk_msp430fr5736.cmd
+SHA-256-Digest: I1GYwAuT5SL8Mf3UoBmzjituuv/zpi6YOSuxEMT+lVc=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_sac.c
+SHA-256-Digest: Pe6VXIz3Ff7LvHiN4CmqE/KphmejOLcNl0c9YRuNHW8=
+
+Name: resources/empty/devices/msp430fr5734/ctpl_lnk_msp430fr5734.cmd
+SHA-256-Digest: bD62V6KgX2qArvdmbD5fXuCsPK+yCgD4iwY9D/JySs4=
+
+Name: resources/empty/devices/msp430fr68791/ctpl_msp430fr68791.c
+SHA-256-Digest: G6l4c9Mn5+IcHaOB+/R6H9P9f8pxIdM7NSis4lpL9lM=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_sac.h
+SHA-256-Digest: +YJHnGno0anH/BhoYndn0do3uuy+qU3hSOxf0Z9aFn8=
+
+Name: resources/empty/devices/msp430fr5720/ctpl_lnk_msp430fr5720.cmd
+SHA-256-Digest: bQ4svOm9Mf3DRllZDuC2Hzec1PoYZxGTH63gtUCS164=
+
+Name: resources/empty/devices/msp430fr5859/ctpl_msp430fr5859.c
+SHA-256-Digest: 8+yLy48IkTS23b9oTrK3GtKRHprp8uUIH4YnYqswzdo=
+
+Name: resources/empty/ctpl_pre_init.c
+SHA-256-Digest: udBAPjWPnbZ2uo99sF7o04CNepPFNEZOBwHv0uvJZuI=
+
+Name: resources/empty/devices/msp430fr5858/ctpl_msp430fr5858.c
+SHA-256-Digest: 4RSvJfRvi9nwfJWsMX0F8+cz+tMqibIDjM7FAcScU8M=
+
+Name: resources/empty/devices/msp430fr5989/ctpl_lnk_msp430fr5989.cmd
+SHA-256-Digest: a6e86zqY8Hom4uWQN4tdtGrzIAVy4gDWkZU+9nDa5qg=
+
+Name: resources/empty/devices/msp430fr5730/ctpl_lnk_msp430fr5730.cmd
+SHA-256-Digest: x6l+uqjYWUQbWzUNIX1y8HEoq5+KaJ9scTmx7lcqC/4=
+
+Name: resources/empty/devices/msp430fr5721/ctpl_lnk_msp430fr5721.cmd
+SHA-256-Digest: TwnKXiTS3NW6iT77V2aoL/fGiZgtDiLaLZofznW6Kf0=
+
+Name: resources/empty/devices/msp430fr6970/ctpl_lnk_msp430fr6970.cmd
+SHA-256-Digest: bR33gIWITiKkJflc+qP48YXPdZzDCRm1h63bKhwkjOY=
+
+Name: resources/empty/devices/msp430fr5738/ctpl_lnk_msp430fr5738.cmd
+SHA-256-Digest: 78fPz6eVvnkhmLid6sCDn8fC3lHitSIK7dl9+2x83fk=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_cs.h
+SHA-256-Digest: l4QpvYx8uo0BU6U/WHAyIwX6iKtwI90Ia5+0bksRb9s=
+
+Name: resources/empty/devices/msp430fr68891/ctpl_lnk_msp430fr68891.cmd
+SHA-256-Digest: IYVWbT1IVmTl41ksNTRTUueIOepMox2i+y53ic5EDeA=
+
+Name: resources/empty/devices/msp430fr5949/ctpl_lnk_msp430fr5949.cmd
+SHA-256-Digest: sm+9RaK+lplpAMdPl2kWZ7cMrZEmZd7H3pIi94MI688=
+
+Name: resources/empty/devices/msp430fr5720/ctpl_msp430fr5720.c
+SHA-256-Digest: GlG7Gs66xAthiCN4XlITG/gCueOepFC+wuXpiGsDVYo=
+
+Name: resources/empty/devices/msp430fr68721/ctpl_lnk_msp430fr68721.cmd
+SHA-256-Digest: dvzC7h94XKjECOb7KgBqYu0b7Nm0Dn9B5UfmijDVQtM=
+
+Name: resources/empty/devices/msp430fr5972/ctpl_msp430fr5972.c
+SHA-256-Digest: ln8wj5qGnS40Ih2bdQwyKJ7sOB0Y8Wk35dIMnlWPZ/4=
+
+Name: resources/empty/devices/msp430fr69221/ctpl_lnk_msp430fr69221.cmd
+SHA-256-Digest: rLRELemGrU6btdVYk+/5vQ2+EsQZJwCCweCuOaxuDnI=
+
+Name: resources/empty/devices/msp430fr69891/ctpl_msp430fr69891.c
+SHA-256-Digest: KAQXywo3BMLPioJ8py6ZT+MNyEzenE2xUsx9CPonGh8=
+
+Name: resources/empty/devices/msp430fr59471/ctpl_lnk_msp430fr59471.cmd
+SHA-256-Digest: ln28NWIWstQZSQQZ+05xUMK5GxFWci9NDgW8Nkw9Uow=
+
+Name: resources/empty/devices/msp430fr69721/ctpl_msp430fr69721.c
+SHA-256-Digest: RCdo5hmdahJSlvqN+YQD3YlAA228hih34faF53AQglA=
+
+Name: plugin.xml
+SHA-256-Digest: PR33j/90xwlh9lcaVq7GT/0LTzPWscwaz0QWNmvE724=
+
+Name: resources/empty/devices/msp430fr6927/ctpl_msp430fr6927.c
+SHA-256-Digest: 1Zvp1AylyKhD/yOIWTEiSiJvW2UBtHFqNfVRUPYNGmw=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_cs.c
+SHA-256-Digest: DSGE8+60owvQWL0OFn8pz9uVNd7p+0VlvJKSehSfgdk=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_mpu.h
+SHA-256-Digest: LHjWmR9Xl/VK1p4DATPaYFPpeb+NybLb/xFnht5GDOY=
+
+Name: resources/empty/devices/msp430fr6970/ctpl_msp430fr6970.c
+SHA-256-Digest: vJBXqUSTir2kCQKX/xvN3yj0Q8mdPO+rlVLs5fcrzLo=
+
+Name: resources/empty/devices/msp430fr5858/ctpl_lnk_msp430fr5858.cmd
+SHA-256-Digest: cGu4laq1V1g4Cim6e2VIAbVULsGaZmmeBdudslAk7So=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_ref_a.c
+SHA-256-Digest: +Zyen2hCgbCKhaX4WkX4seDcxHWqqXoXei/a4GsYsLo=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_comp_d.c
+SHA-256-Digest: yXkbjKehS/eM+Fb26udj4Q/Th7s48CK7H9LmYWk5+wo=
+
+Name: resources/empty/devices/msp430fr5847/ctpl_msp430fr5847.c
+SHA-256-Digest: ywbXwPVsZxSULMf451uIquN9uyqN3iyejSUKVoIeZtU=
+
+Name: resources/empty/devices/msp430fr59691/ctpl_msp430fr59691.c
+SHA-256-Digest: ePOF/gQt2MpsF9MfWGOTvs035fN1nsPh+yiM/7aNgq4=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_mpu.c
+SHA-256-Digest: tPK5XNGUbEYIlI04WP17ozG7wa1wHwyqXFVP3ThmADY=
+
+Name: resources/empty/devices/msp430fr6987/ctpl_msp430fr6987.c
+SHA-256-Digest: g0zX0iGaUU4u6DZu9xjh54dqw2kB58MmaHga1FHqgLo=
+
+Name: resources/empty/devices/msp430fr5970/ctpl_lnk_msp430fr5970.cmd
+SHA-256-Digest: ni/yDKerN3Wl0O/Upz5Agmrqe/JqOdKIsrrqU3Xn3Nc=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_ref_a.h
+SHA-256-Digest: 8HzmFnd85CJLt5oSWlfp21PSHva+ZeWmqd+i0Sg5Gzw=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_comp_e.h
+SHA-256-Digest: JYS1Q7kd+IXGg3RoVbFCu70jGSUckGXqx/HSPjoid3k=
+
+Name: resources/empty/devices/msp430fr5739/ctpl_msp430fr5739.c
+SHA-256-Digest: gL7bJAINDn1okKiZu9ejaluhkZcnvonZlL6eLWSfugQ=
+
+Name: resources/empty/devices/msp430fr5848/ctpl_lnk_msp430fr5848.cmd
+SHA-256-Digest: 7mSCm/8gukjX3LNbUHTXqV5nMVMQw0VsVJ8mlhds+pI=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_eusci_b.h
+SHA-256-Digest: YJTlx4L1LbUygIzeDs0ihmKdZ/SurSL40zNBed4VUeg=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_comp_e.c
+SHA-256-Digest: YTF16nhCadYJMv1ZMK/rXctPmNnPnrhODFH0C+BYP8g=
+
+Name: resources/empty/devices/msp430fr5972/ctpl_lnk_msp430fr5972.cmd
+SHA-256-Digest: x2yqu+Cj66pPWAmfQP3Pq4Y5G9iehgPv20qzxxCvDHw=
+
+Name: resources/empty/devices/msp430fr68221/ctpl_lnk_msp430fr68221.cmd
+SHA-256-Digest: evs6NocOh0ppWaledurSZUTsE+RzhF8ve7A7LK7DNdM=
+
+Name: toc_top.xml
+SHA-256-Digest: Q8HzUQT9u/pWHhgqwezrNEpXzOkHCYxqTeUXEgxz/l0=
+
+Name: resources/empty/devices/msp430fr5859/ctpl_lnk_msp430fr5859.cmd
+SHA-256-Digest: EmUBgtAJ/A2nHmn9aDYuhvy2tIWzuLu3NWZmKcq9hbA=
+
+Name: resources/empty/devices/msp430fr59891/ctpl_lnk_msp430fr59891.cmd
+SHA-256-Digest: tz+YiSWjiAfK95QIGKp+Sg6kzHCeQFcxVSBqEsG3Igc=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_peripherals
+ .h
+SHA-256-Digest: TP/2ThgI2vZeuw+CdqGZM6psoT39j7B/iq0DciQ34dA=
+
+Name: resources/empty/devices/msp430fr5857/ctpl_lnk_msp430fr5857.cmd
+SHA-256-Digest: Y9otiKoQQjcfg6ogb4lV25chTKKUUS8KExujHbxsTY0=
+
+Name: resources/empty/devices/msp430fr69721/ctpl_lnk_msp430fr69721.cmd
+SHA-256-Digest: lx84pj25fnW9UT9OtrABFDOXDeVoMB/AmQxSFaMqQU0=
+
+Name: resources/empty/devices/msp430fr6872/ctpl_lnk_msp430fr6872.cmd
+SHA-256-Digest: TB6zpnQpLiHWJ2bc3LZxPowC8hvWHoAP4mUgx9TnjgM=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_comp_d.h
+SHA-256-Digest: n4RsODc6fqyX+D7vaXchaXBG7mv7SYM9z6qYlewXyxM=
+
+Name: resources/empty/devices/msp430fr68791/ctpl_lnk_msp430fr68791.cmd
+SHA-256-Digest: BC7pPc/0Ad1OfZvEMzSX2UBzmAMyRlq92RIOtKa0xAw=
+
+Name: resources/empty/devices/msp430fr5969/ctpl_msp430fr5969.c
+SHA-256-Digest: SOaKNr/UEcyn/DiaewMvdMpTDEYjzv0IThhdJ9r2cAM=
+
+Name: resources/empty/devices/msp430fr4132/ctpl_msp430fr4132.c
+SHA-256-Digest: 6hea0cdFV7pAtdoJFNLITSIVbyFPUGlgjX1KDq5vyWw=
+
+Name: about.ini
+SHA-256-Digest: f3ttHT8BlsP/UFY5TfnsIK33n7Iz5T4bK9RAB7uCuW8=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_rtc.c
+SHA-256-Digest: JTxWVe8w7G7pzfsfKW6BPNeyK/XIec98VTOi3puU+L4=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_crc32.h
+SHA-256-Digest: I11CpTnDmjul/B5r3ZWf2sZsXWs7vAdJwFcTB89onW4=
+
+Name: resources/empty/devices/msp430fr6977/ctpl_msp430fr6977.c
+SHA-256-Digest: +ACYENBaq2nq1i5cdnp5nhc6yJfY1mc9o18BXN1R1T4=
+
+Name: resources/empty/devices/msp430fr5736/ctpl_msp430fr5736.c
+SHA-256-Digest: g1Mn3bzfuyKGFnD/zZliCNwdLKQx7ZkTt6bUv2ICjCU=
+
+Name: resources/empty/devices/msp430fr5727/ctpl_msp430fr5727.c
+SHA-256-Digest: uvWd5STxa7CrimwaURb9VzBJUEmzO3FfxXA/sAMkKSc=
+
+Name: resources/empty/devices/msp430fr59691/ctpl_lnk_msp430fr59691.cmd
+SHA-256-Digest: yg8SXpJnawrKneknueRjXX7KshS1MO+RRKv+cj9+k9s=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_rtc.h
+SHA-256-Digest: OOF1qlPuhlU38+IARMX9tNe390mSWalghtGSuLsc65o=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_crc32.c
+SHA-256-Digest: DdVnuhXmzW5rWeYRbwa0kU3NmZfWUkDlt9mQlgGJQnM=
+
+Name: resources/empty/devices/msp430fr6889/ctpl_lnk_msp430fr6889.cmd
+SHA-256-Digest: s9EHVX9nzQliV6F5asniRMN7J1NF6y12ayMonVtMYys=
+
+Name: resources/empty/devices/msp430fr5735/ctpl_msp430fr5735.c
+SHA-256-Digest: 5iEl3GNyfVY8icbLaz7Y6pHhTgA3RPtnviziM2xE3TI=
+
+Name: resources/empty/devices/msp430fr5989/ctpl_msp430fr5989.c
+SHA-256-Digest: 0uHvWxzFVVVGhpGXPuM2Rt+XOmo/oEtrPj9kBEOkP5w=
+
+Name: resources/empty/devices/msp430fr2311/ctpl_lnk_msp430fr2311.cmd
+SHA-256-Digest: YQyim6Fm936VfFmGg5DC46whsEFyh1vD9xOvzo9zleA=
+
+Name: resources/empty/devices/msp430fr5959/ctpl_lnk_msp430fr5959.cmd
+SHA-256-Digest: XlSZ8Au9RYkavMuxOv8a9sAk0d02/tkolVn2T1lh3aw=
+
+Name: resources/empty/devices/msp430fr2533/ctpl_msp430fr2533.c
+SHA-256-Digest: y0BBT4CpvLmQoG+ep0HggWKxEHoNW7sVSmE/tCN7Yvk=
+
+Name: resources/empty/devices/msp430fr69791/ctpl_msp430fr69791.c
+SHA-256-Digest: Q1TlQD9dgTyYYlgAkiNcOwirUV06QWjE47mcldeV/Ps=
+
+Name: resources/empty/devices/msp430fr6888/ctpl_lnk_msp430fr6888.cmd
+SHA-256-Digest: Vnk8foMlmSW7yXGBoI2bBo8hfG0VAp6T+KjtD3B9WqU=
+
+Name: resources/empty/devices/msp430fr58671/ctpl_lnk_msp430fr58671.cmd
+SHA-256-Digest: P2ZD6ESwBKIWruOghNABavNWWenAZi91xIus0pseKos=
+
+Name: resources/empty/devices/msp430fr6988/ctpl_lnk_msp430fr6988.cmd
+SHA-256-Digest: RSFG1TC2+KclVOpHvc1aw3mBgtsIlevXv2Vzb2D3O3k=
+
+Name: resources/empty/devices/msp430fr6887/ctpl_lnk_msp430fr6887.cmd
+SHA-256-Digest: fDQvwZ+93Gc3Agtr8RSAAEodE2EMU2zNcn7mPEApYo4=
+
+Name: resources/empty/devices/msp430fr5887/ctpl_msp430fr5887.c
+SHA-256-Digest: Mh3Uruo9AhTeqBwYSQL4U4lcL5BoPoy7kkmLs/GTYb0=
+
+Name: resources/empty/devices/msp430fr5723/ctpl_lnk_msp430fr5723.cmd
+SHA-256-Digest: 82bJEW8uXCp0vn/2k1bN7RchWq2SExvdv873lwGeJn0=
+
+Name: resources/empty/devices/msp430fr5869/ctpl_msp430fr5869.c
+SHA-256-Digest: mVS1/f1pqfjpnL6NCYO/umKI/z0i/rD6/nW6PRPnAa4=
+
+Name: resources/empty/devices/msp430fr5988/ctpl_lnk_msp430fr5988.cmd
+SHA-256-Digest: DC85RczY/bF0UjnTrTRTB2C2Qzh8Dyl4GoXujglz7y4=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_crc16.c
+SHA-256-Digest: 6elBm8QeZKUX8ew6uvSbHUzZznmZIKE0bz0nBe+U4OI=
+
+Name: resources/empty/devices/msp430fr5730/ctpl_msp430fr5730.c
+SHA-256-Digest: dP2lnjdLUS1oUAHhHzQfz0hmjrgQEO7Eza+BVbCRzWE=
+
+Name: resources/empty/devices/msp430fr2433/ctpl_msp430fr2433.c
+SHA-256-Digest: RWoMmovQRUNbIF0ttT9JOKQaNDdg18meAJhkJbu4uAQ=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_crc16.h
+SHA-256-Digest: v/s403gy8DnEF+Su/o3iKYXZSJ20BKYmWCFk4GF6ppI=
+
+Name: resources/empty/devices/msp430fr5868/ctpl_msp430fr5868.c
+SHA-256-Digest: Jnqd/f7dGO6UZpmXwZaycOeS+alIOnEU/eWRiMTdpw4=
+
+Name: resources/empty/devices/msp430fr2633/ctpl_msp430fr2633.c
+SHA-256-Digest: oSxX63PMB1D+V/uIazcj4MD4aDSADb+XTUINOn/84iA=
+
+Name: resources/empty/devices/msp430fr6879/ctpl_msp430fr6879.c
+SHA-256-Digest: d8RQ0MtddETh/UxIeY/I5v/cYanqYovK4mKDt6TTbx4=
+
+Name: resources/empty/devices/msp430fr5887/ctpl_lnk_msp430fr5887.cmd
+SHA-256-Digest: Z5pZBYRz0FZ+nLE8/ILisjOeVg5hN/5BWFICEPqI8EY=
+
+Name: resources/empty/devices/msp430fr2633/ctpl_lnk_msp430fr2633.cmd
+SHA-256-Digest: bnKahoe2/V8ysMyR9Yt8mkdVaxsDmpo/PT3JXFi/HL4=
+
+Name: resources/empty/devices/msp430fr5994/ctpl_msp430fr5994.c
+SHA-256-Digest: jwASppL+WuCmp7cT5uwx3CMemtP3USSNeqHWD6HDfJo=
+
+Name: resources/empty/devices/msp430fr2532/ctpl_lnk_msp430fr2532.cmd
+SHA-256-Digest: rraTZuVBZBrC0vYzH6pvyqPOtOAb6HlnoguG5/GgDoY=
+
+Name: resources/empty/devices/msp430fr6820/ctpl_msp430fr6820.c
+SHA-256-Digest: wvWxV+XjM4y7SXx5MbS/cI5hNQnj5vETH6ZlbCphVbg=
+
+Name: resources/empty/fram-utilities/ctpl/ctpl_low_level_macros.asm
+SHA-256-Digest: Kk1gFnUTh4ns7daPgHG8tk1BvfLz7LjyZGMazXVo3hM=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_tri.h
+SHA-256-Digest: tOwDlyoAaDHe01Lq031pCeBIhGNx2DVmGjcRzUyj63U=
+
+Name: resources/empty/devices/msp430fr6877/ctpl_lnk_msp430fr6877.cmd
+SHA-256-Digest: +uboz3JIPt7ykW84/2Nxj87ub3ZMlCQ6FUX+lB/xmd0=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_tri.c
+SHA-256-Digest: GkdWqOGAFCQRD6Zm3ZhQrTHCEttBZCvtvngyCTD/EcA=
+
+Name: resources/empty/devices/msp430fr6972/ctpl_lnk_msp430fr6972.cmd
+SHA-256-Digest: KpldVG/U1cCal/VdN/6z1/6vRJpTb1FkNrg5KjFoVgs=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_hwreg.h
+SHA-256-Digest: 7W8NqvOxrbPBz6YywicHiUDOEL4EVpWQTZVIwtzDKdc=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_wdt_a.h
+SHA-256-Digest: 7Lw0bRGVUHiOL6U2Pabq7YFpnHRVVX8lEpVYGi6ehLs=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_eusci_b.c
+SHA-256-Digest: RS+9Dy2bszyC4+h28RIlmNlYHVI8UOT27R8YeCRC5BM=
+
+Name: resources/empty/fram-utilities/ctpl/ctpl.h
+SHA-256-Digest: Jsw3kuaylsodMXvPXubffVL4J+HeMPDRFZqyOvS80Jo=
+
+Name: resources/empty/fram-utilities/ctpl/peripherals/ctpl_wdt_a.c
+SHA-256-Digest: HiSn29In62fZTMWXhtAybkcfTcGgJxxBXhxx57WeDy4=
+
+Name: resources/empty/devices/msp430fr5867/ctpl_msp430fr5867.c
+SHA-256-Digest: Dg95bgcxA1DfvP6IaiK3cskETZldpyjx6z+WTF45Woc=
+
+Name: resources/empty/devices/msp430fr6989/ctpl_msp430fr6989.c
+SHA-256-Digest: 12UY6UOW8+t9PF5Wg2+fO0RdNpQk9x+tlYVYlZqYHFg=
+
+Name: resources/empty/devices/msp430fr5847/ctpl_lnk_msp430fr5847.cmd
+SHA-256-Digest: xowtmvj2BDsBZmfnQTD9kgB41696QyIyA8ZfCyaqPhk=
+
+Name: resources/empty/devices/msp430fr6822/ctpl_msp430fr6822.c
+SHA-256-Digest: e2BG+4LLk0mzGW0m90X83xiJhvAiCgXK4NSH4mr6bm4=
+
+Name: resources/empty/devices/msp430fr5733/ctpl_msp430fr5733.c
+SHA-256-Digest: NGJnKNZP/Fm2Xq0I8Ti8noLOi3ZyYLVck2zkrKvTj/o=
+
+Name: resources/empty/devices/msp430fr2033/ctpl_msp430fr2033.c
+SHA-256-Digest: A/fQqdcbtkjTUq/8Crg7r+YdHSmJuoyVF7zJuYeIQYA=
+
+Name: resources/empty/fram-utilities/ctpl/ctpl.c
+SHA-256-Digest: pc5ZG3L+AKQ4qQSJHyUOaMTpbPaGZWkou1+ACNqsTSM=
+

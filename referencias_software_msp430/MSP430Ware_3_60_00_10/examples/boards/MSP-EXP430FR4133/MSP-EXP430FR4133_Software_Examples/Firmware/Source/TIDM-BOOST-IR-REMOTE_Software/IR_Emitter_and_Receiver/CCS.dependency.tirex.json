@@ -1,0 +1,24 @@
+[
+   {
+      "packages" : [],
+      "name" : "na",
+      "default" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "files" : [
+         "-CCS/FR4133_IR_BP_TX.c",
+         "-CCS/HAL_FR4133LP_Board.c",
+         "-CCS/HAL_FR4133LP_Board.h",
+         "-CCS/HAL_FR4133LP_LCD.c",
+         "-CCS/HAL_FR4133LP_LCD.h",
+         "+FR4133_IR_BP_TX.c -> FR4133_IR_BP_TX.c",
+         "+HAL_FR4133LP_Board.c -> HAL_FR4133LP_Board.c",
+         "+HAL_FR4133LP_Board.h -> HAL_FR4133LP_Board.h",
+         "+HAL_FR4133LP_LCD.c -> HAL_FR4133LP_LCD.c",
+         "+HAL_FR4133LP_LCD.h -> HAL_FR4133LP_LCD.h"
+      ]
+   }
+]

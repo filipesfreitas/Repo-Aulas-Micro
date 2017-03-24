@@ -1,0 +1,17 @@
+[
+   {
+      "name" : "na",
+      "packages" : [],
+      "files" : [
+         "+../CTS -> CTS",
+         "+../TouchProGUI -> TouchProGUI",
+         "+../main.c -> main.c"
+      ],
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "default" : "na"
+   }
+]

@@ -1,0 +1,2218 @@
+[
+  {
+    "image": "./~TIRex/MSPWare/assets/photos/msp430f1xx_square.png",
+    "description": "MSP430x1xx Series 16 bit Microcontroller \u2013 Flash or ROM based Ultra-Low Power 16 bit microcontroller offering 8 MIPS, 1.8 - 3.6V operation, up to 60 KB Flash, and a wide range of high-performance analog and intelligent digital peripherals.",
+    "name": "MSP430F1xx"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430C1331"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430C1351"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1101A"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1111A"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1121A"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1122"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1132"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F122"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1222"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F123"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1232"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F133"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F135"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F147"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1471"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F148"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1481"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F149"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1491"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F155"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F156"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F157"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1610"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1611"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F1612"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F167"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F168"
+  },
+  {
+    "parent": "MSP430F1xx",
+    "name": "MSP430F169"
+  },
+  {
+    "image": "./~TIRex/MSPWare/assets/photos/msp430f2xx_square.png",
+    "description": "MSP430F2xx Series 16 bit Microcontroller \u2013 Flash-based Ultra-Low Power 16 bit microcontroller featuring up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "name": "MSP430F2xx"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430AFE221"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430AFE222"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430AFE223"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430AFE231"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430AFE232"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430AFE233"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430AFE251"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430AFE252"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430AFE253"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2001"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2002"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2003"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2011"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2012"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2013"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2112"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2122"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2132"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2232"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2234"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2252"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2254"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2272"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2274"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F233"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2330"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F235"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2350"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2370"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2410"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2416"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2417"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2418"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2419"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F247"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2471"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F248"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2481"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F249"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2491"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2616"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2617"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2618"
+  },
+  {
+    "parent": "MSP430F2xx",
+    "name": "MSP430F2619"
+  },
+  {
+    "image": "./~TIRex/MSPWare/assets/photos/msp430f4xx_square.png",
+    "description": "MSP430x4xx 16 bit Microcontroller Series \u2013 LCD Flash or ROM based 16 bit microcontroller devices offer 8-16 MIPS, integrated LCD controller, 1.8V-3.6V operation, with FLL, and SVS. Ideal for low power metering and medical applications.",
+    "name": "MSP430F4xx"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F412"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F413"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4132"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F415"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4152"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F417"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F423"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F423A"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F425"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4250"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F425A"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4260"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F427"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4270"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F427A"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F435"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4351"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F436"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4361"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F437"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4371"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F438"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F439"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F447"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F448"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4481"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F449"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4491"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4616"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F46161"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4617"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F46171"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4618"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F46181"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4619"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F46191"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F47126"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F47127"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F47166"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F47167"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F47176"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F47177"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F47186"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F47187"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F47196"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F47197"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F477"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F478"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4783"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4784"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F479"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4793"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430F4794"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FE4232"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FE423A"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FE4242"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FE4252"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FE425A"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FE427"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FE4272"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FE427A"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG4250"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG4260"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG4270"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG437"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG438"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG439"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG4616"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG4617"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG4618"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG4619"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG477"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG478"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FG479"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FW423"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FW425"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FW427"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FW428"
+  },
+  {
+    "parent": "MSP430F4xx",
+    "name": "MSP430FW429"
+  },
+  {
+    "image": "./~TIRex/MSPWare/assets/photos/msp430g2xx_square.png",
+    "description": "MSP430G2xx 16 bit Microcontroller Series \u2013 The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "name": "MSP430G2xx"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2001"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2101"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2102"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2111"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2112"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2113"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2121"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2131"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2132"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2152"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2153"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2201"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2202"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2203"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2210"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2211"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2212"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2213"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2221"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2230"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2231"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2232"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2233"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2252"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2253"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2302"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2303"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2312"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2313"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2332"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2333"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2352"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2353"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2402"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2403"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2412"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2413"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2432"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2433"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2444"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2452"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2453"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2513"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2533"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2544"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2553"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2744"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2755"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2855"
+  },
+  {
+    "parent": "MSP430G2xx",
+    "name": "MSP430G2955"
+  },
+  {
+    "image": "./~TIRex/MSPWare/assets/photos/msp430f5xx_6xx_square.png",
+    "description": "MSP430F5xx/6xx 16 bit Microcontroller Series \u2013 The Flash-based 16 bit Microcontroller family featuring ultra-low active power consumption with up to 25 MIPS, 1.8V-3.6V operation. Includes an innovative Power Management Module for optimal power consumption. These devices feature integrated USB and LCD modules.",
+    "name": "MSP430F5xx_6xx"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5131"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5132"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5151"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5152"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5171"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5172"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5212"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5213"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5214"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5217"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5218"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5219"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5222"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5223"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5224"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5227"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5228"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5229"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5232"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5234"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5237"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5239"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5242"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5244"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5247"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5249"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5252"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5253"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5254"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5255"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5256"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5257"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5258"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5259"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5304"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5308"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5309"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5310"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5324"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5325"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5326"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5327"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5328"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5329"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5333"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5335"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5336"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5338"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5340"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5341"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5342"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5418"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5418A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5419"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5419A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5435"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5435A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5436"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5436A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5437"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5437A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5438"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5438A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5500"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5501"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5502"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5503"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5504"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5505"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5506"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5507"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5508"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5509"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5510"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5513"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5514"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5515"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5517"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5519"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5521"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5522"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5524"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5525"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5526"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5527"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5528"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5529"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5630"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5631"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5632"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5633"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5634"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5635"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5636"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5637"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5638"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5658"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F5659"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6433"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6435"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6436"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6438"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6630"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6631"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6632"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6633"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6634"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6635"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6636"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6637"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6638"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6658"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6659"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6720"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6720A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6721"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6721A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6723"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6723A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6724"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6724A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6725"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6725A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6726"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6726A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6730"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6730A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6731"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6731A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6733"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6733A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6734"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6734A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6735"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6735A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6736"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6736A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6745"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67451"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67451A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6745A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6746"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67461"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67461A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6746A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6747"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67471"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67471A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6747A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6748"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67481"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67481A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6748A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6749"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67491"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67491A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6749A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67621"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67621A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67641"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67641A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6765"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67651"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67651A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6765A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6766"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67661"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67661A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6766A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6767"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67671"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67671A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6767A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6768"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67681"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67681A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6768A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6769"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67691"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67691A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6769A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6775"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67751"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67751A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6775A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6776"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67761"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67761A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6776A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6777"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67771"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67771A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6777A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6778"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67781"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67781A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6778A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6779"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67791"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F67791A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430F6779A"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430FG6425"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430FG6426"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430FG6625"
+  },
+  {
+    "parent": "MSP430F5xx_6xx",
+    "name": "MSP430FG6626"
+  },
+  {
+    "image": "./~TIRex/MSPWare/assets/photos/msp430i2xx_square.png",
+    "description": "The MSP430i2xx family consists of a powerful 16-bit RISC CPU, DCO based clock system that generates system clocks, Power Management Module with built-in voltage reference and voltage monitor, two 24-bit Sigma Delta A/D converters, Temperature Sensor, one 16-bit Hardware Multiplier, one 16-bit Timer, one eUSCI-A and one eUSCI-B modules, Watchdog timer along with more features.",
+    "name": "MSP430i2xx"
+  },
+  {
+    "parent": "MSP430i2xx",
+    "name": "MSP430i2020"
+  },
+  {
+    "parent": "MSP430i2xx",
+    "name": "MSP430i2021"
+  },
+  {
+    "parent": "MSP430i2xx",
+    "name": "MSP430i2030"
+  },
+  {
+    "parent": "MSP430i2xx",
+    "name": "MSP430i2031"
+  },
+  {
+    "parent": "MSP430i2xx",
+    "name": "MSP430i2040"
+  },
+  {
+    "parent": "MSP430i2xx",
+    "name": "MSP430i2041"
+  },
+  {
+    "image": "./~TIRex/MSPWare/assets/photos/msp430fr57xx_square.png",
+    "description": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "name": "MSP430FR57xx"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5720"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5721"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5722"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5723"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5724"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5725"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5726"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5727"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5728"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5729"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5730"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5731"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5732"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5733"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5734"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5735"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5736"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5737"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5738"
+  },
+  {
+    "parent": "MSP430FR57xx",
+    "name": "MSP430FR5739"
+  },
+  {
+    "image": "./~TIRex/MSPWare/assets/photos/msp430fr5xx_6xx_square.png",
+    "description": "MSP430FR5xx/6xx 16-bit Microcontrollers Series feature embedded FRAM and are based on the lowest power MCU technology platform. While also featuring FRAM for faster, lower power writes in a unified non-volatile memory, these devices are the lowest power MCUs ever with 100uA/MHz active power, 500nA standby with RTC, and 75uA ADC.  Devices operate up to 16 MHz and are ideal for wireless, medical, metering, and sensing applications.",
+    "name": "MSP430FR5xx_6xx"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5847"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR58471"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5848"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5849"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5857"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5858"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5859"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5867"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR58671"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5868"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5869"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5870"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5872"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR58721"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5887"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5888"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5889"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR58891"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5922"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR59221"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5947"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR59471"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5948"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5949"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5957"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5958"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5959"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5962"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5964"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5967"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5968"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5969"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR59691"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5970"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5972"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR59721"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5986"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5987"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5988"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5989"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR59891"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5992"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR5994"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR59941"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6820"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6822"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR68221"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6870"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6872"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR68721"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6877"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6879"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR68791"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6887"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6888"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6889"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR68891"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6920"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6922"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR69221"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6927"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR69271"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6928"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6970"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6972"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR69721"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6977"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6979"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR69791"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6987"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6988"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR6989"
+  },
+  {
+    "parent": "MSP430FR5xx_6xx",
+    "name": "MSP430FR69891"
+  },
+  {
+    "image": "./~TIRex/MSPWare/assets/photos/msp430fr2xx_4xx_square.png",
+    "description": "The MSP430FR2xx/4xx platform features devices with a small memory footprint with an ultra-low-power LCD controller and abundant capacitive touch enabled IO pins. The 256-segment LCD controller has an integrated charge pump for maintained contrast in low-power modes and features software configurable pins for simplified hardware layout of LCDs. IR modulation logic is also available on these MCUs.",
+    "name": "MSP430FR2xx_4xx"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR2032"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR2033"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR2110"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR2111"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR2310"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR2311"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR2433"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR2532"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR2533"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR2632"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR2633"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR4131"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR4132"
+  },
+  {
+    "parent": "MSP430FR2xx_4xx",
+    "name": "MSP430FR4133"
+  },
+  {
+    "image": "./~TIRex/MSPWare/assets/photos/cc430fxx_square.png",
+    "description": "CC430 bit RF Microcontroller Series featuring embedded RF - The CC430 16 bit RF microcontroller family provides tight integration between the microcontroller core, peripherals, software, and RF transceiver, creating true system-on-chip solutions that are easy to use. Features < 1GHz RF transceiver, with 1.8V-3.6V operation.",
+    "name": "CC430Fxx"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F5123"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F5125"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F5133"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F5135"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F5137"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F5143"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F5145"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F5147"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F6125"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F6126"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F6127"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F6135"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F6137"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F6143"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F6145"
+  },
+  {
+    "parent": "CC430Fxx",
+    "name": "CC430F6147"
+  },
+  {
+    "image": "./~TIRex/MSPWare/assets/photos/msp430txx_square.png",
+    "description": "The MSP430TCH5E device is a haptics-enabled MSP430 microcontroller that features Immersion TouchSense Technology. Haptics technology provides tactile feedback, using mechanical vibrations, dramatically reducing user error in touch applications. <br><br>Haptics can be used in a variety of end equipments, including handsets, tablets, digital cameras touch screens, home appliances, computer accessories, automotive products, and more. Haptics can also be implemented in portable media players to generate subwoofer-like effects using audio-to-haptics technology. Haptics is inexpensive to implement and is also a great way to differentiate products. Immersion is the premier haptics technology provider in the market, and MSP430TCH5E device provides a programmable use of Immersion TouchSense Technology with no additional fees.",
+    "name": "MSP430Txx"
+  },
+  {
+    "parent": "MSP430Txx",
+    "name": "MSP430TCH5E"
+  },
+  {
+    "image": "./~TIRex/MSPWare/assets/photos/msp430l092/c09x_square.png",
+    "description": "MSP432P4x Low-Power + Performance series of microcontrollers are the ideal combination of TI's MSP430 low-power DNA, advanced mixed-signal features, and the high performance processing capabilities of a 32-bit, 48MHz ARM\u00ae Cortex\u00ae-M4F engine. MSP432P4x MCUs consume only 95uA/MHz in active mode and 850nA in standby with RTC, integrate a 14-bit 1MSPS ADC with low power operation of 200uA at full speed, 256KB of Flash, 64KB of RAM and an AES256 accelerator, and operate from 1.62 - 3.7V. MSP432P4x MCUs cater to a large number of embedded applications where both efficient data processing and enhanced low-power operation are paramount.",
+    "name": "MSP430L092/C09x"
+  },
+  {
+    "parent": "MSP430L092/C09x",
+    "name": "MSP430C091"
+  },
+  {
+    "parent": "MSP430L092/C09x",
+    "name": "MSP430C092"
+  },
+  {
+    "parent": "MSP430L092/C09x",
+    "name": "MSP430L092"
+  }
+]

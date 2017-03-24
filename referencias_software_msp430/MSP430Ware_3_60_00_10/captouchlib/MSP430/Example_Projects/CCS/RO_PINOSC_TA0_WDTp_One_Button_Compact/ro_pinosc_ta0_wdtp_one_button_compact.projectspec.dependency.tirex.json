@@ -1,0 +1,21 @@
+[
+   {
+      "packages" : [],
+      "name" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "specified" : "na",
+         "location" : "na"
+      },
+      "files" : [
+         "+../../Source/RO_PINOSC_TA0_WDTp_One_Button_Compact/main.c -> Application/main.c",
+         "+../../Source/RO_PINOSC_TA0_WDTp_One_Button_Compact/structure.c -> Application/structure.c",
+         "+../../Source/RO_PINOSC_TA0_WDTp_One_Button_Compact/structure.h -> Application/structure.h",
+         "+../../../Library/CTS_HAL.c -> Library/CTS_HAL.c",
+         "+../../../Library/CTS_HAL.h -> Library/CTS_HAL.h",
+         "+../../../Library/CTS_Layer.c -> Library/CTS_Layer.c",
+         "+../../../Library/CTS_Layer.h -> Library/CTS_Layer.h"
+      ],
+      "default" : "na"
+   }
+]

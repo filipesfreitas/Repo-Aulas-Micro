@@ -1,0 +1,1 @@
+New projects are generated in this folder via TI Resource Explorer. It is okay if you delete them, they will be recreated once you need to import the project again.

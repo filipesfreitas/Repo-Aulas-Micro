@@ -1,0 +1,25 @@
+[
+   {
+      "compiler" : {
+         "location" : "na",
+         "specified" : "na",
+         "effective" : "na"
+      },
+      "files" : [
+         "+../Src/SMB_Slave00_AllProtocols/SMBus_Commands_List.c -> SMBus_Commands_List.c",
+         "+../Src/SMB_Slave00_AllProtocols/SMBus_Commands_List.h -> SMBus_Commands_List.h",
+         "+../Src/SMB_Slave00_AllProtocols/Slave_HAL.c -> Slave_HAL.c",
+         "+../Src/SMB_Slave00_AllProtocols/Slave_HAL.h -> Slave_HAL.h",
+         "+../Src/SMB_Slave00_AllProtocols/main.c -> main.c",
+         "+../../../src/smbuslib/MSP430G2xx3/smbus_phy.c -> smbuslib/MSP430G2xx3/smbus_phy.c",
+         "+../../../src/smbuslib/MSP430G2xx3/smbus_phy.h -> smbuslib/MSP430G2xx3/smbus_phy.h",
+         "+../../../src/smbuslib/smbus.c -> smbuslib/smbus.c",
+         "+../../../src/smbuslib/smbus.h -> smbuslib/smbus.h",
+         "+../../../src/smbuslib/smbus_nwk.c -> smbuslib/smbus_nwk.c",
+         "+../../../src/smbuslib/smbus_nwk.h -> smbuslib/smbus_nwk.h"
+      ],
+      "default" : "na",
+      "name" : "na",
+      "packages" : []
+   }
+]

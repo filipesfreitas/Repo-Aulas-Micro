@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.he
+ lp,org.eclipse.rtsc.xdctools.ui;resolution:=optional
+Bundle-Vendor: Texas Instruments Inc.
+Eclipse-LazyStart: true
+Bundle-Version: 2.0.0.15
+Bundle-Name: FRAM Utilities Embedded Runtime Content
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.rtsc.xdctools.ui.CCSActivator;resolution
+ :=optional
+Created-By: 1.7.0_75 (Oracle Corporation)
+Bundle-SymbolicName: com.ti.mcu.msp.framutilities.product_2.0.0.15;sin
+ gleton:=true
+
+Name: plugin.xml
+SHA-256-Digest: eZ844M0VMVf32uNe2KRAwX0bnhDFB5Zr7xBsX+a7V7k=
+
+Name: about.ini
+SHA-256-Digest: rLz1oK/LWmMDJ2/2lCemLMglA4GIe2cVI2Vdu9OCM1I=
+

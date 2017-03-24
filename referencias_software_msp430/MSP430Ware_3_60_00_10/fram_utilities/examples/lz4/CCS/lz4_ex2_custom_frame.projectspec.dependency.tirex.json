@@ -1,0 +1,19 @@
+[
+   {
+      "compiler" : {
+         "effective" : "na",
+         "specified" : "na",
+         "location" : "na"
+      },
+      "files" : [
+         "+../../../src/lz4/lz4.c -> fram-utilities/lz4/lz4.c",
+         "+../../../src/lz4/lz4.h -> fram-utilities/lz4/lz4.h",
+         "+../../../src/lz4/xxhash.c -> fram-utilities/lz4/xxhash.c",
+         "+../../../src/lz4/xxhash.h -> fram-utilities/lz4/xxhash.h",
+         "+../lz4_ex2_custom_frame.c -> lz4_ex2_custom_frame.c"
+      ],
+      "default" : "na",
+      "packages" : [],
+      "name" : "na"
+   }
+]

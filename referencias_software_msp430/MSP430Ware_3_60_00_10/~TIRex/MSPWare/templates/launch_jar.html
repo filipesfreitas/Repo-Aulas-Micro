@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Launch External Application</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<script type="text/javascript" src="../assets/js/jquery-1.10.2.js"></script>
+
+<h1>
+    <img src="images/run_program.gif" /> Launch External Application
+</h1>
+
+<h2>
+    Click on the link to launch the external application
+</h2>
+
+<p>
+    Launch <a id="launcher" href="#"><b>Application</b></a>.
+</p>
+<script src="../assets/js/bowser.min.js" ></script>
+<script type="text/javascript">
+
+    /**
+     * Get the value of the URL parameter requested
+     * @param  {string} name name of varaible
+     * @return {string}      value of the bariable
+     */
+    function getUrlParam(name)
+    {
+        var params = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for(var i = 0; i < params.length; i++)
+        {
+            var param = params[i].split('=');
+            if(param.length > 1)
+                if(param[0] === name)
+                    return param[1];
+        }
+        return "";
+    }
+
+    /**
+     * Replaces substring multiple times in a string
+     * @param  {string} find    substring to look for
+     * @param  {string} replace string to use for replacement
+     * @param  {string} str     string to search
+     * @return {string}         new string
+     */
+    function replaceAll(find, replace, str) {
+        return str.replace(new RegExp(find, 'g'), replace);
+    }
+
+    /**
+     * Opens up an explorer window
+     * @return {false} returns false so that browser does not try to follow link
+     */
+    $("#launcher").click(function() {
+
+        if(getUrlParam("loc") != undefined && getUrlParam("loc") != '') {
+            var path = window.location.pathname;
+            var dest = getUrlParam("loc");
+            path = path.replace("launch_jar.html", decodeURIComponent(dest));
+            path = path.replace("/", "");
+
+            if(!bowser.msie) {
+                path = replaceAll("/", "\\", path);
+            }
+
+            window.location = "liveaction:RunProgramAction(javaw -jar " + path + ")";
+            return false;
+        }
+
+    });
+
+    $("#launcher").text(function(index, text) {
+
+        if(getUrlParam("title") != undefined && getUrlParam("title") != '') {
+
+            var title = decodeURIComponent(getUrlParam("title"));
+            return text.replace("Application", title);
+        }
+    });
+
+</script>
+</body>
+</html>

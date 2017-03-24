@@ -1,0 +1,25 @@
+[
+   {
+      "default" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "files" : [
+         "+../FRAMLogMode.c -> FRAMLogMode.c",
+         "+../FRAMLogMode.h -> FRAMLogMode.h",
+         "+../FatFs -> FatFs",
+         "+../HAL -> HAL",
+         "+../LiveTempMode.c -> LiveTempMode.c",
+         "+../LiveTempMode.h -> LiveTempMode.h",
+         "+../SDCardLib -> SDCardLib",
+         "+../SDCardLogMode.c -> SDCardLogMode.c",
+         "+../SDCardLogMode.h -> SDCardLogMode.h",
+         "+../driverlib -> driverlib",
+         "+../main.c -> main.c"
+      ],
+      "packages" : [],
+      "name" : "na"
+   }
+]

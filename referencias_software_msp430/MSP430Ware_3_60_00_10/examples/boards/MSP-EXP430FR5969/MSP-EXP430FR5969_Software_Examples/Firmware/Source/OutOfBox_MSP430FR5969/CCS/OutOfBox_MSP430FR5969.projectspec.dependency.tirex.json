@@ -1,0 +1,22 @@
+[
+   {
+      "name" : "na",
+      "packages" : [],
+      "default" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "files" : [
+         "+../FRAMLogMode.c -> FRAMLogMode.c",
+         "+../FRAMLogMode.h -> FRAMLogMode.h",
+         "+../LiveTempMode.c -> LiveTempMode.c",
+         "+../LiveTempMode.h -> LiveTempMode.h",
+         "+../driverlib -> driverlib",
+         "+lnk_msp430fr5969.cmd -> lnk_msp430fr5969.cmd",
+         "+../main.c -> main.c",
+         "+../main.h -> main.h"
+      ]
+   }
+]

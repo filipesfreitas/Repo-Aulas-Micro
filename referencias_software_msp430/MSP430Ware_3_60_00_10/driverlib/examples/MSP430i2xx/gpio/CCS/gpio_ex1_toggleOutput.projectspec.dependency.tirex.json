@@ -1,0 +1,46 @@
+[
+   {
+      "files" : [
+         "+../../../../driverlib/MSP430i2xx/cs.c -> driverlib/MSP430i2xx/cs.c",
+         "+../../../../driverlib/MSP430i2xx/cs.h -> driverlib/MSP430i2xx/cs.h",
+         "+../../../../driverlib/MSP430i2xx/driverlib.h -> driverlib/MSP430i2xx/driverlib.h",
+         "+../../../../driverlib/MSP430i2xx/eusci_a_spi.c -> driverlib/MSP430i2xx/eusci_a_spi.c",
+         "+../../../../driverlib/MSP430i2xx/eusci_a_spi.h -> driverlib/MSP430i2xx/eusci_a_spi.h",
+         "+../../../../driverlib/MSP430i2xx/eusci_a_uart.c -> driverlib/MSP430i2xx/eusci_a_uart.c",
+         "+../../../../driverlib/MSP430i2xx/eusci_a_uart.h -> driverlib/MSP430i2xx/eusci_a_uart.h",
+         "+../../../../driverlib/MSP430i2xx/eusci_b_i2c.c -> driverlib/MSP430i2xx/eusci_b_i2c.c",
+         "+../../../../driverlib/MSP430i2xx/eusci_b_i2c.h -> driverlib/MSP430i2xx/eusci_b_i2c.h",
+         "+../../../../driverlib/MSP430i2xx/eusci_b_spi.c -> driverlib/MSP430i2xx/eusci_b_spi.c",
+         "+../../../../driverlib/MSP430i2xx/eusci_b_spi.h -> driverlib/MSP430i2xx/eusci_b_spi.h",
+         "+../../../../driverlib/MSP430i2xx/flashctl.c -> driverlib/MSP430i2xx/flashctl.c",
+         "+../../../../driverlib/MSP430i2xx/flashctl.h -> driverlib/MSP430i2xx/flashctl.h",
+         "+../../../../driverlib/MSP430i2xx/gpio.c -> driverlib/MSP430i2xx/gpio.c",
+         "+../../../../driverlib/MSP430i2xx/gpio.h -> driverlib/MSP430i2xx/gpio.h",
+         "+../../../../driverlib/MSP430i2xx/inc/hw_memmap.h -> driverlib/MSP430i2xx/inc/hw_memmap.h",
+         "+../../../../driverlib/MSP430i2xx/inc/version.h -> driverlib/MSP430i2xx/inc/version.h",
+         "+../../../../driverlib/MSP430i2xx/mpy.c -> driverlib/MSP430i2xx/mpy.c",
+         "+../../../../driverlib/MSP430i2xx/mpy.h -> driverlib/MSP430i2xx/mpy.h",
+         "+../../../../driverlib/MSP430i2xx/pmm.c -> driverlib/MSP430i2xx/pmm.c",
+         "+../../../../driverlib/MSP430i2xx/pmm.h -> driverlib/MSP430i2xx/pmm.h",
+         "+../../../../driverlib/MSP430i2xx/sd24.c -> driverlib/MSP430i2xx/sd24.c",
+         "+../../../../driverlib/MSP430i2xx/sd24.h -> driverlib/MSP430i2xx/sd24.h",
+         "+../../../../driverlib/MSP430i2xx/sfr.c -> driverlib/MSP430i2xx/sfr.c",
+         "+../../../../driverlib/MSP430i2xx/sfr.h -> driverlib/MSP430i2xx/sfr.h",
+         "+../../../../driverlib/MSP430i2xx/timer_a.c -> driverlib/MSP430i2xx/timer_a.c",
+         "+../../../../driverlib/MSP430i2xx/timer_a.h -> driverlib/MSP430i2xx/timer_a.h",
+         "+../../../../driverlib/MSP430i2xx/tlv.c -> driverlib/MSP430i2xx/tlv.c",
+         "+../../../../driverlib/MSP430i2xx/tlv.h -> driverlib/MSP430i2xx/tlv.h",
+         "+../../../../driverlib/MSP430i2xx/wdt.c -> driverlib/MSP430i2xx/wdt.c",
+         "+../../../../driverlib/MSP430i2xx/wdt.h -> driverlib/MSP430i2xx/wdt.h",
+         "+../gpio_ex1_toggleOutput.c -> gpio_ex1_toggleOutput.c"
+      ],
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "default" : "na",
+      "name" : "na",
+      "packages" : []
+   }
+]

@@ -1,0 +1,17 @@
+[
+   {
+      "default" : "na",
+      "files" : [
+         "+../../../include -> dsplib/include",
+         "+../../../source -> dsplib/source",
+         "+../filter_ex1_fir_q15.c -> filter_ex1_fir_q15.c"
+      ],
+      "compiler" : {
+         "specified" : "na",
+         "location" : "na",
+         "effective" : "na"
+      },
+      "name" : "na",
+      "packages" : []
+   }
+]

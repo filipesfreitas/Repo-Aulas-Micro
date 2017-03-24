@@ -1,0 +1,17 @@
+[
+   {
+      "files" : [
+         "+../../../include -> dsplib/include",
+         "+../../../source -> dsplib/source",
+         "+../vector_ex1_max_q15.c -> vector_ex1_max_q15.c"
+      ],
+      "compiler" : {
+         "effective" : "na",
+         "specified" : "na",
+         "location" : "na"
+      },
+      "default" : "na",
+      "packages" : [],
+      "name" : "na"
+   }
+]

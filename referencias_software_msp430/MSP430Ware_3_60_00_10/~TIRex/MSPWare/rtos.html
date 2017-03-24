@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+  <title>MSPWare</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-modal.css" rel="stylesheet">
+    <link href="assets/css/jumbotron.css" rel="stylesheet">
+
+  <!-- Handlebars for templating -->
+  <script src="assets/js/handlebars-v1.1.2.js"></script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <div id="navbar"></div>
+  <div id="modals">
+    <div class="modal hide fade" id="exampleModal">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3 id="exName">Modal header</h3>
+      </div>
+      <div class="modal-body">
+        <p id="desription"></p>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="btn">Close</a>
+        <a href="#" class="btn btn-primary">Save changes</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Real-Time Operating Systems</h2>
+    <div id="grid"></div>
+  </div>
+
+  <div class="container" id="footer"></div>
+
+  <script src="assets/js/jquery-1.10.2.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/bootstrap-modal.js"></script>
+  <script src="assets/js/bootstrap-modalmanager.js"></script>
+  <script src="assets/js/templates.js"></script>
+  <script src="assets/js/navbar.js"></script>
+  <script src="assets/js/rtos.js"></script>
+  <script src="assets/js/functions.js"></script>
+  <script type="text/javascript">
+    CreateNavbar(Templates.navbar);
+    CreateFooter(Templates.footer);
+    CreateGridModals(Templates.rtosGrid, Templates.rtosModal, rtos);
+    LaunchModal();
+  </script>
+</body>
+</html>

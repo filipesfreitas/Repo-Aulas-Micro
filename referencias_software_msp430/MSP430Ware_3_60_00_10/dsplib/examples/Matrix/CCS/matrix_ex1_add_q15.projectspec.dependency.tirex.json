@@ -1,0 +1,17 @@
+[
+   {
+      "packages" : [],
+      "name" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "specified" : "na",
+         "location" : "na"
+      },
+      "files" : [
+         "+../../../include -> dsplib/include",
+         "+../../../source -> dsplib/source",
+         "+../matrix_ex1_add_q15.c -> matrix_ex1_add_q15.c"
+      ],
+      "default" : "na"
+   }
+]

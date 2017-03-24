@@ -1,0 +1,17 @@
+[
+   {
+      "name" : "na",
+      "packages" : [],
+      "files" : [
+         "+../../../include -> dsplib/include",
+         "+../../../source -> dsplib/source",
+         "+../transform_ex1_fft_fixed_q15.c -> transform_ex1_fft_fixed_q15.c"
+      ],
+      "compiler" : {
+         "location" : "na",
+         "specified" : "na",
+         "effective" : "na"
+      },
+      "default" : "na"
+   }
+]

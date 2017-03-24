@@ -1,0 +1,24 @@
+[
+   {
+      "compiler" : {
+         "effective" : "na",
+         "specified" : "na",
+         "location" : "na"
+      },
+      "files" : [
+         "-CCS/FR4133_IR_BP_Learn.c",
+         "-CCS/HAL_FR4133LP_LCD.c",
+         "-CCS/HAL_FR4133LP_LCD.h",
+         "-CCS/HAL_FR4133LP_Learn_Board.c",
+         "-CCS/HAL_FR4133LP_Learn_Board.h",
+         "+FR4133_IR_BP_Learn.c -> FR4133_IR_BP_Learn.c",
+         "+HAL_FR4133LP_LCD.c -> HAL_FR4133LP_LCD.c",
+         "+HAL_FR4133LP_LCD.h -> HAL_FR4133LP_LCD.h",
+         "+HAL_FR4133LP_Learn_Board.c -> HAL_FR4133LP_Learn_Board.c",
+         "+HAL_FR4133LP_Learn_Board.h -> HAL_FR4133LP_Learn_Board.h"
+      ],
+      "default" : "na",
+      "name" : "na",
+      "packages" : []
+   }
+]

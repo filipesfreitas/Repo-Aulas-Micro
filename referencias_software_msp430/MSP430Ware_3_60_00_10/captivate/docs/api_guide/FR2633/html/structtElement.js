@@ -1,0 +1,25 @@
+var structtElement =
+[
+    [ "bBISTFail", "structtElement.html#af86f0b3461d9112ef798fcfe3ee884d4", null ],
+    [ "bDetect", "structtElement.html#a0fb303a690993d435d16d80899017be1", null ],
+    [ "bElementHalt", "structtElement.html#af2a1c5cdab1b533824679bf1fe6a35d2", null ],
+    [ "bNegativeTouch", "structtElement.html#a37f48d2e3549f503d123b27d8761f623", null ],
+    [ "bNoiseDetected", "structtElement.html#a791a44c045e6c3c87cdde28d1fde0d54", null ],
+    [ "bProx", "structtElement.html#a086703063d57b7968c4d0e7ed3519d4e", null ],
+    [ "bReseed", "structtElement.html#aea3be2f06f01a6b3378a8e1f9e674b34", null ],
+    [ "bTouch", "structtElement.html#a2c2af7595e5d15cba51aeaae65751034", null ],
+    [ "filterCount", "structtElement.html#ac435a92a2e0487178f766f2c326720ba", null ],
+    [ "LTA", "structtElement.html#a2bc36813d4c81bc2782faab0b4138029", null ],
+    [ "pRawCount", "structtElement.html#a66acf9c2174f91e1e7324a7e15eee690", null ],
+    [ "ProxDbCounter", "structtElement.html#a5d3af3eff4b19b1a14659a3274575058", null ],
+    [ "pTuning", "structtElement.html#afafbc56695521e32ac80b90341ad98d9", null ],
+    [ "TouchDbCounter", "structtElement.html#a35bfc8cc3018540c1bcb8b1f3d67d8ce", null ],
+    [ "ui16CompositeRawCount", "structtElement.html#af0828d40d3c68abfc53281da24ff5868", null ],
+    [ "ui16NoiseCount", "structtElement.html#ae8d8d09b8531a455901c5420e0d2255b", null ],
+    [ "ui16PrevCompositeRawCount", "structtElement.html#a997efcc7ee6c2e3de0cf9fcd766fe461", null ],
+    [ "ui8RxBlock", "structtElement.html#a51803b43d96968863b2c9619246f18d9", null ],
+    [ "ui8RxPin", "structtElement.html#a2d0baeefc8e95003e15738a1a1640eaf", null ],
+    [ "ui8TouchThreshold", "structtElement.html#a9c43097ccbb632f5e0e345cfbf7605c0", null ],
+    [ "ui8TxBlock", "structtElement.html#aa0992faa01b93dcac5f8adf6285bb468", null ],
+    [ "ui8TxPin", "structtElement.html#a110a0ec3994f2934facf56363ac99254", null ]
+];

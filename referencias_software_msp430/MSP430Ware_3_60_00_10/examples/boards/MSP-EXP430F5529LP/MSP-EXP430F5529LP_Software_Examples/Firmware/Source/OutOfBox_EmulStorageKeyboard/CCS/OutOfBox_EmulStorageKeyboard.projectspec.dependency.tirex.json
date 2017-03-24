@@ -1,0 +1,22 @@
+[
+   {
+      "name" : "na",
+      "packages" : [],
+      "files" : [
+         "+../USB_API -> USB_API",
+         "+../USB_app -> USB_app",
+         "+../USB_config -> USB_config",
+         "+../driverlib -> driverlib",
+         "+../hal.c -> hal.c",
+         "+../hal.h -> hal.h",
+         "+../main.c -> main.c",
+         "+../system_pre_init.c -> system_pre_init.c"
+      ],
+      "compiler" : {
+         "specified" : "na",
+         "location" : "na",
+         "effective" : "na"
+      },
+      "default" : "na"
+   }
+]

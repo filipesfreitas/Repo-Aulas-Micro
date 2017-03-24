@@ -1,0 +1,23 @@
+[
+   {
+      "files" : [
+         "+../../../src/fonts -> GrLib/fonts",
+         "+../../../src/grlib -> GrLib/grlib",
+         "+../images/images.h -> Images/images.h",
+         "+../../../driverlib/MSP430F5xx_6xx -> driverlib/MSP430F5xx_6xx",
+         "+../../../driverlib/MSP430F5xx_6xx/deprecated -> driverlib/MSP430F5xx_6xx/deprecated",
+         "+../../../driverlib/MSP430F5xx_6xx/deprecated/CCS -> driverlib/MSP430F5xx_6xx/deprecated/CCS",
+         "+../../../driverlib/MSP430F5xx_6xx/inc -> driverlib/MSP430F5xx_6xx/inc",
+         "+../main.c -> main.c",
+         "+../system_pre_init.c -> system_pre_init.c"
+      ],
+      "compiler" : {
+         "location" : "na",
+         "specified" : "na",
+         "effective" : "na"
+      },
+      "default" : "na",
+      "packages" : [],
+      "name" : "na"
+   }
+]

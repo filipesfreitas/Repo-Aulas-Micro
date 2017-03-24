@@ -1,0 +1,17 @@
+[
+   {
+      "files" : [
+         "+../../../include -> dsplib/include",
+         "+../../../source -> dsplib/source",
+         "+../vector_ex2_complex_add_q15.c -> vector_ex2_complex_add_q15.c"
+      ],
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "default" : "na",
+      "packages" : [],
+      "name" : "na"
+   }
+]

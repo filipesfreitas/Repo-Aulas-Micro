@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+<meta content="HTML Tidy for Windows (vers 15 August 2007), see www.w3.org" name="generator">
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii"><!-- /* * Copyright 2007 by Texas Instruments Incorporated. * All rights reserved. Property of Texas Instruments Incorporated. * Restricted rights to use, duplicate or disclose this code are * granted through contract. * * */ --><title>FRAM Utilities</title><!-- For now, we use the doxygen style sheet -->
+
+<link href="doc/html/html/doxygen.css" rel="stylesheet" type="text/css"></head><body>
+<table width="100%">
+<tbody>
+<tr>
+<td bgcolor="black" width="1"><a href="http://www.ti.com"><img src="doc/html/tilogo.gif" alt="Texas Instruments" border="0"></a></td>
+<td bgcolor="red"><img src="doc/html/titagline.gif"></td>
+</tr>
+</tbody>
+</table>
+<h1>FRAM Utilities 02.00.00.15</h1>
+<h2>Release Notes&nbsp;</h2>
+
+<h2><a name="Introduction" id="Introduction">Introduction</a></h2>
+<p>The Texas Instruments® FRAM Utilities is a collection of embedded software utilities that leverage
+the ultra-low power and virtually unlimited write endurance of FRAM. The utilities are available for
+MSP430FRx FRAM microcontrollers and provide example code to help start application development.</p>
+Included are the following FRAM Utilities:
+<ul>
+<li>Compute Through Power Loss: A utility API set that enables ease of use with LPMx.5 lowpower
+modes and a powerful shutdown mode the allows an application to save and restore
+critical system components when a power loss is detected.
+<li>LZ4 Compression: Embedded compression utility based on the open source LZ4 compression format. 
+Optimized for MSP microcontrollers to enable better data logging, data transmission, firmware updates and more.
+</ul>
+The following tool chains are officially supported:
+<ul>
+<li>Texas Instruments Code Composer Studio
+<li>IAR Embedded Workbench
+</ul>
+
+This document is divided into the following sections:
+<ul>
+<li><a href="#Documentation">Documentation</a></li>
+<li><a href="#Devices_Supported">Devices Supported</a></li>
+<li><a href="#Whats_New">What's New</a></li>
+<li><a href="#Revision_History">Version History</a></li>
+<li><a href="#Versioning">Versioning</a></li>
+<li><a href="#Technical_Support">Technical Support and Product Updates</a></li>
+</ul>
+
+<h2><a name="Documentation" id="Documentation">Documentation<br></a></h2>
+<ul>
+<li><a href="FRAM-Utilities-UsersGuide.pdf">FRAM Utilities User's Guide</a></li>
+</ul>
+
+<h2><a name="Devices_Supported" id="Devices_Supported">Devices Supported</a></h2>
+<p>The FRAM Utilities supports the following embedded FRAM MSP430 microcontrollers:</p>
+<table border="1" style="width:240px">
+<tr>
+  <th>Device Family</th>
+  <th>CTPL</th> 
+  <th>LZ4</th> 
+</tr>
+<tr>
+  <td>MSP430FR2xx</td>
+  <td align="center">Yes</td>
+  <td align="center">Yes</td>
+</tr>
+<tr>
+  <td>MSP430FR4xx</td>
+  <td align="center">Yes</td>
+  <td align="center">Yes</td>
+</tr>
+<tr>
+  <td>MSP430FR57xx</td>
+  <td align="center">Yes</td>
+  <td align="center">Yes</td>
+</tr>
+<tr>
+  <td>MSP430FR5xx</td>
+  <td align="center">Yes</td>
+  <td align="center">Yes</td>
+</tr>
+<tr>
+  <td>MSP430FR6xx</td>
+  <td align="center">Yes</td>
+  <td align="center">Yes</td>
+</tr>
+</table>
+
+<h2><a name="Whats_New" id="Whats_New">What's New</a></h2>
+<span style="font-weight: bold;">02.00.00.15:</span>
+<ul>
+<li>LZ4 Compression
+<ul>
+<li>Initial release of LZ4 compression utility.
+<li>Compression library optimized for MSP430 microcontrollers.
+</ul>
+<li>Compute Through Power Loss
+<ul>
+<li>Added support for MSP430FR2xx and MSP430FR4xx devices.
+<li>Added additional peripheral support for all devices.
+<li>Added LPM3.5 and LPM4.5 debug capabilities.
+<li>Minor documentation and bug fixes.
+</ul>
+</ul>
+
+</ul><h2><a name="Revision_History" id="Revision_History"></a>Version History</h2>
+<span style="font-weight: bold;">1.00.00.24:</span>
+<ul>
+<li>Initial release of FRAM Utilities for MSP430.
+</ul>
+
+</ul><h2><a name="Versioning" id="Versioning"></a>Versioning</h2>
+<p>All releases have 4 digits (M.mm.pp.bb). This includes GA and
+pre-releases (engineering, alpha/EA, beta, etc.). Pre-releases are
+denoted with a suffix (e.g. 6.30.00.00-eng or 6.30.00.10-beta).</p>
+<p>This product's version follows a version format, M.mm.pp.bb, where M is
+a single digit Major number, mm is 2 digit minor number, pp is a 2
+digit patch number, and b is an unrestricted set of digits used as an
+incrementing build counter.</p>
+<p>To support multiple side-by-side installations of the product, the
+product version is encoded in the top level directory (e.g.
+FRAM-Utilities_01_00_00_00).</p>
+<p>Subsequent releases of patch upgrades will be identified by the patch
+number, ex. 1.0.1.05 with directory
+FRAM-Utilities_01_00_01_05. Typically, these patches only
+include critical bug fixes.</p>
+
+<h2><a name="Technical_Support" id="Technical_Support">Technical Support and Product Updates</a></h2>
+<ul>
+<li>Please visit the <a href="http://e2e.ti.com/support/microcontrollers/msp430/default.aspx">MSP430 E2E forum</a> for FRAM Utilities support.</li>
+<li>For any unanswered questions, please visit <a href="http://support.ti.com/">support.ti.com</a>.</li>
+</ul>
+<h2>Additional Resources</h2>
+For more information, visit <a href="http://www.ti.com">www.ti.com</a>.
+
+</body></html>

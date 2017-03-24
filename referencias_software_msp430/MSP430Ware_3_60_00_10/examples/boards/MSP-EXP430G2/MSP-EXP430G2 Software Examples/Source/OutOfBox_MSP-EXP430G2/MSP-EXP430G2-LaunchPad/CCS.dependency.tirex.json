@@ -1,0 +1,16 @@
+[
+   {
+      "default" : "na",
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "files" : [
+         "-main.c",
+         "+main.c -> main.c"
+      ],
+      "packages" : [],
+      "name" : "na"
+   }
+]

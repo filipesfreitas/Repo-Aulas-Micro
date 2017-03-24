@@ -1,0 +1,18 @@
+[
+   {
+      "files" : [
+         "+../CapTouchBoosterPack_UserExperience.c -> CapTouchBoosterPack_UserExperience.c",
+         "+../CapacitiveTouchLibrary -> CapacitiveTouchLibrary",
+         "+../uart.c -> uart.c",
+         "+../uart.h -> uart.h"
+      ],
+      "compiler" : {
+         "specified" : "na",
+         "location" : "na",
+         "effective" : "na"
+      },
+      "default" : "na",
+      "packages" : [],
+      "name" : "na"
+   }
+]

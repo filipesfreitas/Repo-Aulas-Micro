@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+  <title>__ARCH_UPPER__Ware</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/jumbotron.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+  <!-- Handlebars for templating -->
+  <script src="assets/js/handlebars-v1.1.2.js"></script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+  <body>
+
+    <div id="navbar"></div>
+    <div class="container">
+      <div class="hero-unit">
+        <h1>Welcome to __ARCH_UPPER__Ware!</h1>
+        <p>Quicken your development time with __ARCH_UPPER__Ware, a tool for navigating the available resources that support __ARCH_UPPER__ devices. Using this GUI or clicking through the folder tree to the left, we offer code examples, software libraries, datasheets and other resources - all at the tip of your fingers.</p>
+        <p>To begin, navigate using the tabs above or the folder tree to the left.</p>
+        <p>For XMS432P401R Revision C, MSP432P401R Revision C devices and MSP-EXP432P401R Rev2.x (Red) LaunchPad ONLY. For previous revisions, visit <a href="http://www.ti.com/xms432support">http://www.ti.com/xms432support.</a></p>
+      </div>
+      <div class="row">
+        <div class="span4">
+          <h2>Updated Documentation</h2>
+          <p>Improved documetnation regarding various MSP432 Revisions.</p>
+        </div>
+        <div class="span4">
+          <h2>Added MSP432 Security and Update Tool</h2>
+          <p>Added the MSP432 Security and Update Tool to configure the security features found on MSP432 devices. Launch it from TI Resource Explorer!</p>
+        </div>
+        <div class="span4">
+          <h2>Added MSP Flasher</h2>
+          <p>MSP Flasher is an open-source, shell-based interface for programming any MSP device through a MSP Debug Stack and provides the most common functions on the command line.</p>
+       </div>
+      </div>
+     <div class="container" id="footer"></div>
+    </div> <!-- /container -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/templates.js"></script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script type="text/javascript">
+    CreateNavbar(Templates.navbar);
+    CreateFooter(Templates.footer);
+  </script>
+  </body>
+</html>

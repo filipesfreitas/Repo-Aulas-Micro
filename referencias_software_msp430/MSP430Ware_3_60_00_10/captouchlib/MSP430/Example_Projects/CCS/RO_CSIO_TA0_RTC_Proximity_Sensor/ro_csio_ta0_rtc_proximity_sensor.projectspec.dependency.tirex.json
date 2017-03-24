@@ -1,0 +1,21 @@
+[
+   {
+      "files" : [
+         "+../../Source/RO_CSIO_TA0_RTC_Proximity_Sensor/main.c -> Application/main.c",
+         "+../../Source/RO_CSIO_TA0_RTC_Proximity_Sensor/structure.c -> Application/structure.c",
+         "+../../Source/RO_CSIO_TA0_RTC_Proximity_Sensor/structure.h -> Application/structure.h",
+         "+../../../Library/CTS_HAL.c -> Library/CTS_HAL.c",
+         "+../../../Library/CTS_HAL.h -> Library/CTS_HAL.h",
+         "+../../../Library/CTS_Layer.c -> Library/CTS_Layer.c",
+         "+../../../Library/CTS_Layer.h -> Library/CTS_Layer.h"
+      ],
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "default" : "na",
+      "name" : "na",
+      "packages" : []
+   }
+]

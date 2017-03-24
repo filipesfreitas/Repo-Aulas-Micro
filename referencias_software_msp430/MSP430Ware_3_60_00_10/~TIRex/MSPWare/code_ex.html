@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+  <title>MSPWare</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/jumbotron.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+  <!-- Handlebars for templating -->
+  <script src="assets/js/handlebars-v1.1.2.js"></script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <div id="navbar"></div>
+  <div id="modals">
+    <div class="modal hide fade" id="exampleModal">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3 id="exName">Modal header</h3>
+      </div>
+      <div class="modal-body">
+        <p id="exDescription"></p>
+        <br>
+        <p>Devices:
+        <select id="deviceSelect">
+        </select>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a id="createProjectSpec" href="#" class="btn btn-primary" data-loading-text="Loading Project...">Create</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 id="title"></h2>
+    <ul class="nav nav-tabs" id="tabs" data-tabs="tabs">
+      <li class="active"><a href="#projects" data-toggle="tab">One Click Projects</a></li>
+      <li><a href="#cfiles" data-toggle="tab">View C Files</a></li>
+      <li id="asmTab"><a href="#asmfiles" data-toggle="tab">View Assembly Files</a></li>
+    </ul>
+    <div class="tab-content" id="tab-content">
+      <div class="tab-pane active" id="projects">
+        <h3>One Click Projects</h3>
+        <p>This will automatically create a new project in CCS workspace with the selected example. It prompts you which device to select.</p>
+        <div id="examples"></div>
+      </div>
+      <div class="tab-pane" id="cfiles">
+        <h3>View C Files</h3>
+        <p>View C example file by clicking on filename. To import this project, click on One Click Projects.</p>
+        <div id="cSourceFiles"></div>
+      </div>
+      <div class="tab-pane" id="asmfiles">
+        <h3>View Assembly Files</h3>
+        <p>View assembly file by clicking on filename.</p>
+        <div id="asmSourceFiles"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="footer"></div>
+
+  <script src="assets/js/jquery-1.10.2.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/bowser.min.js"></script>
+  <script src="assets/js/templates.js"></script>
+  <script src="assets/js/navbar.js"></script>
+  <script src="assets/js/functions.js"></script>
+  <script src="assets/js/deviceList.js"></script>
+  <script type="text/javascript">
+
+    Handlebars.registerHelper('tableLink', function(sourceFile, extension) {
+      displayName = sourceFile;
+      if(sourceFile.indexOf(extension, sourceFile.length - extension.length) === -1) {
+        displayName = sourceFile + extension;
+      }
+      return new Handlebars.SafeString(
+        '<td><a href="" onclick="openFile(\'' + sourceFile + '\', \'' + extension + '\'); return false;">' + displayName + '</a></td>'
+      );
+    });
+
+    CreateNavbar(Templates.navbar);
+    CreateFooter(Templates.footer);
+
+    // Initialize tabs
+    $('#tabs').tab();
+
+    var createProject = function(name, description) {
+      $('#exName').html(name);
+      $('#exDescription').html(description);
+      $('#exampleModal').modal('show');
+    };
+
+    var openFile = function(name, extension) {
+      if(name.indexOf(extension, name.length - extension.length) === -1) {
+        path = name + "/" + name + extension;
+      } else {
+        path = name;
+      }
+
+      root = GetMSPWareRoot();
+      root += "examples/devices";
+
+      if(navigator.appVersion.indexOf("Win") === -1) {
+          root = "/" + root;
+      }
+
+      codeExampleData = getUrlVars();
+      filePath = root + "/" + codeExampleData.path + "/" + codeExampleData.subpath;
+
+      if(extension === ".c") {
+        filePath += "/" + codeExampleData.cpath + "/" + path;
+      } else {
+        filePath += "/" + codeExampleData.asmpath + "/" + path;
+      }
+      window.location = filePath;
+    };
+
+    codeExampleData = getUrlVars();
+
+    var path = codeExampleData.path + "/" + codeExampleData.subpath + "/" + codeExampleData.cpath + "/" + codeExampleData.cdata;
+    var asmPath = codeExampleData.path + "/" + codeExampleData.subpath + "/" + codeExampleData.asmpath + "/" + codeExampleData.asmdata;
+
+    var windowPath = window.location.pathname;
+    scriptsPath = windowPath.replace("code_ex.html", "templates/scripts");
+    var projectspecPath = "/";
+
+    if(navigator.appVersion.indexOf("Win") != -1) {
+        scriptsPath = scriptsPath.replace("/", "");
+        projectspecPath = scriptsPath;
+    }
+
+    if(codeExampleData.asmdata === undefined) {
+      $("#asmTab").addClass("hide");
+    } else {
+      // Getting assmebly files information
+      $.ajax({
+        url: "../../examples/devices/" + asmPath,
+        dataType: "script",
+        crossDomain: true,
+        success: function() {
+          var asmData = {"asmFiles": jsonObjASM};
+          CreateASMFilesExamplesTable(Templates.asmSourceTable, asmData);
+        }
+      });
+    }
+
+    // Perform ajax to get example information
+    $.ajax({
+      url: "../../examples/devices/" + path,
+      dataType: "script",
+      crossDomain: true,
+      success: function() {
+        $("#title").text(decodeURI(jsonInfo[0]["Device"]) + " Code Examples");
+
+        var filter = new RegExp(jsonInfo[0]["Filter"]);
+        var optionHTML = "";
+        for(var i = 0; i < deviceList.length; i++) {
+          if(filter.test(deviceList[i])) {
+           optionHTML += "<option>" + deviceList[i] + "</option>";
+          }
+        }
+
+        $('#deviceSelect').html(optionHTML);
+        var example_data = {"examples": jsonObjC};
+
+        $("#createProjectSpec").click(function() {
+            $("#createProjectSpec").button('loading');
+            var name = $("#exName").html();
+            var device = $("#deviceSelect option:selected").text();
+            var root = codeExampleData.path + "/" + codeExampleData.subpath + "/" + codeExampleData.cpath;
+            if(navigator.appVersion.indexOf("Win") != -1) {
+              var poll = setInterval(function(){WaitForProjectSpec("templates/scripts/projects/" + name + "_" + device + ".projectspec");}, 500);
+            } else {
+              var poll = setInterval(function(){WaitForProjectSpec("/tmp/projects/" + name + "_" + device + ".projectspec");}, 500);
+            }
+
+            var WaitForProjectSpec = function(uri) {
+              $.ajax({
+                url: uri,
+                type:'HEAD',
+                dataType: "script",
+                crossDomain: true,
+                success: function () {
+                  if(navigator.appVersion.indexOf("Win") != -1) {
+                      window.location = "liveaction:CreateProjectFromSpecAction(" + projectspecPath + "/projects/" + name + "_" + device + ".projectspec, " + name + "," +  device +")";
+                  } else {
+                      window.location = "liveaction:CreateProjectFromSpecAction(" + uri + ", " + name + "," +  device +")";
+                  }
+                  $('#exampleModal').modal('hide');
+                  $("#createProjectSpec").button('reset');
+                  clearInterval(poll);
+                }
+              });
+            };
+
+            var filename = "";
+            if(navigator.appVersion.indexOf("Win") != -1) {
+                filename = "/create_projectspec.exe";
+            } else {
+                filename = "/create_projectspec.py";
+            }
+
+            window.location = "liveaction:RunProgramAction('" + scriptsPath + filename + " " + name + " " + device + " " + root + "'," + scriptsPath + ")";
+            return false;
+        });
+
+        // Create tables for user interaction
+        CreateCodeExamplesTable(Templates.codeExTable, example_data);
+        CreateCFilesExamplesTable(Templates.cSourceTable, example_data);
+      }
+    });
+
+  </script>
+</body>
+</html>

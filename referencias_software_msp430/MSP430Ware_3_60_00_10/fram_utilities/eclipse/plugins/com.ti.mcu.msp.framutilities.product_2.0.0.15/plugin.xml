@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin
+    name="FRAM Utilities Target Content"
+    id="com.ti.mcu.msp.framutilities.product_2.0.0.15"
+    version="2.0.0.15"
+    provider-name="Texas Instruments Inc.">
+
+    <extension point="org.eclipse.rtsc.xdctools.ui.productInfo">
+        <repository location="../../../packages"/>
+        <repository location="../../../."/>
+        <docs location="../../.././"/>
+        <docs location="../../../doc"/>
+        <docs location="../../../doc/cdoc"/>
+        <info
+            installLocation="../../.."
+            productName="FRAM Utilities"
+            versionNumber="2.0.0.15"
+        />
+    </extension>
+
+    <extension point="org.eclipse.rtsc.xdctools.model.productView">
+        <productview
+            moduleName="ti.mcu.msp.framutilities.product.ProductView"
+         />
+    </extension>
+
+    <extension point="org.eclipse.rtsc.xdctools.managedbuild.core.rtscProductTypes">
+        <productType
+            id="com.ti.mcu.msp.framutilities"
+            name="FRAM Utilities"
+            folderPrefix="framutilities"
+            rootMacroName="FRAM_UTILITIES"/>
+    </extension>
+
+    <extension point="org.eclipse.rtsc.xdctools.managedbuild.core.rtscProducts">
+        <product
+            productTypeId="com.ti.mcu.msp.framutilities"
+            version="2.0.0.15">
+            <resources location="resources"/>
+        </product>
+    </extension>
+</plugin>

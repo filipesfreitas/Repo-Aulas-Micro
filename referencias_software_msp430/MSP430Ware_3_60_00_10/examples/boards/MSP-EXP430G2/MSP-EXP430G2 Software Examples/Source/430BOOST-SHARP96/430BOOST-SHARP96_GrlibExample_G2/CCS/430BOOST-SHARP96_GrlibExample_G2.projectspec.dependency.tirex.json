@@ -1,0 +1,27 @@
+[
+   {
+      "name" : "na",
+      "packages" : [],
+      "default" : "na",
+      "files" : [
+         "+../LcdDriver/HAL_MSP-EXP430G2_Sharp96x96.c -> LcdDriver/HAL_MSP-EXP430G2_Sharp96x96.c",
+         "+../LcdDriver/HAL_MSP-EXP430G2_Sharp96x96.h -> LcdDriver/HAL_MSP-EXP430G2_Sharp96x96.h",
+         "+../LcdDriver/Sharp96x96.c -> LcdDriver/Sharp96x96.c",
+         "+../LcdDriver/Sharp96x96.h -> LcdDriver/Sharp96x96.h",
+         "+../fonts/fontfixed6x8.c -> fonts/fontfixed6x8.c",
+         "+../grlib/circle.c -> grlib/circle.c",
+         "+../grlib/context.c -> grlib/context.c",
+         "+../grlib/grlib.h -> grlib/grlib.h",
+         "+../grlib/image.c -> grlib/image.c",
+         "+../grlib/line.c -> grlib/line.c",
+         "+../grlib/rectangle.c -> grlib/rectangle.c",
+         "+../grlib/string.c -> grlib/string.c",
+         "+../main.c -> main.c"
+      ],
+      "compiler" : {
+         "effective" : "na",
+         "specified" : "na",
+         "location" : "na"
+      }
+   }
+]

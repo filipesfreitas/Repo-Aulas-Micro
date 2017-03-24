@@ -1,0 +1,17 @@
+[
+   {
+      "name" : "na",
+      "packages" : [],
+      "files" : [
+         "-../../../libraries/CCS/MPYsoftware/QmathLib.a",
+         "-../../../include/QmathLib.h",
+         "+../../msp430/QmathLib_empty_ex1.c -> QmathLib_empty_ex1.c"
+      ],
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "default" : "na"
+   }
+]

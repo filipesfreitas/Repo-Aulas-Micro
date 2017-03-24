@@ -1,0 +1,17 @@
+[
+   {
+      "compiler" : {
+         "effective" : "na",
+         "location" : "na",
+         "specified" : "na"
+      },
+      "files" : [
+         "+../../../include -> dsplib/include",
+         "+../../../source -> dsplib/source",
+         "+../matrix_ex3_mpy_q15.c -> matrix_ex3_mpy_q15.c"
+      ],
+      "default" : "na",
+      "packages" : [],
+      "name" : "na"
+   }
+]

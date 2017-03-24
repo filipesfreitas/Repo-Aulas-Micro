@@ -1,0 +1,17 @@
+[
+   {
+      "default" : "na",
+      "compiler" : {
+         "location" : "na",
+         "specified" : "na",
+         "effective" : "na"
+      },
+      "files" : [
+         "+../../../include -> dsplib/include",
+         "+../../../source -> dsplib/source",
+         "+../transform_ex2_cmplx_fft_auto_q15.c -> transform_ex2_cmplx_fft_auto_q15.c"
+      ],
+      "name" : "na",
+      "packages" : []
+   }
+]

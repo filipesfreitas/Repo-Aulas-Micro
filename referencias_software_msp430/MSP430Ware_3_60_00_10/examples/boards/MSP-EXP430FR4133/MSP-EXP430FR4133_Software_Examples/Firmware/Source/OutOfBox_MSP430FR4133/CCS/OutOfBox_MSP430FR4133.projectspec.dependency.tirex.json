@@ -1,0 +1,23 @@
+[
+   {
+      "name" : "na",
+      "packages" : [],
+      "files" : [
+         "+../StopWatchMode.c -> StopWatchMode.c",
+         "+../StopWatchMode.h -> StopWatchMode.h",
+         "+../TempSensorMode.c -> TempSensorMode.c",
+         "+../TempSensorMode.h -> TempSensorMode.h",
+         "+../driverlib -> driverlib",
+         "+../hal_LCD.c -> hal_LCD.c",
+         "+../hal_LCD.h -> hal_LCD.h",
+         "+../main.c -> main.c",
+         "+../main.h -> main.h"
+      ],
+      "compiler" : {
+         "location" : "na",
+         "specified" : "na",
+         "effective" : "na"
+      },
+      "default" : "na"
+   }
+]

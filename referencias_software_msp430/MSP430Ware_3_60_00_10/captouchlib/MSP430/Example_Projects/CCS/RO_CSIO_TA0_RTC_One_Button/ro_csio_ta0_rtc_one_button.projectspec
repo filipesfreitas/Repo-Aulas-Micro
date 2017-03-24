@@ -1,0 +1,13 @@
+<projectSpec>
+  <project compilerBuildOptions="-I${PROJECT_ROOT}/Library -I${PROJECT_ROOT}/Application --gcc" device="MSP430FR4133" name="RO_CSIO_TA0_RTC_One_Button">
+
+    <file action="copy" path="../../Source/RO_CSIO_TA0_RTC_One_Button/main.c" targetDirectory="Application" />
+    <file action="copy" path="../../Source/RO_CSIO_TA0_RTC_One_Button/structure.c" targetDirectory="Application" />
+    <file action="copy" path="../../Source/RO_CSIO_TA0_RTC_One_Button/structure.h" targetDirectory="Application" />
+
+    <file action="copy" path="../../../Library/CTS_HAL.c" targetDirectory="Library" />
+    <file action="copy" path="../../../Library/CTS_HAL.h" targetDirectory="Library" />
+    <file action="copy" path="../../../Library/CTS_Layer.c" targetDirectory="Library" />
+    <file action="copy" path="../../../Library/CTS_Layer.h" targetDirectory="Library" />
+  </project>
+</projectSpec>
