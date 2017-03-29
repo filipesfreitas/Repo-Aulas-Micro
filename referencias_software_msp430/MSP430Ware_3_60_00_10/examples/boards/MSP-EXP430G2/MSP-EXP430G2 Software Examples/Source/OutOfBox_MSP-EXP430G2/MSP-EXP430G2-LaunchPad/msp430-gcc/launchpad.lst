@@ -1,0 +1,1117 @@
+
+launchpad.elf:     file format elf32-msp430
+
+SYMBOL TABLE:
+0000c000 l    d  .text	00000000 .text
+00000200 l    d  .bss	00000000 .bss
+0000023c l    d  .noinit	00000000 .noinit
+0000ffe0 l    d  .vectors	00000000 .vectors
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    df *ABS*	00000000 launchpad.c
+0000c2ae l       .text	00000000 __br_unexpected_
+00000057 g       *ABS*	00000000 __BCSCTL1
+0000005a g       *ABS*	00000000 __CACTL2
+00000000 g       *ABS*	00000000 __data_size
+00000166 g       *ABS*	00000000 __TA0CCTL2
+0000c2ae  w      .text	00000000 __isr_14
+0000c4fc g     F .text	00000008 ADC10_ISR
+00000128 g       *ABS*	00000000 __FCTL1
+00000192 g       *ABS*	00000000 __TA1CCR0
+00000042 g       *ABS*	00000000 __P2SEL2
+00000024 g       *ABS*	00000000 __P1IES
+00000069 g       *ABS*	00000000 __UCB0CTL1
+0000c2ae  w      .text	00000000 __isr_4
+00000002 g       *ABS*	00000000 __IFG1
+00000206 g     O .bss	00000001 timerMode
+00000060 g       *ABS*	00000000 __UCA0CTL0
+0000020a g     O .bss	00000004 tempDifference
+00000000 g       .vectors	00000000 _efartext
+00000176 g       *ABS*	00000000 __TA0CCR2
+00000001 g       *ABS*	00000000 __IE2
+0000002b g       *ABS*	00000000 __P2IFG
+0000001a g       *ABS*	00000000 __P3DIR
+0000c506 g       *ABS*	00000000 _etext
+0000c3ae g     F .text	00000086 Timer_A
+000010f8 g       *ABS*	00000000 __CALDCO_16MHZ
+0000003c g       *ABS*	00000000 __bss_size
+000010fd g       *ABS*	00000000 __CALBC1_8MHZ
+0000c000  w      .text	00000000 __watchdog_support
+0000c2a8  w      .text	00000000 __stop_progExec__
+0000c434 g     F .text	00000022 ta1_isr
+00000172 g       *ABS*	00000000 __TA0CCR0
+0000002d g       *ABS*	00000000 __P2IE
+0000c2ae  w      .text	00000000 __isr_11
+00000160 g       *ABS*	00000000 __TA0CTL
+00000025 g       *ABS*	00000000 __P1IE
+0000006b g       *ABS*	00000000 __UCB0BR1
+00000049 g       *ABS*	00000000 __ADC10DTC1
+00000164 g       *ABS*	00000000 __TA0CCTL1
+00000202 g     O .bss	00000001 tempPolarity
+00000190 g       *ABS*	00000000 __TA1R
+00000066 g       *ABS*	00000000 __UCA0RXBUF
+00000061 g       *ABS*	00000000 __UCA0CTL1
+00000170 g       *ABS*	00000000 __TA0R
+0000c4e0 g     F .text	0000001c WDT_SIR
+00000180 g       *ABS*	00000000 __TA1CTL
+0000006d g       *ABS*	00000000 __UCB0STAT
+0000c4fc g       .text	00000000 __isr_5
+00000063 g       *ABS*	00000000 __UCA0BR1
+0000c506 g       *ABS*	00000000 __data_load_start
+0000c2ae g       .text	00000000 __dtors_end
+00000053 g       *ABS*	00000000 __BCSCTL3
+000001bc g       *ABS*	00000000 __ADC10SA
+00000065 g       *ABS*	00000000 __UCA0STAT
+0000c496 g       .text	00000000 __isr_2
+0000c374 g     F .text	0000003a Transmit
+0000012c g       *ABS*	00000000 __FCTL3
+0000c4e0 g       .text	00000000 __isr_10
+0000002e g       *ABS*	00000000 __P2SEL
+0000020e g     O .bss	00000004 tempCalibrated
+000010f9 g       *ABS*	00000000 __CALBC1_16MHZ
+0000012e g       *ABS*	00000000 __TA0IV
+00000023 g       *ABS*	00000000 __P1IFG
+000010fb g       *ABS*	00000000 __CALBC1_12MHZ
+00000182 g       *ABS*	00000000 __TA1CCTL0
+0000004a g       *ABS*	00000000 __ADC10AE0
+0000011a g       *ABS*	00000000 __UCB0I2CSA
+00000056 g       *ABS*	00000000 __DCOCTL
+00000003 g       *ABS*	00000000 __IFG2
+0000023c g     O .noinit	00000002 __wdt_clear_value
+0000001b g       *ABS*	00000000 __P3SEL
+0000c2ae  w      .text	00000000 __isr_7
+0000ffe0 g     O .vectors	00000020 __ivtbl_16
+0000006c g       *ABS*	00000000 __UCB0I2CIE
+0000006a g       *ABS*	00000000 __UCB0BR0
+00000212 g     O .bss	00000001 tempMode
+00000028 g       *ABS*	00000000 __P2IN
+00000214 g     O .bss	00000004 tempAverage
+0000c2ec g     F .text	0000004c ConfigureAdcTempSensor
+00000118 g       *ABS*	00000000 __UCB0I2COA
+000001b4 g       *ABS*	00000000 __ADC10MEM
+0000005b g       *ABS*	00000000 __CAPD
+0000c2ae  w      .text	00000000 __isr_0
+00000029 g       *ABS*	00000000 __P2OUT
+0000012a g       *ABS*	00000000 __FCTL2
+00000064 g       *ABS*	00000000 __UCA0MCTL
+00000043 g       *ABS*	00000000 __P3SEL2
+0000c028  w      .text	00000000 __do_clear_bss
+00000021 g       *ABS*	00000000 __P1OUT
+0000002c g       *ABS*	00000000 __P2IES
+00000026 g       *ABS*	00000000 __P1SEL
+00000218 g     O .bss	00000020 tempMeasured
+00000200 g     O .bss	00000001 tempMeasuredPosition
+00000027 g       *ABS*	00000000 __P1REN
+0000c504  w      .text	00000000 _unexpected_
+0000c434 g       .text	00000000 __isr_8
+0000011e g       *ABS*	00000000 __TA1IV
+00000204 g     O .bss	00000001 calibrateUpdate
+0000c2ae  w      .text	00000000 __isr_3
+0000c496 g     F .text	0000004a PORT1_ISR
+000010fc g       *ABS*	00000000 __CALDCO_8MHZ
+0000c000  w      .text	00000000 _reset_vector__
+0000c2ae g       .text	00000000 __ctors_start
+0000c2ae  w      .text	00000000 __isr_12
+000010fa g       *ABS*	00000000 __CALDCO_12MHZ
+00000018 g       *ABS*	00000000 __P3IN
+0000c010  w      .text	00000000 __do_copy_data
+00000162 g       *ABS*	00000000 __TA0CCTL0
+00000200 g       .bss	00000000 __bss_start
+00000238 g     O .bss	00000001 BitCnt
+0000c03e g     F .text	0000026a main
+0000023a g     O .bss	00000002 TXByte
+0000c2ae  w      .text	00000000 __isr_13
+0000c2b2 g     F .text	0000003a PreApplicationMode
+0000c35a g     F .text	0000001a ConfigureTimerUart
+0000c488 g     F .text	0000000e InitializeLeds
+00010000 g       .vectors	00000000 _vectors_end
+0000002a g       *ABS*	00000000 __P2DIR
+00000174 g       *ABS*	00000000 __TA0CCR1
+00000186 g       *ABS*	00000000 __TA1CCTL2
+00000068 g       *ABS*	00000000 __UCB0CTL0
+0000002f g       *ABS*	00000000 __P2REN
+0000c338 g     F .text	00000022 ConfigureTimerPwm
+0000c46a g     F .text	0000001e InitializeButton
+0000006e g       *ABS*	00000000 __UCB0RXBUF
+000001b0 g       *ABS*	00000000 __ADC10CTL0
+0000c456 g     F .text	00000014 InitializeClocks
+0000c3ae g       .text	00000000 __isr_9
+0000005e g       *ABS*	00000000 __UCA0IRTCTL
+000010fe g       *ABS*	00000000 __CALDCO_1MHZ
+00000067 g       *ABS*	00000000 __UCA0TXBUF
+00000184 g       *ABS*	00000000 __TA1CCTL1
+0000c00c  w      .text	00000000 __init_stack
+00000208 g     O .bss	00000001 applicationMode
+0000005d g       *ABS*	00000000 __UCA0ABCTL
+00000019 g       *ABS*	00000000 __P3OUT
+00000196 g       *ABS*	00000000 __TA1CCR2
+0000c2ae g       .text	00000000 __dtors_start
+0000c2ae  w      .text	00000000 __isr_6
+0000c2ae g       .text	00000000 __ctors_end
+00000194 g       *ABS*	00000000 __TA1CCR1
+00000062 g       *ABS*	00000000 __UCA0BR0
+00000400 g       *ABS*	00000000 __stack
+0000c2ae  w      .text	00000000 __isr_1
+00000200 g       .text	00000000 _edata
+0000023e g       *ABS*	00000000 _end
+00000048 g       *ABS*	00000000 __ADC10DTC0
+000001b2 g       *ABS*	00000000 __ADC10CTL1
+00000058 g       *ABS*	00000000 __BCSCTL2
+0000c2a8  w      .text	00000000 _endless_loop__
+00000041 g       *ABS*	00000000 __P1SEL2
+00000022 g       *ABS*	00000000 __P1DIR
+0000005f g       *ABS*	00000000 __UCA0IRRCTL
+00000010 g       *ABS*	00000000 __P3REN
+0000006f g       *ABS*	00000000 __UCB0TXBUF
+000010ff g       *ABS*	00000000 __CALBC1_1MHZ
+0000c010  w      .text	00000000 __low_level_init
+00000200 g       .text	00000000 __data_start
+00000120 g       *ABS*	00000000 __WDTCTL
+00000000 g       *ABS*	00000000 __IE1
+00000059 g       *ABS*	00000000 __CACTL1
+00000020 g       *ABS*	00000000 __P1IN
+
+
+
+Disassembly of section .text:
+
+0000c000 <__watchdog_support>:
+    c000:	55 42 20 01 	mov.b	&0x0120,r5	
+    c004:	35 d0 08 5a 	bis	#23048,	r5	;#0x5a08
+    c008:	82 45 3c 02 	mov	r5,	&0x023c	
+
+0000c00c <__init_stack>:
+    c00c:	31 40 00 04 	mov	#1024,	r1	;#0x0400
+
+0000c010 <__do_copy_data>:
+    c010:	3f 40 00 00 	mov	#0,	r15	;#0x0000
+    c014:	0f 93       	tst	r15		
+    c016:	08 24       	jz	$+18     	;abs 0xc028
+    c018:	92 42 3c 02 	mov	&0x023c,&0x0120	
+    c01c:	20 01 
+    c01e:	2f 83       	decd	r15		
+    c020:	9f 4f 06 c5 	mov	-15098(r15),512(r15);0xc506(r15), 0x0200(r15)
+    c024:	00 02 
+    c026:	f8 23       	jnz	$-14     	;abs 0xc018
+
+0000c028 <__do_clear_bss>:
+    c028:	3f 40 3c 00 	mov	#60,	r15	;#0x003c
+    c02c:	0f 93       	tst	r15		
+    c02e:	07 24       	jz	$+16     	;abs 0xc03e
+    c030:	92 42 3c 02 	mov	&0x023c,&0x0120	
+    c034:	20 01 
+    c036:	1f 83       	dec	r15		
+    c038:	cf 43 00 02 	mov.b	#0,	512(r15);r3 As==00, 0x0200(r15)
+    c03c:	f9 23       	jnz	$-12     	;abs 0xc030
+
+0000c03e <main>:
+void main(void)
+{
+  unsigned int uartUpdateTimer = UART_UPDATE_INTERVAL;
+  unsigned char i;
+
+  WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
+    c03e:	b2 40 80 5a 	mov	#23168,	&0x0120	;#0x5a80
+    c042:	20 01 
+}
+
+void InitializeClocks(void)
+{
+
+  BCSCTL1 = CALBC1_1MHZ;                    // Set range
+    c044:	d2 42 ff 10 	mov.b	&0x10ff,&0x0057	
+    c048:	57 00 
+  DCOCTL = CALDCO_1MHZ;
+    c04a:	d2 42 fe 10 	mov.b	&0x10fe,&0x0056	
+    c04e:	56 00 
+  BCSCTL2 &= ~(DIVS_3);                     // SMCLK = DCO = 1MHz  
+    c050:	f2 f0 f9 ff 	and.b	#-7,	&0x0058	;#0xfff9
+    c054:	58 00 
+  unsigned char i;
+
+  WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
+  
+  InitializeClocks();
+  InitializeButton();
+    c056:	b0 12 6a c4 	call	#0xc46a	
+}
+
+
+void InitializeLeds(void)
+{
+  LED_DIR |= LED1 + LED2;                          
+    c05a:	f2 d0 41 00 	bis.b	#65,	&0x0022	;#0x0041
+    c05e:	22 00 
+  LED_OUT &= ~(LED1 + LED2);  
+    c060:	f2 f0 be ff 	and.b	#-66,	&0x0021	;#0xffbe
+    c064:	21 00 
+  WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
+  
+  InitializeClocks();
+  InitializeButton();
+  InitializeLeds();
+  PreApplicationMode();                     // Blinks LEDs, waits for button press
+    c066:	b0 12 b2 c2 	call	#0xc2b2	
+  
+  /* Application Mode begins */
+  applicationMode = APP_APPLICATION_MODE;
+    c06a:	d2 43 08 02 	mov.b	#1,	&0x0208	;r3 As==01
+ 
+ 
+ 
+  ConfigureAdcTempSensor();
+    c06e:	b0 12 ec c2 	call	#0xc2ec	
+}
+
+
+void ConfigureTimerPwm(void)
+{
+  timerMode = TIMER_PWM_MODE;
+    c072:	c2 43 06 02 	mov.b	#0,	&0x0206	;r3 As==00
+  
+  TACCR0 = TIMER_PWM_PERIOD;                              //   
+    c076:	b2 40 d0 07 	mov	#2000,	&0x0172	;#0x07d0
+    c07a:	72 01 
+  TACTL = TASSEL_2 | MC_1;                  // TACLK = SMCLK, Up mode.
+    c07c:	b2 40 10 02 	mov	#528,	&0x0160	;#0x0210
+    c080:	60 01 
+  TACCTL0 = CCIE;
+    c082:	b2 40 10 00 	mov	#16,	&0x0162	;#0x0010
+    c086:	62 01 
+  TACCTL1 = CCIE + OUTMOD_3;                // TACCTL1 Capture Compare
+    c088:	b2 40 70 00 	mov	#112,	&0x0164	;#0x0070
+    c08c:	64 01 
+  TACCR1 = 1;
+    c08e:	92 43 74 01 	mov	#1,	&0x0174	;r3 As==01
+ 
+ 
+  ConfigureAdcTempSensor();
+  ConfigureTimerPwm();
+  
+  __enable_interrupt();                     // Enable interrupts.
+    c092:	32 d2       	eint			
+void InitializeClocks(void);
+
+
+void main(void)
+{
+  unsigned int uartUpdateTimer = UART_UPDATE_INTERVAL;
+    c094:	3c 40 e8 03 	mov	#1000,	r12	;#0x03e8
+  __enable_interrupt();                     // Enable interrupts.
+  
+  /* Main Application Loop */
+  while(1)
+  {    
+    ADC10CTL0 |= ENC + ADC10SC;             // Sampling and conversion start
+    c098:	b2 d0 03 00 	bis	#3,	&0x01b0	;#0x0003
+    c09c:	b0 01 
+    __bis_SR_register(CPUOFF + GIE);        // LPM0 with interrupts enabled
+    c09e:	32 d0 18 00 	bis	#24,	r2	;#0x0018
+    
+    /* Moving average filter out of 8 values to somewhat stabilize sampled ADC */
+    tempMeasured[tempMeasuredPosition++] = ADC10MEM;
+    c0a2:	5d 42 00 02 	mov.b	&0x0200,r13	
+    c0a6:	1e 42 b4 01 	mov	&0x01b4,r14	
+    c0aa:	4f 4d       	mov.b	r13,	r15	
+    c0ac:	0f 5f       	rla	r15		
+    c0ae:	0f 5f       	rla	r15		
+    c0b0:	3f 50 18 02 	add	#536,	r15	;#0x0218
+    c0b4:	8f 4e 00 00 	mov	r14,	0(r15)	;0x0000(r15)
+    c0b8:	8f 43 02 00 	mov	#0,	2(r15)	;r3 As==00, 0x0002(r15)
+    c0bc:	4f 4d       	mov.b	r13,	r15	
+    c0be:	5f 53       	inc.b	r15		
+    c0c0:	c2 4f 00 02 	mov.b	r15,	&0x0200	
+    if (tempMeasuredPosition == 8)
+    c0c4:	7f 92       	cmp.b	#8,	r15	;r2 As==11
+    c0c6:	02 20       	jnz	$+6      	;abs 0xc0cc
+      tempMeasuredPosition = 0;
+    c0c8:	c2 43 00 02 	mov.b	#0,	&0x0200	;r3 As==00
+    c0cc:	3d 40 18 02 	mov	#536,	r13	;#0x0218
+void ConfigureTimerUart(void);  
+void Transmit(void);
+void InitializeClocks(void);
+
+
+void main(void)
+    c0d0:	0e 43       	clr	r14		
+    c0d2:	0f 43       	clr	r15		
+    tempMeasured[tempMeasuredPosition++] = ADC10MEM;
+    if (tempMeasuredPosition == 8)
+      tempMeasuredPosition = 0;
+    tempAverage = 0;
+    for (i = 0; i < 8; i++)
+      tempAverage += tempMeasured[i];
+    c0d4:	3e 5d       	add	@r13+,	r14	
+    c0d6:	3f 6d       	addc	@r13+,	r15	
+    /* Moving average filter out of 8 values to somewhat stabilize sampled ADC */
+    tempMeasured[tempMeasuredPosition++] = ADC10MEM;
+    if (tempMeasuredPosition == 8)
+      tempMeasuredPosition = 0;
+    tempAverage = 0;
+    for (i = 0; i < 8; i++)
+    c0d8:	3d 90 38 02 	cmp	#568,	r13	;#0x0238
+    c0dc:	fb 23       	jnz	$-8      	;abs 0xc0d4
+      tempAverage += tempMeasured[i];
+    tempAverage >>= 3;                      // Divide by 8 to get average
+    c0de:	0f 11       	rra	r15		
+    c0e0:	0e 10       	rrc	r14		
+    c0e2:	0f 11       	rra	r15		
+    c0e4:	0e 10       	rrc	r14		
+    c0e6:	0f 11       	rra	r15		
+    c0e8:	0e 10       	rrc	r14		
+    c0ea:	82 4e 14 02 	mov	r14,	&0x0214	
+    c0ee:	82 4f 16 02 	mov	r15,	&0x0216	
+    
+    if ((--uartUpdateTimer == 0) || calibrateUpdate )
+    c0f2:	3c 53       	add	#-1,	r12	;r3 As==11
+    c0f4:	10 20       	jnz	$+34     	;abs 0xc116
+  TACCR1 = 1;
+}
+
+void ConfigureTimerUart(void)
+{
+  timerMode = TIMER_UART_MODE;              // Configure TimerA0 UART TX 
+    c0f6:	d2 43 06 02 	mov.b	#1,	&0x0206	;r3 As==01
+                           
+  TACCTL0 = OUT;                              // TXD Idle as Mark
+    c0fa:	a2 42 62 01 	mov	#4,	&0x0162	;r2 As==10
+  TACTL = TASSEL_2 + MC_2 + ID_3;           // SMCLK/8, continuous mode
+    c0fe:	b2 40 e0 02 	mov	#736,	&0x0160	;#0x02e0
+    c102:	60 01 
+  P1SEL |= TXD + RXD;                       //
+    c104:	f2 d0 06 00 	bis.b	#6,	&0x0026	;#0x0006
+    c108:	26 00 
+  P1DIR |= TXD;                             //  
+    c10a:	e2 d3 22 00 	bis.b	#2,	&0x0022	;r3 As==10
+    tempAverage >>= 3;                      // Divide by 8 to get average
+    
+    if ((--uartUpdateTimer == 0) || calibrateUpdate )
+    {
+      ConfigureTimerUart();
+      if (calibrateUpdate)
+    c10e:	c2 93 04 02 	tst.b	&0x0204	
+    c112:	10 24       	jz	$+34     	;abs 0xc134
+    c114:	04 3c       	jmp	$+10     	;abs 0xc11e
+    tempAverage = 0;
+    for (i = 0; i < 8; i++)
+      tempAverage += tempMeasured[i];
+    tempAverage >>= 3;                      // Divide by 8 to get average
+    
+    if ((--uartUpdateTimer == 0) || calibrateUpdate )
+    c116:	c2 93 04 02 	tst.b	&0x0204	
+    c11a:	b9 20       	jnz	$+372    	;abs 0xc28e
+    c11c:	5b 3c       	jmp	$+184    	;abs 0xc1d4
+    {
+      ConfigureTimerUart();
+      if (calibrateUpdate)
+      { 
+        TXByte = 248;                       // A character with high value, outside of temp range
+    c11e:	b2 40 f8 00 	mov	#248,	&0x023a	;#0x00f8
+    c122:	3a 02 
+     
+        Transmit();
+    c124:	b0 12 74 c3 	call	#0xc374	
+        calibrateUpdate = 0;
+    c128:	c2 43 04 02 	mov.b	#0,	&0x0204	;r3 As==00
+    c12c:	1e 42 14 02 	mov	&0x0214,r14	
+    c130:	1f 42 16 02 	mov	&0x0216,r15	
+      }   
+      TXByte = (unsigned char)( ((tempAverage - 630) * 761) / 1024 );   
+    c134:	0c 4e       	mov	r14,	r12	
+    c136:	0d 4f       	mov	r15,	r13	
+    c138:	0c 5c       	rla	r12		
+    c13a:	0d 6d       	rlc	r13		
+    c13c:	0c 5e       	add	r14,	r12	
+    c13e:	0d 6f       	addc	r15,	r13	
+    c140:	0c 5c       	rla	r12		
+    c142:	0d 6d       	rlc	r13		
+    c144:	0c 5c       	rla	r12		
+    c146:	0d 6d       	rlc	r13		
+    c148:	0c 5c       	rla	r12		
+    c14a:	0d 6d       	rlc	r13		
+    c14c:	0c 5c       	rla	r12		
+    c14e:	0d 6d       	rlc	r13		
+    c150:	0c 5c       	rla	r12		
+    c152:	0d 6d       	rlc	r13		
+    c154:	0c 8e       	sub	r14,	r12	
+    c156:	0d 7f       	subc	r15,	r13	
+    c158:	0c 5c       	rla	r12		
+    c15a:	0d 6d       	rlc	r13		
+    c15c:	0c 5c       	rla	r12		
+    c15e:	0d 6d       	rlc	r13		
+    c160:	0c 5c       	rla	r12		
+    c162:	0d 6d       	rlc	r13		
+    c164:	0c 5e       	add	r14,	r12	
+    c166:	0d 6f       	addc	r15,	r13	
+    c168:	0a 4c       	mov	r12,	r10	
+    c16a:	0b 4d       	mov	r13,	r11	
+    c16c:	3a 50 3a af 	add	#-20678,r10	;#0xaf3a
+    c170:	3b 60 f8 ff 	addc	#-8,	r11	;#0xfff8
+    c174:	0b 93       	tst	r11		
+    c176:	06 34       	jge	$+14     	;abs 0xc184
+    c178:	0a 4c       	mov	r12,	r10	
+    c17a:	0b 4d       	mov	r13,	r11	
+    c17c:	3a 50 39 b3 	add	#-19655,r10	;#0xb339
+    c180:	3b 60 f8 ff 	addc	#-8,	r11	;#0xfff8
+    c184:	0e 4a       	mov	r10,	r14	
+    c186:	0f 4b       	mov	r11,	r15	
+    c188:	0e 4a       	mov	r10,	r14	
+    c18a:	8e 10       	swpb	r14		
+    c18c:	8f 10       	swpb	r15		
+    c18e:	4e ef       	xor.b	r15,	r14	
+    c190:	0e ef       	xor	r15,	r14	
+    c192:	8f 11       	sxt	r15		
+    c194:	0f 11       	rra	r15		
+    c196:	0e 10       	rrc	r14		
+    c198:	0f 11       	rra	r15		
+    c19a:	0e 10       	rrc	r14		
+    c19c:	c2 4e 3a 02 	mov.b	r14,	&0x023a	
+    c1a0:	c2 43 3b 02 	mov.b	#0,	&0x023b	;r3 As==00
+         
+      Transmit(); 
+    c1a4:	b0 12 74 c3 	call	#0xc374	
+}
+
+
+void ConfigureTimerPwm(void)
+{
+  timerMode = TIMER_PWM_MODE;
+    c1a8:	c2 43 06 02 	mov.b	#0,	&0x0206	;r3 As==00
+  
+  TACCR0 = TIMER_PWM_PERIOD;                              //   
+    c1ac:	b2 40 d0 07 	mov	#2000,	&0x0172	;#0x07d0
+    c1b0:	72 01 
+  TACTL = TASSEL_2 | MC_1;                  // TACLK = SMCLK, Up mode.
+    c1b2:	b2 40 10 02 	mov	#528,	&0x0160	;#0x0210
+    c1b6:	60 01 
+  TACCTL0 = CCIE;
+    c1b8:	b2 40 10 00 	mov	#16,	&0x0162	;#0x0010
+    c1bc:	62 01 
+  TACCTL1 = CCIE + OUTMOD_3;                // TACCTL1 Capture Compare
+    c1be:	b2 40 70 00 	mov	#112,	&0x0164	;#0x0070
+    c1c2:	64 01 
+  TACCR1 = 1;
+    c1c4:	92 43 74 01 	mov	#1,	&0x0174	;r3 As==01
+    c1c8:	1e 42 14 02 	mov	&0x0214,r14	
+    c1cc:	1f 42 16 02 	mov	&0x0216,r15	
+      TXByte = (unsigned char)( ((tempAverage - 630) * 761) / 1024 );   
+         
+      Transmit(); 
+  
+        
+      uartUpdateTimer = UART_UPDATE_INTERVAL;
+    c1d0:	3c 40 e8 03 	mov	#1000,	r12	;#0x03e8
+      ConfigureTimerPwm();      
+    }
+    
+    tempDifference = tempAverage - tempCalibrated;
+    c1d4:	1e 82 0e 02 	sub	&0x020e,r14	
+    c1d8:	1f 72 10 02 	subc	&0x0210,r15	
+    c1dc:	82 4e 0a 02 	mov	r14,	&0x020a	
+    c1e0:	82 4f 0c 02 	mov	r15,	&0x020c	
+    if (tempDifference < -TEMP_THRESHOLD)
+    c1e4:	3f 93       	cmp	#-1,	r15	;r3 As==11
+    c1e6:	05 38       	jl	$+12     	;abs 0xc1f2
+    c1e8:	0f 93       	tst	r15		
+    c1ea:	15 34       	jge	$+44     	;abs 0xc216
+    c1ec:	3e 90 fb ff 	cmp	#-5,	r14	;#0xfffb
+    c1f0:	12 2c       	jc	$+38     	;abs 0xc216
+    {
+      tempDifference = -tempDifference;
+    c1f2:	0a 4e       	mov	r14,	r10	
+    c1f4:	0b 4f       	mov	r15,	r11	
+    c1f6:	3a e3       	inv	r10		
+    c1f8:	3b e3       	inv	r11		
+    c1fa:	82 4a 0a 02 	mov	r10,	&0x020a	
+    c1fe:	82 4b 0c 02 	mov	r11,	&0x020c	
+    c202:	92 53 0a 02 	inc	&0x020a	
+    c206:	82 63 0c 02 	adc	&0x020c	
+      tempPolarity = TEMP_COLD;
+    c20a:	e2 43 02 02 	mov.b	#2,	&0x0202	;r3 As==10
+      LED_OUT &= ~ LED1;
+    c20e:	f2 f0 fe ff 	and.b	#-2,	&0x0021	;#0xfffe
+    c212:	21 00 
+    c214:	18 3c       	jmp	$+50     	;abs 0xc246
+    }
+    else
+    if (tempDifference > TEMP_THRESHOLD)
+    c216:	0f 93       	tst	r15		
+    c218:	0a 38       	jl	$+22     	;abs 0xc22e
+    c21a:	03 20       	jnz	$+8      	;abs 0xc222
+    c21c:	3e 90 06 00 	cmp	#6,	r14	;#0x0006
+    c220:	06 28       	jnc	$+14     	;abs 0xc22e
+    {
+      tempPolarity = TEMP_HOT;
+    c222:	d2 43 02 02 	mov.b	#1,	&0x0202	;r3 As==01
+      LED_OUT &= ~ LED2;
+    c226:	f2 f0 bf ff 	and.b	#-65,	&0x0021	;#0xffbf
+    c22a:	21 00 
+    c22c:	0c 3c       	jmp	$+26     	;abs 0xc246
+    }
+    else
+    {
+      tempPolarity = TEMP_SAME;
+    c22e:	c2 43 02 02 	mov.b	#0,	&0x0202	;r3 As==00
+      TACCTL0 &= ~CCIE;
+    c232:	b2 f0 ef ff 	and	#-17,	&0x0162	;#0xffef
+    c236:	62 01 
+      TACCTL1 &= ~CCIE;
+    c238:	b2 f0 ef ff 	and	#-17,	&0x0164	;#0xffef
+    c23c:	64 01 
+      LED_OUT &= ~(LED1 + LED2);        
+    c23e:	f2 f0 be ff 	and.b	#-66,	&0x0021	;#0xffbe
+    c242:	21 00 
+    c244:	29 3f       	jmp	$-428    	;abs 0xc098
+    } 
+    
+    if (tempPolarity != TEMP_SAME)    
+    {      
+      tempDifference <<= 3;
+    c246:	1e 42 0a 02 	mov	&0x020a,r14	
+    c24a:	1f 42 0c 02 	mov	&0x020c,r15	
+    c24e:	0e 5e       	rla	r14		
+    c250:	0f 6f       	rlc	r15		
+    c252:	0e 5e       	rla	r14		
+    c254:	0f 6f       	rlc	r15		
+    c256:	0e 5e       	rla	r14		
+    c258:	0f 6f       	rlc	r15		
+      tempDifference += TIMER_PWM_OFFSET;      
+    c25a:	3e 50 14 00 	add	#20,	r14	;#0x0014
+    c25e:	0f 63       	adc	r15		
+    c260:	82 4e 0a 02 	mov	r14,	&0x020a	
+    c264:	82 4f 0c 02 	mov	r15,	&0x020c	
+      TACCR1 = ( (tempDifference) < (TIMER_PWM_PERIOD-1) ? (tempDifference) : (TIMER_PWM_PERIOD-1) );
+    c268:	0f 93       	tst	r15		
+    c26a:	07 38       	jl	$+16     	;abs 0xc27a
+    c26c:	03 20       	jnz	$+8      	;abs 0xc274
+    c26e:	3e 90 d0 07 	cmp	#2000,	r14	;#0x07d0
+    c272:	03 28       	jnc	$+8      	;abs 0xc27a
+    c274:	3e 40 cf 07 	mov	#1999,	r14	;#0x07cf
+    c278:	0f 43       	clr	r15		
+    c27a:	82 4e 74 01 	mov	r14,	&0x0174	
+      TACCTL0 |= CCIE;
+    c27e:	b2 d0 10 00 	bis	#16,	&0x0162	;#0x0010
+    c282:	62 01 
+      TACCTL1 |= CCIE;      
+    c284:	b2 d0 10 00 	bis	#16,	&0x0164	;#0x0010
+    c288:	64 01 
+    c28a:	30 40 98 c0 	br	#0xc098	
+  TACCR1 = 1;
+}
+
+void ConfigureTimerUart(void)
+{
+  timerMode = TIMER_UART_MODE;              // Configure TimerA0 UART TX 
+    c28e:	d2 43 06 02 	mov.b	#1,	&0x0206	;r3 As==01
+                           
+  TACCTL0 = OUT;                              // TXD Idle as Mark
+    c292:	a2 42 62 01 	mov	#4,	&0x0162	;r2 As==10
+  TACTL = TASSEL_2 + MC_2 + ID_3;           // SMCLK/8, continuous mode
+    c296:	b2 40 e0 02 	mov	#736,	&0x0160	;#0x02e0
+    c29a:	60 01 
+  P1SEL |= TXD + RXD;                       //
+    c29c:	f2 d0 06 00 	bis.b	#6,	&0x0026	;#0x0006
+    c2a0:	26 00 
+  P1DIR |= TXD;                             //  
+    c2a2:	e2 d3 22 00 	bis.b	#2,	&0x0022	;r3 As==10
+    c2a6:	3b 3f       	jmp	$-392    	;abs 0xc11e
+
+0000c2a8 <__stop_progExec__>:
+    c2a8:	32 d0 f0 00 	bis	#240,	r2	;#0x00f0
+    c2ac:	fd 3f       	jmp	$-4      	;abs 0xc2a8
+
+0000c2ae <__ctors_end>:
+    c2ae:	30 40 04 c5 	br	#0xc504	
+
+0000c2b2 <PreApplicationMode>:
+  
+}
+
+void PreApplicationMode(void)
+{    
+  LED_DIR |= LED1 + LED2;
+    c2b2:	f2 d0 41 00 	bis.b	#65,	&0x0022	;#0x0041
+    c2b6:	22 00 
+  LED_OUT |= LED1;                          // To enable the LED toggling effect
+    c2b8:	d2 d3 21 00 	bis.b	#1,	&0x0021	;r3 As==01
+  LED_OUT &= ~LED2;
+    c2bc:	f2 f0 bf ff 	and.b	#-65,	&0x0021	;#0xffbf
+    c2c0:	21 00 
+    
+  BCSCTL1 |= DIVA_1;                        // ACLK/2
+    c2c2:	f2 d0 10 00 	bis.b	#16,	&0x0057	;#0x0010
+    c2c6:	57 00 
+  BCSCTL3 |= LFXT1S_2;                      // ACLK = VLO
+    c2c8:	f2 d0 20 00 	bis.b	#32,	&0x0053	;#0x0020
+    c2cc:	53 00 
+  
+  TACCR0 = 1200;                             //   
+    c2ce:	b2 40 b0 04 	mov	#1200,	&0x0172	;#0x04b0
+    c2d2:	72 01 
+  TACTL = TASSEL_1 | MC_1;                  // TACLK = SMCLK, Up mode.  
+    c2d4:	b2 40 10 01 	mov	#272,	&0x0160	;#0x0110
+    c2d8:	60 01 
+  TACCTL1 = CCIE + OUTMOD_3;                // TACCTL1 Capture Compare
+    c2da:	b2 40 70 00 	mov	#112,	&0x0164	;#0x0070
+    c2de:	64 01 
+  TACCR1 = 600;  
+    c2e0:	b2 40 58 02 	mov	#600,	&0x0174	;#0x0258
+    c2e4:	74 01 
+  __bis_SR_register(LPM3_bits + GIE);          // LPM0 with interrupts enabled
+    c2e6:	32 d0 d8 00 	bis	#216,	r2	;#0x00d8
+}
+    c2ea:	30 41       	ret			
+
+0000c2ec <ConfigureAdcTempSensor>:
+
+void ConfigureAdcTempSensor(void)
+{
+  unsigned char i;
+  /* Configure ADC Temp Sensor Channel */
+  ADC10CTL1 = INCH_10 + ADC10DIV_3;         // Temp Sensor ADC10CLK/4
+    c2ec:	b2 40 60 a0 	mov	#-24480,&0x01b2	;#0xa060
+    c2f0:	b2 01 
+  ADC10CTL0 = SREF_1 + ADC10SHT_3 + REFON + ADC10ON + ADC10IE;
+    c2f2:	b2 40 38 38 	mov	#14392,	&0x01b0	;#0x3838
+    c2f6:	b0 01 
+  __delay_cycles(1000);                     // Wait for ADC Ref to settle  
+    c2f8:	3f 40 4c 01 	mov	#332,	r15	;#0x014c
+    c2fc:	1f 83       	dec	r15		
+    c2fe:	fe 23       	jnz	$-2      	;abs 0xc2fc
+    c300:	03 43       	nop			
+    c302:	03 43       	nop			
+  ADC10CTL0 |= ENC + ADC10SC;               // Sampling and conversion start
+    c304:	b2 d0 03 00 	bis	#3,	&0x01b0	;#0x0003
+    c308:	b0 01 
+  __bis_SR_register(CPUOFF + GIE);          // LPM0 with interrupts enabled
+    c30a:	32 d0 18 00 	bis	#24,	r2	;#0x0018
+  tempCalibrated = ADC10MEM;
+    c30e:	1e 42 b4 01 	mov	&0x01b4,r14	
+    c312:	82 4e 0e 02 	mov	r14,	&0x020e	
+    c316:	82 43 10 02 	mov	#0,	&0x0210	;r3 As==00
+    c31a:	3f 40 18 02 	mov	#536,	r15	;#0x0218
+  for (i=0; i < 8; i++)
+    tempMeasured[i] = tempCalibrated;
+    c31e:	8f 4e 00 00 	mov	r14,	0(r15)	;0x0000(r15)
+    c322:	8f 43 02 00 	mov	#0,	2(r15)	;r3 As==00, 0x0002(r15)
+    c326:	2f 52       	add	#4,	r15	;r2 As==10
+  ADC10CTL0 = SREF_1 + ADC10SHT_3 + REFON + ADC10ON + ADC10IE;
+  __delay_cycles(1000);                     // Wait for ADC Ref to settle  
+  ADC10CTL0 |= ENC + ADC10SC;               // Sampling and conversion start
+  __bis_SR_register(CPUOFF + GIE);          // LPM0 with interrupts enabled
+  tempCalibrated = ADC10MEM;
+  for (i=0; i < 8; i++)
+    c328:	3f 90 38 02 	cmp	#568,	r15	;#0x0238
+    c32c:	f8 23       	jnz	$-14     	;abs 0xc31e
+    tempMeasured[i] = tempCalibrated;
+  tempAverage = tempCalibrated;  
+    c32e:	82 4e 14 02 	mov	r14,	&0x0214	
+    c332:	82 43 16 02 	mov	#0,	&0x0216	;r3 As==00
+}
+    c336:	30 41       	ret			
+
+0000c338 <ConfigureTimerPwm>:
+
+
+void ConfigureTimerPwm(void)
+{
+  timerMode = TIMER_PWM_MODE;
+    c338:	c2 43 06 02 	mov.b	#0,	&0x0206	;r3 As==00
+  
+  TACCR0 = TIMER_PWM_PERIOD;                              //   
+    c33c:	b2 40 d0 07 	mov	#2000,	&0x0172	;#0x07d0
+    c340:	72 01 
+  TACTL = TASSEL_2 | MC_1;                  // TACLK = SMCLK, Up mode.
+    c342:	b2 40 10 02 	mov	#528,	&0x0160	;#0x0210
+    c346:	60 01 
+  TACCTL0 = CCIE;
+    c348:	b2 40 10 00 	mov	#16,	&0x0162	;#0x0010
+    c34c:	62 01 
+  TACCTL1 = CCIE + OUTMOD_3;                // TACCTL1 Capture Compare
+    c34e:	b2 40 70 00 	mov	#112,	&0x0164	;#0x0070
+    c352:	64 01 
+  TACCR1 = 1;
+    c354:	92 43 74 01 	mov	#1,	&0x0174	;r3 As==01
+}
+    c358:	30 41       	ret			
+
+0000c35a <ConfigureTimerUart>:
+
+void ConfigureTimerUart(void)
+{
+  timerMode = TIMER_UART_MODE;              // Configure TimerA0 UART TX 
+    c35a:	d2 43 06 02 	mov.b	#1,	&0x0206	;r3 As==01
+                           
+  TACCTL0 = OUT;                              // TXD Idle as Mark
+    c35e:	a2 42 62 01 	mov	#4,	&0x0162	;r2 As==10
+  TACTL = TASSEL_2 + MC_2 + ID_3;           // SMCLK/8, continuous mode
+    c362:	b2 40 e0 02 	mov	#736,	&0x0160	;#0x02e0
+    c366:	60 01 
+  P1SEL |= TXD + RXD;                       //
+    c368:	f2 d0 06 00 	bis.b	#6,	&0x0026	;#0x0006
+    c36c:	26 00 
+  P1DIR |= TXD;                             //  
+    c36e:	e2 d3 22 00 	bis.b	#2,	&0x0022	;r3 As==10
+}
+    c372:	30 41       	ret			
+
+0000c374 <Transmit>:
+
+// Function Transmits Character from TXByte 
+void Transmit()
+{ 
+  BitCnt = 0xA;                             // Load Bit counter, 8data + ST/SP
+    c374:	f2 40 0a 00 	mov.b	#10,	&0x0238	;#0x000a
+    c378:	38 02 
+
+  /* Simulate a timer capture event to obtain the value of TAR into the TACCR0 register */
+  TACCTL0 = CM_1 + CCIS_2  + SCS + CAP + OUTMOD0;   	//capture on rising edge, initially set to GND as input // clear CCIFG flag
+    c37a:	b2 40 20 69 	mov	#26912,	&0x0162	;#0x6920
+    c37e:	62 01 
+  TACCTL0 |= CCIS_3; 						//change input to Vcc, effectively rising the edge, triggering the capture action
+    c380:	b2 d0 00 30 	bis	#12288,	&0x0162	;#0x3000
+    c384:	62 01 
+
+  while (!(TACCTL0 & CCIFG));				//allowing for the capturing//updating TACCR0.
+    c386:	92 b3 62 01 	bit	#1,	&0x0162	;r3 As==01
+    c38a:	fd 27       	jz	$-4      	;abs 0xc386
+
+  TACCR0 += Bitime ;                           // Some time till first bit
+    c38c:	b2 50 34 00 	add	#52,	&0x0172	;#0x0034
+    c390:	72 01 
+  TXByte |= 0x100;                          // Add mark stop bit to TXByte
+  TXByte = TXByte << 1;                     // Add space start bit
+    c392:	b2 d0 00 01 	bis	#256,	&0x023a	;#0x0100
+    c396:	3a 02 
+    c398:	92 52 3a 02 	rla	&0x023a	
+    c39c:	3a 02 
+  TACCTL0 =  CCIS0 + OUTMOD0 + CCIE;          // TXD = mark = idle
+    c39e:	b2 40 30 10 	mov	#4144,	&0x0162	;#0x1030
+    c3a2:	62 01 
+
+  while ( TACCTL0 & CCIE );                   // Wait for TX completion
+    c3a4:	b2 b0 10 00 	bit	#16,	&0x0162	;#0x0010
+    c3a8:	62 01 
+    c3aa:	fc 23       	jnz	$-6      	;abs 0xc3a4
+}
+    c3ac:	30 41       	ret			
+
+0000c3ae <Timer_A>:
+//#pragma vector=TIMER0_A0_VECTOR
+//__interrupt void Timer_A (void)
+
+//-------- GCC Convention
+interrupt (TIMER0_A0_VECTOR) Timer_A(void)
+{
+    c3ae:	0f 12       	push	r15		
+    c3b0:	0e 12       	push	r14		
+    c3b2:	0d 12       	push	r13		
+  if (timerMode == TIMER_UART_MODE)
+    c3b4:	d2 93 06 02 	cmp.b	#1,	&0x0206	;r3 As==01
+    c3b8:	11 24       	jz	$+36     	;abs 0xc3dc
+      }
+    }
+  }
+  else
+  {
+    if (tempPolarity == TEMP_HOT)
+    c3ba:	5f 42 02 02 	mov.b	&0x0202,r15	
+    c3be:	5f 93       	cmp.b	#1,	r15	;r3 As==01
+    c3c0:	2f 24       	jz	$+96     	;abs 0xc420
+      LED_OUT |= LED1;   
+    if (tempPolarity == TEMP_COLD)      
+    c3c2:	6f 93       	cmp.b	#2,	r15	;r3 As==10
+    c3c4:	07 24       	jz	$+16     	;abs 0xc3d4
+      LED_OUT |= LED2;
+    TACCTL0 &= ~CCIFG;              
+    c3c6:	b2 f0 fe ff 	and	#-2,	&0x0162	;#0xfffe
+    c3ca:	62 01 
+  }
+}
+    c3cc:	3d 41       	pop	r13		
+    c3ce:	3e 41       	pop	r14		
+    c3d0:	3f 41       	pop	r15		
+    c3d2:	00 13       	reti			
+  else
+  {
+    if (tempPolarity == TEMP_HOT)
+      LED_OUT |= LED1;   
+    if (tempPolarity == TEMP_COLD)      
+      LED_OUT |= LED2;
+    c3d4:	f2 d0 40 00 	bis.b	#64,	&0x0021	;#0x0040
+    c3d8:	21 00 
+    c3da:	f5 3f       	jmp	$-20     	;abs 0xc3c6
+//-------- GCC Convention
+interrupt (TIMER0_A0_VECTOR) Timer_A(void)
+{
+  if (timerMode == TIMER_UART_MODE)
+  {
+    TACCR0 += Bitime;                         // Add Offset to TACCR0  
+    c3dc:	b2 50 34 00 	add	#52,	&0x0172	;#0x0034
+    c3e0:	72 01 
+    if (TACCTL0 & CCIS0)                      // TX on CCI0B?
+    c3e2:	1f 42 62 01 	mov	&0x0162,r15	
+    c3e6:	3f b0 00 10 	bit	#4096,	r15	;#0x1000
+    c3ea:	f0 27       	jz	$-30     	;abs 0xc3cc
+    {
+      if ( BitCnt == 0)
+    c3ec:	5e 42 38 02 	mov.b	&0x0238,r14	
+    c3f0:	4e 93       	tst.b	r14		
+    c3f2:	19 24       	jz	$+52     	;abs 0xc426
+        TACCTL0 &= ~ CCIE ;                   // All bits TXed, disable interrupt
+      }  
+      
+      else
+      {
+        TACCTL0 |=  OUTMOD2;                  // TX Space
+    c3f4:	b2 d0 80 00 	bis	#128,	&0x0162	;#0x0080
+    c3f8:	62 01 
+        if (TXByte & 0x01)
+    c3fa:	1d 42 3a 02 	mov	&0x023a,r13	
+    c3fe:	1d b3       	bit	#1,	r13	;r3 As==01
+    c400:	03 24       	jz	$+8      	;abs 0xc408
+        TACCTL0 &= ~ OUTMOD2;                 // TX Mark
+    c402:	b2 f0 7f ff 	and	#-129,	&0x0162	;#0xff7f
+    c406:	62 01 
+        TXByte = TXByte >> 1;
+    c408:	82 4d 3a 02 	mov	r13,	&0x023a	
+    c40c:	12 c3       	clrc			
+    c40e:	12 10 3a 02 	rrc	&0x023a	
+        BitCnt --;
+    c412:	7e 53       	add.b	#-1,	r14	;r3 As==11
+    c414:	c2 4e 38 02 	mov.b	r14,	&0x0238	
+      LED_OUT |= LED1;   
+    if (tempPolarity == TEMP_COLD)      
+      LED_OUT |= LED2;
+    TACCTL0 &= ~CCIFG;              
+  }
+}
+    c418:	3d 41       	pop	r13		
+    c41a:	3e 41       	pop	r14		
+    c41c:	3f 41       	pop	r15		
+    c41e:	00 13       	reti			
+    }
+  }
+  else
+  {
+    if (tempPolarity == TEMP_HOT)
+      LED_OUT |= LED1;   
+    c420:	d2 d3 21 00 	bis.b	#1,	&0x0021	;r3 As==01
+    c424:	d0 3f       	jmp	$-94     	;abs 0xc3c6
+    TACCR0 += Bitime;                         // Add Offset to TACCR0  
+    if (TACCTL0 & CCIS0)                      // TX on CCI0B?
+    {
+      if ( BitCnt == 0)
+      {         
+        P1SEL &= ~(TXD+RXD);
+    c426:	f2 f0 f9 ff 	and.b	#-7,	&0x0026	;#0xfff9
+    c42a:	26 00 
+        TACCTL0 &= ~ CCIE ;                   // All bits TXed, disable interrupt
+    c42c:	b2 f0 ef ff 	and	#-17,	&0x0162	;#0xffef
+    c430:	62 01 
+    c432:	cc 3f       	jmp	$-102    	;abs 0xc3cc
+
+0000c434 <ta1_isr>:
+}
+// ----------- CCS & IAR convention
+//#pragma vector=TIMER0_A1_VECTOR
+//__interrupt void ta1_isr(void)
+interrupt (TIMER0_A1_VECTOR) ta1_isr(void)
+{
+    c434:	0f 12       	push	r15		
+  TACCTL1 &= ~CCIFG;
+    c436:	b2 f0 fe ff 	and	#-2,	&0x0164	;#0xfffe
+    c43a:	64 01 
+  if (applicationMode == APP_APPLICATION_MODE)
+    c43c:	d2 93 08 02 	cmp.b	#1,	&0x0208	;r3 As==01
+    c440:	05 24       	jz	$+12     	;abs 0xc44c
+    LED_OUT &= ~(LED1 + LED2);
+  else
+    LED_OUT ^= (LED1 + LED2);
+    c442:	f2 e0 41 00 	xor.b	#65,	&0x0021	;#0x0041
+    c446:	21 00 
+    
+}
+    c448:	3f 41       	pop	r15		
+    c44a:	00 13       	reti			
+//__interrupt void ta1_isr(void)
+interrupt (TIMER0_A1_VECTOR) ta1_isr(void)
+{
+  TACCTL1 &= ~CCIFG;
+  if (applicationMode == APP_APPLICATION_MODE)
+    LED_OUT &= ~(LED1 + LED2);
+    c44c:	f2 f0 be ff 	and.b	#-66,	&0x0021	;#0xffbe
+    c450:	21 00 
+  else
+    LED_OUT ^= (LED1 + LED2);
+    
+}
+    c452:	3f 41       	pop	r15		
+    c454:	00 13       	reti			
+
+0000c456 <InitializeClocks>:
+
+void InitializeClocks(void)
+{
+
+  BCSCTL1 = CALBC1_1MHZ;                    // Set range
+    c456:	d2 42 ff 10 	mov.b	&0x10ff,&0x0057	
+    c45a:	57 00 
+  DCOCTL = CALDCO_1MHZ;
+    c45c:	d2 42 fe 10 	mov.b	&0x10fe,&0x0056	
+    c460:	56 00 
+  BCSCTL2 &= ~(DIVS_3);                     // SMCLK = DCO = 1MHz  
+    c462:	f2 f0 f9 ff 	and.b	#-7,	&0x0058	;#0xfff9
+    c466:	58 00 
+}
+    c468:	30 41       	ret			
+
+0000c46a <InitializeButton>:
+
+void InitializeButton(void)                 // Configure Push Button 
+{
+  BUTTON_DIR &= ~BUTTON;
+    c46a:	f2 f0 f7 ff 	and.b	#-9,	&0x0022	;#0xfff7
+    c46e:	22 00 
+  BUTTON_OUT |= BUTTON;
+    c470:	f2 d2 21 00 	bis.b	#8,	&0x0021	;r2 As==11
+  BUTTON_REN |= BUTTON;
+    c474:	f2 d2 27 00 	bis.b	#8,	&0x0027	;r2 As==11
+  BUTTON_IES |= BUTTON;
+    c478:	f2 d2 24 00 	bis.b	#8,	&0x0024	;r2 As==11
+  BUTTON_IFG &= ~BUTTON;
+    c47c:	f2 f0 f7 ff 	and.b	#-9,	&0x0023	;#0xfff7
+    c480:	23 00 
+  BUTTON_IE |= BUTTON;
+    c482:	f2 d2 25 00 	bis.b	#8,	&0x0025	;r2 As==11
+}
+    c486:	30 41       	ret			
+
+0000c488 <InitializeLeds>:
+
+
+void InitializeLeds(void)
+{
+  LED_DIR |= LED1 + LED2;                          
+    c488:	f2 d0 41 00 	bis.b	#65,	&0x0022	;#0x0041
+    c48c:	22 00 
+  LED_OUT &= ~(LED1 + LED2);  
+    c48e:	f2 f0 be ff 	and.b	#-66,	&0x0021	;#0xffbe
+    c492:	21 00 
+}
+    c494:	30 41       	ret			
+
+0000c496 <PORT1_ISR>:
+ * Port Interrupt for Button Press 
+ * 1. During standby mode: to exit and enter application mode
+ * 2. During application mode: to recalibrate temp sensor 
+ * *********************************************************** */
+interrupt (PORT1_VECTOR) PORT1_ISR(void)
+{   
+    c496:	0f 12       	push	r15		
+  BUTTON_IFG = 0;  
+    c498:	c2 43 23 00 	mov.b	#0,	&0x0023	;r3 As==00
+  BUTTON_IE &= ~BUTTON;            /* Debounce */
+    c49c:	f2 f0 f7 ff 	and.b	#-9,	&0x0025	;#0xfff7
+    c4a0:	25 00 
+  WDTCTL = WDT_ADLY_250;
+    c4a2:	b2 40 1d 5a 	mov	#23069,	&0x0120	;#0x5a1d
+    c4a6:	20 01 
+  IFG1 &= ~WDTIFG;                 /* clear interrupt flag */
+    c4a8:	f2 f0 fe ff 	and.b	#-2,	&0x0002	;#0xfffe
+    c4ac:	02 00 
+  IE1 |= WDTIE;  
+    c4ae:	d2 d3 00 00 	bis.b	#1,	&0x0000	;r3 As==01
+    
+  if (applicationMode == APP_APPLICATION_MODE)
+    c4b2:	d2 93 08 02 	cmp.b	#1,	&0x0208	;r3 As==01
+    c4b6:	0a 24       	jz	$+22     	;abs 0xc4cc
+    tempCalibrated = tempAverage;
+    calibrateUpdate  = 1;
+  }
+  else
+  {
+    applicationMode = APP_APPLICATION_MODE; // Switch from STANDBY to APPLICATION MODE
+    c4b8:	d2 43 08 02 	mov.b	#1,	&0x0208	;r3 As==01
+  
+    TACCTL1 &= ~CCIE;
+    c4bc:	b2 f0 ef ff 	and	#-17,	&0x0164	;#0xffef
+    c4c0:	64 01 
+  
+    __bic_SR_register_on_exit(LPM3_bits );
+    c4c2:	b1 c0 d0 00 	bic	#208,	2(r1)	;#0x00d0, 0x0002(r1)
+    c4c6:	02 00 
+    
+  }   
+}
+    c4c8:	3f 41       	pop	r15		
+    c4ca:	00 13       	reti			
+  IFG1 &= ~WDTIFG;                 /* clear interrupt flag */
+  IE1 |= WDTIE;  
+    
+  if (applicationMode == APP_APPLICATION_MODE)
+  {
+    tempCalibrated = tempAverage;
+    c4cc:	92 42 14 02 	mov	&0x0214,&0x020e	
+    c4d0:	0e 02 
+    c4d2:	92 42 16 02 	mov	&0x0216,&0x0210	
+    c4d6:	10 02 
+    calibrateUpdate  = 1;
+    c4d8:	d2 43 04 02 	mov.b	#1,	&0x0204	;r3 As==01
+    TACCTL1 &= ~CCIE;
+  
+    __bic_SR_register_on_exit(LPM3_bits );
+    
+  }   
+}
+    c4dc:	3f 41       	pop	r15		
+    c4de:	00 13       	reti			
+
+0000c4e0 <WDT_SIR>:
+
+// WDT Interrupt Service Routine used to debounce button press
+interrupt (WDT_VECTOR) WDT_SIR(void)
+{
+    c4e0:	0f 12       	push	r15		
+    IE1 &= ~WDTIE;                   /* disable interrupt */
+    c4e2:	f2 f0 fe ff 	and.b	#-2,	&0x0000	;#0xfffe
+    c4e6:	00 00 
+    IFG1 &= ~WDTIFG;                 /* clear interrupt flag */
+    c4e8:	f2 f0 fe ff 	and.b	#-2,	&0x0002	;#0xfffe
+    c4ec:	02 00 
+    WDTCTL = WDTPW + WDTHOLD;        /* put WDT back in hold state */
+    c4ee:	b2 40 80 5a 	mov	#23168,	&0x0120	;#0x5a80
+    c4f2:	20 01 
+    BUTTON_IE |= BUTTON;             /* Debouncing complete */
+    c4f4:	f2 d2 25 00 	bis.b	#8,	&0x0025	;r2 As==11
+}
+    c4f8:	3f 41       	pop	r15		
+    c4fa:	00 13       	reti			
+
+0000c4fc <ADC10_ISR>:
+//#pragma vector=ADC10_VECTOR
+//__interrupt void ADC10_ISR (void)
+interrupt (ADC10_VECTOR) ADC10_ISR(void)
+{
+  
+  __bic_SR_register_on_exit(CPUOFF);        // Return to active mode
+    c4fc:	b1 c0 10 00 	bic	#16,	0(r1)	;#0x0010, 0x0000(r1)
+    c500:	00 00 
+  
+}
+    c502:	00 13       	reti			
+
+0000c504 <_unexpected_>:
+    c504:	00 13       	reti			
+
+Disassembly of section .vectors:
+
+0000ffe0 <__ivtbl_16>:
+    ffe0:	ae c2 ae c2 96 c4 ae c2 ae c2 fc c4 ae c2 ae c2     ................
+    fff0:	34 c4 ae c3 e0 c4 ae c2 ae c2 ae c2 ae c2 00 c0     4...............
