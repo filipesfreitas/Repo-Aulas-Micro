@@ -220,6 +220,7 @@ END
 LEDS EQU BIT0|BIT6		;Equivalente a #define
 
 Separe 2 bytes na memória de programa para a variável contador:
+
 RSEG DATA16_N
 jnz Atraso1
 Contador DS 2
@@ -228,3 +229,182 @@ Contador recebe 10:
 mov.w #10, &Contador
 
 
+Definir a localização da pilha, e iniciar o stack pointer:
+RSEG CSTACK
+mov.w #SFE(CSTACK), R1
+
+
+
+
+Convenções de uso dos registradores (mspgcc):	
+
+Os registradores R0 a R5 não são geralmente
+utilizados pelo compilador	
+
+R12 a R15 não precisam ser guardados na pilha
+antes de serem usados, a não ser em interrupções	
+
+R6 a R11 devem ser sempre guardados na pilha
+
+Convenções de uso dos registradores (mspgcc):	
+
+Valor de retorno:	
+
+• Tipos char, int e ponteiro para função - R15	
+
+• Tipos long e float - R15:R14	
+
+• long
+long - R15:R14:R13:R12	
+
+• Resultados
+com mais de 64 bits - memória
+
+
+
+
+Alocação de variáveis locais	
+
+• Registradores	
+• Posições em RAM
+• Pilha
+
+MISTURANDO C E ASSEMBLY
+1. Procure funções intrínsecas já prontas em
+<intrinsics.h>	
+
+==> _ _swap_bytes()
+
+2. Assembly inline	
+
+==> asm("mov.b &P1IN,&dest")
+
+3. Escreva uma subrotina completa e faça a
+chamada em C	
+
+==> Dica: escreva a subrotina em C, compile
+o código, veja o código Assembly resultante e
+otimize a partir daí.	
+
+Dicas no texto Mixing C
+and Assembler with the
+MSP430	
+
+Cada ISR tem um flag de lógica positiva	
+
+==> Timer_A seta TAIFG no reg. TACTL quando
+TAR=0. Se T
+
+Interrupções podem ser mascaráveis: só
+funcionam quando GIE=1 no SR. 	
+
+As que não dependem de GIE (não-mascaráveis)
+também precisam ser habilitadas em registradores
+
+Cada ISR tem um endereço específico,
+guardado no vector table do MSP430	
+
+Algumas fontes de interrupção compartilham o
+endereço	
+
+==> TAIFG compartilha o endereço com as
+interrupções de captura/comparação de canais
+do Timer_A
+
+MSP430 salva o endereço de retorno
+e o SR (status register), que controla
+os modos de baixo consumo.
+
+Exemplo: TAR==0 && TAIE==1 && GIE==1	
+
+1. Instrução atual é executada se CPU estiver
+ativa, ou MCLK é ativado se a CPU estiver
+inativa.
+
+2. PC é guardado na pilha.	
+
+3. SR é guardado na pilha.	
+
+4. Interrupção de maior prioridade é chamada.
+
+5. Flag de interrupção é mantida se endereço
+da interr. for compartilhado, ou flag é zerada
+se endereço não for compartilhado.
+
+6. SR é zerado: interrupções mascaráveis e
+modos de baixo consumo são desabilitados.	
+
+7. PC obtém endereço da interrupção, e CPU
+executa ISR.
+
+Se estiver em modo de baixo consumo,
+a latência é de 6 ciclos + tempo para
+acionar o MCLK.
+
+Em Assembly, a ISR deve terminar com reti
+(return from interrupt), que devolve para SR e
+para o PC os seus valores, que estavam na
+pilha.	
+
+Este processo dura 5 ciclos de clock.
+
+Dicas para ISRs:	
+
+1. Que elas sejam curtas.	
+
+2. Desabilite interrupções indesejadas.	
+
+3. Defina os vetores de interrupção para debugar o programa.	
+
+4. Evite compartilhar dados com main().
+
+
+Modos de baixo consumo:
+
+Modo ativo:	
+
+• CPU, clocks
+• Corrente
+e módulos ativos	
+
+próxima a 300uA, podendo ser
+reduzida de acordo com Vcc, desde que
+suporte MCLK
+
+LPM0:	
+
+• CPU
+e MCLK inativos, SMCLK e ACLK
+ativos	
+
+• Corrente
+próxima a 85uA
+
+LPM3:	
+
+• CPU, MCLK, SMCLK
+e DCO inativos,
+ACLK ativo	
+
+• Corrente
+próxima a 1uA
+
+
+LPM4:	
+
+• CPU
+e clocks inativos	
+
+• Corrente
+próxima a 0,1uA
+
+
+
+Modos definidos no SR por SCG0,
+SCG1, CPUOFF e OSCOFF
+Em Assembly:	
+==> bis.w #LPM3, SR
+==> bis.w #GIE | LPM3,SR
+ Em C:	
+==> _low_power_mode_3();	
+==> _BIS_SR(GIE | LPM3_Bits);
