@@ -59,6 +59,21 @@ exit:
 
 	while(save[i]!=k) i++;
 Resposta:
+
+mov.w #00h,R7
+mov.w 
+INIT:	
+LOOP:	
+	
+	cmp #99,R7
+	jge EXIT
+
+	inc.w R7
+	
+	jmp LOOP
+	
+EXIT:
+
 	
 4. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 
@@ -68,10 +83,17 @@ Resposta:
 	mov.w #00h,R7
 	mov.w 
 INIT:	
+LOOP:	
+	
+	cmp #99,R7
+	jge EXIT
 
-
+	add.w R7,(R9)	
+	add.w R7,(R9)
 	inc.w R7
-	cmp
+	
+	jmp LOOP
+	
 EXIT:
 5. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 
