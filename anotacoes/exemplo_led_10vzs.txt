@@ -1,0 +1,71 @@
+#include <msp430g2553.h>
+LEDS EQU BIT0|BIT6
+RSEG DATA16_N
+Contador DS 2
+RSEG CODE
+main: mov.w #WDTPW|
+WDTHOLD, &WDTCTL
+clr.b #LEDS, P1OUT
+mov.b #LEDS, P1DIR
+mov.w #10, &Contador
+Loop: tst &Contador
+jz Loop_end
+dec.w &Contador
+bis.b #LEDS, &P1OUT
+mov.w #0xFFFF, R15
+Atraso1: dec R15
+jnz Atraso1
+bic.b #LEDS, &P1OUT
+mov.w #0xFFFF, R15
+Atraso2: dec R15
+jnz Atraso2
+jmp Loop
+Loop_end:
+bis.b #LEDS, &P1OUT
+jmp $
+RSEG RESET
+DW main
+END
+
+
+
+;com sub rotinas
+#include <msp430g2553.h>
+LEDS EQU BIT0|BIT6
+RSEG CSTACK
+RSEG CODE
+main: mov.w #WDTPW|
+WDTHOLD, &WDTCTL
+mov.w #SFE(CSTACK), R1
+clr.b #LEDS, P1OUT
+mov.b #LEDS, P1DIR
+mov.w #10, R15
+call #Pisca
+bis.b #LEDS, P1OUT
+jmp $ Pisca: tst R15
+jz Pisca_end
+dec R15
+push R15
+bis.b #LEDS, &P1OUT
+mov.w #0xFFFF, R15
+call #Atraso
+bic.b #LEDS, &P1OUT
+mov.w #0xFFFF, R15
+call #Atraso
+pop R15
+jmp Pisca
+Pisca_end: ret
+Atraso: dec R15
+jnz Atraso
+ret RSEG RESET
+DW main
+END
+
+
+
+
+;astraso;
+
+
+;obs;estudar pilha, sub rotina e loops em assembly para micro ;
+

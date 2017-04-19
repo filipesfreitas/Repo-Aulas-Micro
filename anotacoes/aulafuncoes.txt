@@ -1,0 +1,3 @@
+mspgcc convensão-> alocar do r15 a r12 da esquerda para direita e retrona no r15
+
+

@@ -1,0 +1,230 @@
+mov.w R10,R12  ; r12  = r10
+;	mov.w "varialvel ou constante",R12
+add.w R10,R12  ; r12 += r10
+;
+sub.w R10,R12  ; r12 -= r10
+;
+
+
+;vetor:  K(RN) andar K bytes apartir do endereço na memoria que RN guarda. 
+
+
+clr.w  d; clear
+dec.w  d; decremento de uma unidades
+decd.w d; decremento de duas unidades
+inc.w  d; incremento de uma unidades
+incd.w d; incremento de duas unidades
+tst.w  d; comparar
+
+rla.w  d; add.w d,d (emulada);esquerda
+rra.w  d; sub.w d,d (emulada);direita
+
+bis   R10,R11 ;or entre R10 e R11
+bic.w R5, R7  ; realiza a operação AND bit-a-bit de R7 com o inverso 		      ;de R5 e guarda o resultado em R7.
+
+and.w R10,R11 ;and entre R10 e R11
+
+xor.w R12, R15;realiza a operação XOR bit-a-bit de R12 com R15 e 		      ;guarda o resultado em R15.
+
+inv.w R7      ;inverte todos os bits de R7 e guarda o resultado em R7.
+	      ;considerando somente um byte:
+	      ;(bis.b, bic.b, and.b, xor.b e inv.b).
+
+cmp R6, R8   ;seta ou reseta os bits N, Z, C e V no registrador SR 		     ;(statusregister) de acordo com os valores de R6 e R8.
+
+{	N = 1 se R8<R6 (R8-R6<0),	
+	0 caso contrário (R8>=R6).
+	Z = 1 se R8=R6 (R8-R6 = 0),
+	0 caso contrário (R8 diferente de R6).
+	C = 1 se houve carry no cálculo R8-R6, 0 caso contrário.
+	V = 1 se houve overflow no cálculo R8-R6, 0 caso contrário.
+	osb.:Ao final da instrução, R6 e R8 não se alteram.
+}
+
+
+tst R11 ;seta ou reseta os bits N, Z, C e V no registrador SR (status
+register) de acordo com os valores de R11.
+{
+N = 1 se R11<0,
+0 caso contrário.
+Z = 1 se R11=0,
+0 caso contrário.
+C = 1
+V = 0
+Obs.: Ao final da instrução, R11 não se altera.
+}
+
+cmp R6, R8
+jeq LABEL_1	;A primeira instrução (cmp) compara R6 e R8.
+		;Se R6 for igual a R8, a segunda instrução (jeq) faz 			;com que	a CPU comece a executar instruções a 			;partir da linha de código marcada com o label LABEL_1.
+		;Se R6 for diferente de R8, a próxima instrução é 			;executada normalmente.
+cmp R6, R8
+jne LABEL_2	;A primeira instrução (cmp) compara R6 e R8.
+		;Se R6 for diferente a R8, a segunda instrução(jne)faz 			;com que a CPU comece a executar instruções a partir 			;da linha de código marcada com o label LABEL_2.
+		;Se R6 for igual a R8, a próxima instrução é executada
+		;normalmente.
+
+
+
+jmp LABEL_3;	;Esta instrução faz com que a CPU comece a executar
+		;instruções a partir da linha de código marcada com o 			;label LABEL_3, independente de qualquer resultado 			;anterior.
+
+
+cmp R5, R6
+jl OUTRO_LABEL_1	;Se R6<R5, a CPU começa a executar instruções 				;a partir da linha de código marcada com o 				;label OUTRO_LABEL_1.
+			;jl causa o jump se N XOR V for igual a 1
+
+
+
+cmp R7, R4
+jge OUTRO_LABEL_2	;Se R4>=R7, a CPU começa a executar instruções 				;a partir da linha de código marcada com o 				;label OUTRO_LABEL_2.o jump é feito se N XOR V 				;for igual a 0,
+
+Estruturas de condição de c em assembly:
+cmp R7, R8
+jne ELSE
+	...	
+jmp EXIT
+ELSE:
+	...
+EXIT:
+
+Estrutura de repetição:
+ 
+"while(save[i] == k)
+ i+=1;"
+{
+LOOP: mov.w R7, R12 	; R7 = i, R12 = temporário
+rla R12 		; R12 = 2*i
+add.w R10, R12		; R10 = save, R12 = save + 2*i = &save[i]
+cmp 0(R12), R9
+			; Compara save[i] com k (R9)
+jne EXIT
+			; save[ i ] == k ?
+inc.w R7
+			; i += 1;
+jmp LOOP
+EXIT:
+}
+
+
+
+
+Convenção registradores:
+{
+	Ordem de uso para passagem de parametros para sub-rotina: R15,
+	R14,R13,R12.
+	R4-R11 são usados dentro da "main" aloca-los na pilha se 	 necessário.
+	R15 retorna valor.
+}
+Exemplos:
+
+Func_Exemplo:
+{
+push.w R4	; Guarde R4 na pilha
+push.w R5	; Guarde R5 na pilha
+mov.w R15, R4	; R4 = g
+add.w R14, R4	; R4 = g+h
+mov.w R13, R5	; R5 = i
+add.w R12, R5	; R5 = i+j
+sub.w R5, R4	; R4 = f = (g+h) - (i+j)
+mov.w R4, R15	; Retorne f por R15
+pop.w R5	; Recupere R5 na pilha
+pop.w R4	; Recupere R4 na pilha
+ret
+}
+
+
+Recursão exemplos:
+1- multiplicação de dois números.
+{
+MULT_unsigned:
+tst.w R14		; b==0 ?
+jnz MULT_unsigned_else  ; Se b não é zero, vá para o else
+clr.w R15		; return 0
+ret
+MULT_unsigned_else:
+push.w R15		; Guarde a na pilha
+dec.w R14		; b--
+call MULT_unsigned 	; Calcule a*(b-1)
+pop.w R14		; Recupere a na pilha
+add.w R14, R15		; return a + a*(b-1)
+ret
+}
+
+2-
+Fatorial:
+{
+cmp #2, R15
+jge L1
+mov.w #1, R15
+ret
+L1: push.w R15
+dec.w R15
+call Fatorial
+pop.w R14
+call MULT_signed
+ret
+
+;Testar se n<2
+; Se N>=2, pule para L1
+; return 1;
+; Retorne para onde a função foi chamada
+; Guarde n (R15) na pilha
+; Calcule n-1 para
+; chamar Fatorial(n-1)
+; Recupere n na pilha
+; Calcular n*Fatorial(n-1)
+; Retorne para onde a função foi chamada
+}
+
+
+
+
+{{
+protótipo em c:
+int strcpy(char x[ ], char y[ ])
+{
+int i = 0;
+while((x[i]=y[i]) != '\0') i++;
+}
+função em assembly:
+strcpy: push.w R4 		; R4 = i
+push.w R5			; R5 será temporário
+push.w R6			; R6 será temporário }
+clr.w R4			; R4 = i = 0
+strcpy_while: mov.w R14, R5 	; R5 = y (endereço do vetor y[ ])
+add.w R4, R5			; R5 = y+i (endereço de y[i])
+mov.w R15, R6			; R6 = x (endereço do vetor x[ ])
+add.w R4, R6			; R6 = x+i (endereço de x[i])
+mov.b 0(R5), 0(R6)		; x[i] = y[i]
+tst.w 0(R6)			; x[i] == 0? ('\0' vale 0 em ASCII)
+jz strcpy_end			; Se for, saia do while( )
+inc.w R4			; i++;
+jmp strcpy_while		; Volte para o começo do while( )
+strcpy_end: pop.w R6		; Fim da função: recuperar R6 na pilha
+pop.w R5			; Fim da função: recuperar R5 na pilha
+pop.w R4			; Fim da função: recuperar R4 na pilha
+ret				; Retornar
+}}
+
+
+
+mov.w #WDTPW | WDTHOLD, &WDTCTL ;desligar o watchdog timer
+
+A seção abaixo indica que a subrotina main deve ser executada sempre quando o sistema iniciar ou reiniciar:
+RSEG RESET
+DW main
+END
+
+
+LEDS EQU BIT0|BIT6		;Equivalente a #define
+
+Separe 2 bytes na memória de programa para a variável contador:
+RSEG DATA16_N
+jnz Atraso1
+Contador DS 2
+
+Contador recebe 10:
+mov.w #10, &Contador
+
+

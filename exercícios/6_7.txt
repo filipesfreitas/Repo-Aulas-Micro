@@ -64,6 +64,33 @@ O protótipo da função é:
 7. (a) Escreva uma função em C que calcula a função exponencial da seguinte forma:
 	
 Considere o cálculo até o termo n = 20. O protótipo da função é double ExpTaylor(double x);
+    double ExpTaylor(double x){
+
+    double exp;
+
+    int i, n, fat;
+
+    exp = 0;
+
+    for(i = 0; i <= 20; i++){
+
+        fat = 1;
+
+        for(n = i; n > 1; n--){
+            fat *= n;
+        }
+
+        exp += pow(x, i)/fat;
+
+    }
+
+    return exp;
+}
+
+
+
+
+
 (b) Escreva a sub-rotina equivalente na linguagem Assembly do MSP430, mas considere que os valores de entrada e de saída são inteiros de 16 bits. A variável de entrada é fornecida pelo registrador R15, e o valor de saída também.
 
 8. Escreva uma sub-rotina na linguagem Assembly do MSP430 que indica se um vetor esta ordenado de forma decrescente. Por exemplo:
