@@ -120,6 +120,6 @@ void __attribute__ ((interrupt(USCIAB0TX_VECTOR))) USCIAB0TX_ISR (void)
 #error Compiler not supported!
 #endif
 {
-  RXData = UCB0RXBUF;                       // Get RX data
+  RXData = UCB0RXBUF;                       // Get RX data and reset automatically the UCxRXIFG after when readed the UCB0RXBUF 
   __bic_SR_register_on_exit(CPUOFF);        // Exit LPM0
 }

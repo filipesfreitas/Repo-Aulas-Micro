@@ -1,5 +1,5 @@
 #include <msp430g2553.h>	
-#include<intrinsic.h>
+
 	
 
 void main(void){	
