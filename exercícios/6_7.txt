@@ -26,9 +26,14 @@ Resposta:	unsigned int Raiz_Quadrada(unsigned int S)
 	
 (b) Escreva a sub-rotina equivalente na linguagem Assembly do MSP430. A variável 'S' é fornecida pelo registrador R15, e a raiz quadrada de 'S' (ou seja, a variável 'x') é fornecida pelo registrador R15 também.
 
-	Raiz_Quadrada:
-	
-	rra.w 
+Raiz_Quadrada:
+	cmp #1,R15
+	jne FOR
+ret
+FOR:
+	mov.w 
+
+
 2. (a) Escreva uma função em C que calcule 'x' elevado à 'N'-ésima potência, seguindo o seguinte protótipo: 
 
 	int Potencia(int x, int N);

@@ -78,12 +78,12 @@ int main(void)
   P1DIR |= BIT0;                            // P1.0 output
   P1SEL |= BIT6 + BIT7;                     // Assign I2C pins to USCI_B0
   P1SEL2|= BIT6 + BIT7;                     // Assign I2C pins to USCI_B0
-  UCB0CTL1 |= UCSWRST;                      // Enable SW reset
+  UCB0CTL1 |= UCSWRST;                      // Enable SOFTWARE reset // 
   UCB0CTL0 = UCMST + UCMODE_3 + UCSYNC;     // I2C Master, synchronous mode
   UCB0CTL1 = UCSSEL_2 + UCSWRST;            // Use SMCLK, keep SW reset
   UCB0BR0 = 12;                             // fSCL = SMCLK/12 = ~100kHz
   UCB0BR1 = 0;
-  UCB0I2CSA = 0x4e;                         // Set slave address
+  UCB0I2CSA = 0x68;                         // Set slave address
   UCB0CTL1 &= ~UCSWRST;                     // Clear SW reset, resume operation
   IE2 |= UCB0RXIE;                          // Enable RX interrupt
   TACTL = TASSEL_2 + MC_2;                  // SMCLK, contmode
@@ -96,7 +96,7 @@ int main(void)
                                             // Remain in LPM0 until all data
                                             // is RX'd
 
-    if (RxWord < 0x1d00)                    // >28C?
+    if (RxWord < 0x1c)                    // <28C?
       P1OUT &= ~0x01;                       // No, P1.0 = 0
     else
       P1OUT |= 0x01;                        // Yes, P1.0 = 1
@@ -110,28 +110,18 @@ int main(void)
   }
 }
 
-#if defined(__TI_COMPILER_VERSION__) || defined(__IAR_SYSTEMS_ICC__)
-#pragma vector = TIMER0_A0_VECTOR
-__interrupt void TA0_ISR(void)
-#elif defined(__GNUC__)
+
 void __attribute__ ((interrupt(TIMER0_A0_VECTOR))) TA0_ISR (void)
-#else
-#error Compiler not supported!
-#endif
+
 {
   __bic_SR_register_on_exit(CPUOFF);        // Exit LPM0
 }
 
 // The USCIAB0TX_ISR is structured such that it can be used to receive any
 // 2+ number of bytes by pre-loading RxByteCtr with the byte count.
-#if defined(__TI_COMPILER_VERSION__) || defined(__IAR_SYSTEMS_ICC__)
-#pragma vector = USCIAB0TX_VECTOR
-__interrupt void USCIAB0TX_ISR(void)
-#elif defined(__GNUC__)
+
 void __attribute__ ((interrupt(USCIAB0TX_VECTOR))) USCIAB0TX_ISR (void)
-#else
-#error Compiler not supported!
-#endif
+
 {
   RxByteCtr--;                              // Decrement RX byte counter
 

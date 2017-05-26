@@ -57,22 +57,23 @@ exit:
 
 3. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 
-	while(save[i]!=k) i++;
+	while(save[i]!=j) i++;
 Resposta:
 
-mov.w #00h,R7
-mov.w 
+ 
 INIT:	
+	push R9
+	
 LOOP:	
 	
-	cmp #99,R7
-	jge EXIT
+	cmp R8,0(R9)
+	jne EXIT
 
 	inc.w R7
-	
+	mov.w R7,R9
 	jmp LOOP
 	
-EXIT:
+EXIT: pop R9
 
 	
 4. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
@@ -80,9 +81,10 @@ EXIT:
 	for(i=0; i<100; i++) A[i] = i*2;
 	
 Resposta:
-	mov.w #00h,R7
-	mov.w 
+
 INIT:	
+	mov.w #00h,R7
+	push R9
 LOOP:	
 	
 	cmp #99,R7
@@ -91,10 +93,31 @@ LOOP:
 	add.w R7,(R9)	
 	add.w R7,(R9)
 	inc.w R7
+	mov.w R7,R9
 	
 	jmp LOOP
 	
-EXIT:
+EXIT: pop R9
+
+
 5. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 
 	for(i=99; i>=0; i--) A[i] = i*2;
+
+
+INIT:	
+	mov.w #99,R7
+	push R9
+LOOP:	
+	
+	cmp #0,R7
+	jge EXIT
+
+	add.w R7,(R9)	
+	add.w R7,(R9)
+	dec.w R7
+	
+	mov.w R7,R9
+	jmp LOOP
+
+EXIT: pop R9

@@ -104,7 +104,7 @@ const unsigned char Sine_Tab[] =            // 16 Point 16-bit Sine Table
 };
 
 int main(void)
-{
+{0
   WDTCTL = WDTPW + WDTHOLD;                 // Stop Watchdog Timer 
   P1SEL |= BIT6 + BIT7;                     // Assign I2C pins to USCI_B0
   P1SEL2|= BIT6 + BIT7;                     // Assign I2C pins to USCI_B0
