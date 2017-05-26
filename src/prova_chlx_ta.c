@@ -17,17 +17,46 @@ void Charlie_LED_on(volatile char pin_pos,volatile char pin_neg){
 int main(void){
 
 	WDTCTL = WDTPW + WDTCNTCL;       // watchdog timer
-	P1DIR &= ~(key1 + key2+ key3 );
-	P1REN |= chlx1 + chlx2 +chlx3;
+	//P1DIR &= ~(key1 + key2 + key3 );
 
-
-	
-			
 	if((key1) & P1IN){
-		if(key2 & P1IN){
-		Charlie_LED_on(chlx1,chlx2);}
+		if((key2) & P1IN){
+			if((key3) & P1IN){	
+				
+			}
+			else{
+				Charlie_LED_on(chlx3,chlx1);
+			}
+
+		}
+		else{
+			if((key3) & P1IN){	
+				Charlie_LED_on(chlx1,chlx3);
+			}
+			else{
+				Charlie_LED_on(chlx3,chlx2);
+			}
+		}
+	}
+	else{
+		if((key2) & P1IN){
+			if((key3) & P1IN){	
+				Charlie_LED_on(chlx2,chlx3);
+			}
+			else{
+				Charlie_LED_on(chlx2,chlx1);
+			}
+
+		}
+		else{
+			if((key3) & P1IN){	
+				Charlie_LED_on(chlx1,chlx2);
+			}
+			else{
+				
+			}
+			}
 
 	}
 
 }
-
